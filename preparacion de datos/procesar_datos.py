@@ -6,7 +6,7 @@
 #   ESTE CODIGO NO HACE FALTA USARLO OTRA VEZ PORQUE YA ESTAN       #
 #                   GENERADOS LOS ARCHIVOS                          #
 #                                                                   #
-#          (al final se puede ver el daraframe generado)            #
+# (para ver dataframe generado abrir el archivo matriz_master_PCA)  #
 #                                                                   #
 #                                                                   #
 #####################################################################
@@ -14,19 +14,21 @@
 
 
 #%%
+from pathlib import Path
 import pandas as pd
 import numpy as np
 import os
 import glob
 
-# 1. Configuración de directorios
-carpeta_read = './datos_kaggle/ligas_temporadas'
-carpeta_save = './datos_kaggle/procesados'
+# Anclamos la ruta a la raíz del proyecto (sube un nivel desde 'preparacion de datos')
+RAIZ_PROYECTO = Path(__file__).resolve().parent.parent
 
-# Crear la carpeta de guardado si no existe
-os.makedirs(carpeta_save, exist_ok=True)
+carpeta_read = RAIZ_PROYECTO / 'datos_kaggle' / 'ligas_temporadas'
+carpeta_save = RAIZ_PROYECTO / 'datos_kaggle' / 'procesados'
 
-archivos_csv = glob.glob(f"{carpeta_read}/*.csv")
+carpeta_save.mkdir(parents=True, exist_ok=True)
+
+archivos_csv = glob.glob(str(carpeta_read / '*.csv'))
 print(f"=== SE ENCONTRARON {len(archivos_csv)} ARCHIVOS ===")
 
 #%%
@@ -113,15 +115,19 @@ def procesar_archivo(ruta_archivo):
             df[col] = df[col].astype(str).str.replace(',', '.', regex=False)
             df[col] = pd.to_numeric(df[col], errors='coerce')
     
-    # 3.2 Filtro de minutos
-    if 'Playing Time_Min' not in df.columns:
+    # 3.2 Filtro de minutos y exclusión de arqueros (GK)
+    if 'Playing Time_Min' not in df.columns or 'pos_' not in df.columns:
         return None # Evita quiebres si el archivo está corrupto
     
-    df_clean = df[df['Playing Time_Min'] >= 900].copy()
+    # Filtramos >= 900 minutos Y excluimos cualquier jugador cuya posición contenga 'GK'
+    condicion_minutos = df['Playing Time_Min'] >= 900
+    condicion_no_arquero = ~df['pos_'].astype(str).str.contains('GK', na=False)
+    
+    df_clean = df[condicion_minutos & condicion_no_arquero].copy()
     
     if df_clean.empty:
-        return None # Si es una temporada recién empezada y nadie tiene 900 min
-        
+        return None
+       
     # 3.3 Filtro dinámico de columnas (Previene errores en temporadas viejas)
     meta_presentes = [m for m in text_cols if m in df_clean.columns]
     cols_presentes = [c for c in mapeo_variables.keys() if c in df_clean.columns]
@@ -190,6 +196,5 @@ if lista_procesados:
     df_master.to_csv(f"{carpeta_save}/matriz_master_pca.csv")
 else:
     print("No se procesó ningún archivo.")
+
 # %%
-# para ver el dataframe final
-df_master

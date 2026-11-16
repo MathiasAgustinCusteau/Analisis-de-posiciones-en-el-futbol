@@ -1,0 +1,176 @@
+#%%
+import matplotlib.pyplot as plt
+import seaborn as sns
+from pathlib import Path
+import numpy as np
+import pandas as pd
+from scipy.stats import entropy
+from sklearn.cluster import KMeans
+from sklearn.mixture import GaussianMixture
+from sklearn.metrics import silhouette_score, davies_bouldin_score, adjusted_rand_score
+#%%
+# 1. Rutas ancladas a la raíz del proyecto
+RAIZ_PROYECTO = Path(__file__).resolve().parent.parent
+ruta_pca = RAIZ_PROYECTO / 'Clustering' / 'datos_pca.parquet'
+ruta_orig = RAIZ_PROYECTO / 'datos_kaggle' / 'procesados' / 'matriz_master_pca.csv'
+
+df_pca = pd.read_parquet(ruta_pca)
+df_res = df_pca.reset_index()
+
+cols_pca = df_pca.columns.tolist()
+cols_meta = [c for c in df_res.columns if c not in cols_pca]
+X_campo = df_res[cols_pca]
+
+print(f"Dataset limpio cargado: {X_campo.shape[0]} registros de campo x {X_campo.shape[1]} componentes PCA.")
+
+# 2. Diagnóstico de k (3 a 10) sin arqueros
+print("\n=== DIAGNÓSTICO DE CLUSTERING (SIN ARQUEROS) ===")
+diag = []
+for k in range(3, 11):
+    km = KMeans(n_clusters=k, n_init=25, random_state=42).fit_predict(X_campo)
+    km_chk = KMeans(n_clusters=k, n_init=10, random_state=141).fit_predict(X_campo)
+    
+    gmm = GaussianMixture(n_components=k, covariance_type='full', n_init=10, random_state=42)
+    gmm_lbl = gmm.fit_predict(X_campo)
+    
+    diag.append({
+        'k': k,
+        'KM_Sil': silhouette_score(X_campo, km),
+        'KM_DB': davies_bouldin_score(X_campo, km),
+        'KM_Estab(ARI)': adjusted_rand_score(km, km_chk),
+        'GMM_Sil': silhouette_score(X_campo, gmm_lbl),
+        'GMM_BIC': gmm.bic(X_campo),
+        'ARI_KM_vs_GMM': adjusted_rand_score(km, gmm_lbl)
+    })
+
+df_diag = pd.DataFrame(diag)
+print(df_diag.round(4).to_string(index=False))
+#%%
+K_ELEGIDO = 8
+gmm_final = GaussianMixture(n_components=K_ELEGIDO, covariance_type='full', n_init=15, random_state=42)
+df_res['Cluster'] = gmm_final.fit_predict(X_campo)
+df_res['Prob_Max'] = gmm_final.predict_proba(X_campo).max(axis=1)
+df_res['Log_Densidad'] = gmm_final.score_samples(X_campo)
+
+# 4. Distribución de posiciones y Entropía de Versatilidad
+tabla_pct = pd.crosstab(df_res['pos_'], df_res['Cluster'], normalize='index') * 100
+print(f"\n=== DISTRIBUCIÓN % POR POSICIÓN (GMM k={K_ELEGIDO}) ===")
+print(tabla_pct.round(1).to_string())
+
+versatilidad = tabla_pct.apply(lambda r: entropy(r / r.sum(), base=len(r)), axis=1).sort_values(ascending=False)
+print("\n=== RANKING DE VERSATILIDAD (0 = Rígida, 1 = Muy Versátil) ===")
+print(pd.DataFrame({'N': df_res['pos_'].value_counts(), 'Entropia': versatilidad}).dropna().round(3).to_string())
+
+# 5. Traducción táctica directa: Top 4 variables originales (Z-Score) que definen cada clúster
+df_orig = pd.read_csv(ruta_orig).set_index(cols_meta)
+df_orig['Cluster'] = df_res['Cluster'].values
+perfiles = df_orig.groupby('Cluster').mean()
+
+print("\n=== PERFIL TÁCTICO DE CADA CLÚSTER (Variables originales más destacadas en Z-Score) ===")
+for c in range(K_ELEGIDO):
+    top_pos = perfiles.loc[c].sort_values(ascending=False).head(4)
+    top_neg = perfiles.loc[c].sort_values(ascending=True).head(2)
+    pos_str = ", ".join([f"{var} ({val:+.2f})" for var, val in top_pos.items()])
+    neg_str = ", ".join([f"{var} ({val:+.2f})" for var, val in top_neg.items()])
+    print(f"Clúster {c} (N={(df_res['Cluster']==c).sum()}): [+] {pos_str} | [-] {neg_str}")
+
+# 6. Top 15 Outliers estadísticos (sin arqueros)
+print("\n=== TOP 15 OUTLIERS (JUGADORES DE CAMPO MÁS ATÍPICOS) ===")
+print(df_res.sort_values('Log_Densidad').head(15)[cols_meta + ['Cluster', 'Prob_Max', 'Log_Densidad']].to_string(index=False))
+# %%
+
+# 1. Buscar jugadores específicos a lo largo de las temporadas
+jugadores_interes = ['Lionel Messi', 'Kevin De Bruyne', 'Trent Alexander-Arnold', 'Rodri', 'Kylian Mbappé']
+df_estrellas = df_res[df_res['player'].isin(jugadores_interes)].sort_values(['player', 'season'])
+print("\n=== TRAYECTORIA DE CLÚSTERES DE JUGADORES REFERENCIA ===")
+print(df_estrellas[['player', 'season', 'team', 'pos_', 'Cluster', 'Prob_Max', 'Log_Densidad']].to_string(index=False))
+
+# 2. Top 10 jugadores más híbridos (mayor incertidumbre entre dos clústeres)
+print("\n=== TOP 10 JUGADORES MÁS HÍBRIDOS (Menor Prob_Max) ===")
+print(df_res.sort_values('Prob_Max').head(10)[['player', 'season', 'team', 'pos_', 'Cluster', 'Prob_Max']].to_string(index=False))
+# %%
+
+# Configuración estética general
+plt.rcParams['figure.dpi'] = 120
+sns.set_theme(style="whitegrid")
+
+# --- FIGURA 1: CRITERIOS DE SELECCIÓN DE K ---
+fig, ax1 = plt.subplots(figsize=(9, 4.5))
+
+color_bic = '#1f77b4'
+ax1.set_xlabel('Número de Clústeres (k)')
+ax1.set_ylabel('GMM Full BIC (Menor es mejor)', color=color_bic, fontweight='bold')
+ax1.plot(df_diag['k'], df_diag['GMM_BIC'], marker='o', color=color_bic, linewidth=2, label='GMM BIC')
+ax1.tick_params(axis='y', labelcolor=color_bic)
+ax1.axvline(x=8, color='gray', linestyle='--', alpha=0.7, label='k = 8 elegido')
+
+ax2 = ax1.twinx()
+color_est = '#2ca02c'
+ax2.set_ylabel('Estabilidad K-Means (ARI)', color=color_est, fontweight='bold')
+ax2.plot(df_diag['k'], df_diag['KM_Estab(ARI)'], marker='s', linestyle=':', color=color_est, linewidth=2, label='Estabilidad ARI')
+ax2.set_ylim(0.85, 1.01)
+ax2.tick_params(axis='y', labelcolor=color_est)
+
+plt.title('Evaluación de Modelos: BIC (GMM) vs. Estabilidad por Semilla (k = 3 a 10)')
+fig.tight_layout()
+plt.savefig('1_seleccion_k.png', dpi=300)
+plt.show()
+
+# --- FIGURA 2: HEATMAP DE DISTRIBUCIÓN DE POSICIONES POR CLÚSTER ---
+nombres_clusters = {
+    0: 'C0: Generador Élite',
+    1: 'C1: Organizador / Regista',
+    2: 'C2: Volante Recuperador',
+    3: 'C3: Defensor Central',
+    4: 'C4: Lateral / Carrilero',
+    5: 'C5: Mediapunta / Extremo Std',
+    6: 'C6: Delantero Finalizador (9)',
+    7: 'C7: Pivot Físico / Choque'
+}
+
+tabla_heatmap = tabla_pct.rename(columns=nombres_clusters)
+# Ordenamos las filas por entropía para que el gráfico sea más fácil de leer
+orden_pos = versatilidad.index
+tabla_heatmap = tabla_heatmap.loc[orden_pos]
+
+plt.figure(figsize=(11, 6))
+sns.heatmap(
+    tabla_heatmap,
+    annot=True,
+    fmt='.1f',
+    cmap='YlGnBu',
+    cbar_kws={'label': '% de jugadores de la posición'},
+    linewidths=0.5
+)
+plt.title('Distribución Porcentual de Cada Posición Nominal en los 8 Clústeres de Rendimiento')
+plt.xlabel('Arquetipo Táctico Descubierto (GMM k=8)')
+plt.ylabel('Posición Nominal (Ordenada de mayor a menor versatilidad)')
+plt.xticks(rotation=30, ha='right')
+plt.tight_layout()
+plt.savefig('2_heatmap_posiciones_clusters.png', dpi=300)
+plt.show()
+
+# --- FIGURA 3: RANKING DE VERSATILIDAD (ENTROPÍA DE SHANNON) ---
+df_ent = pd.DataFrame({'Entropia': versatilidad, 'N': df_res['pos_'].value_counts()}).dropna()
+df_ent = df_ent.sort_values('Entropia', ascending=True)
+
+plt.figure(figsize=(8, 4.5))
+bars = plt.barh(df_ent.index, df_ent['Entropia'], color=sns.color_palette("viridis", len(df_ent)))
+plt.xlim(0, 0.9)
+plt.xlabel('Entropía de Shannon Normalizada (0 = Rol Rígido, 1 = Máxima Versatilidad)')
+plt.ylabel('Posición Nominal')
+plt.title('Versatilidad Funcional por Posición en las 5 Grandes Ligas (2017–2025)')
+
+for bar, (_, row) in zip(bars, df_ent.iterrows()):
+    plt.text(
+        bar.get_width() + 0.015,
+        bar.get_y() + bar.get_height()/2,
+        f"{row['Entropia']:.3f} (n={int(row['N'])})",
+        va='center',
+        fontsize=9
+    )
+
+plt.tight_layout()
+plt.savefig('3_entropia_versatilidad.png', dpi=300)
+plt.show()
+# %%
