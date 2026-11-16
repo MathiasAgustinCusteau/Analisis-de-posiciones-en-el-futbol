@@ -10,23 +10,6 @@ Las etiquetas posicionales tradicionales (`DF`, `MF`, `FW`) suelen ocultar la ve
 2. **Cruce con posiciones reales y medición de versatilidad:** Se analiza cómo se distribuye cada posición nominal a través de los clústeres descubiertos, cuantificando la versatilidad funcional mediante la **Entropía de Shannon**.
 3. **Detección de jugadores híbridos y *outliers*:** Identificación de futbolistas que rompen el molde de su posición nominal (ej. laterales que juegan como mediocampistas organizadores o creadores de élite con métricas extremas).
 
----
-
-## Estructura del Repositorio
-
-```text
-├── datos_kaggle/
-│   ├── ligas_temporadas/       # Archivos CSV crudos por liga y temporada
-│   └── procesados/      # Datasets normalizados y matriz maestra lista para PCA
-├── preparacion de datos/
-│   ├── data_kaggle.py          # Descarga de datos desde Kaggle
-│   ├── procesar_datos.py       # Limpieza, filtro de minutos (>900 min), exclusión de GK y Z-Score
-│   └── pca_global.py           # Reducción de dimensionalidad (PCA) y exportación a Parquet
-├── Clustering/
-│   ├── clustering.py           # Evaluación comparativa de modelos y métricas. modelo GMM final (k=8), cálculo de entropía, perfiles tácticos y gráficos
-│   └── datos_pca.parquet       # Matriz de componentes principales lista para modelado
-├── requirements.txt            # Hacer pip install -r requirements.txt para facilitar la preparacion de tu .venv
-└── README.md
 
 ## Metodología y Pipeline de Datos
 
@@ -49,3 +32,23 @@ Las etiquetas posicionales tradicionales (`DF`, `MF`, `FW`) suelen ocultar la ve
 * **8 Arquetipos Tácticos Descubiertos:** El modelo separa de forma natural perfiles como *Defensor Central Clásico*, *Lateral/Carrilero*, *Volante Recuperador*, *Organizador/Regista*, *Mediapunta de Transición*, *Generador Élite*, *Delantero Finalizador (9)* y *Pivot Físico*.
 * **Versatilidad Posicional:** Los delanteros puros (`FW`) presentan la menor entropía (`0.484`), concentrándose mayoritariamente en roles de finalización, mientras que los perfiles híbridos defensivos-mediocampistas (`DF,MF` con `0.774`) muestran la mayor dispersión funcional.
 * **Validación de Casos Reales:** El algoritmo captura evoluciones tácticas y roles atípicos sin supervisión previa (ej. *Trent Alexander-Arnold* clasificado consistentemente como mediocampista organizador pese a figurar como `DF`, el salto de rol de *Rodri* en 2023/24, y *Lionel Messi 2018/19* como extremo estadístico dentro del clúster de creadores de élite). 
+
+
+---
+
+## Estructura del Repositorio
+
+```text
+├── datos_kaggle/
+│   ├── ligas_temporadas/       # Archivos CSV crudos por liga y temporada
+│   └── procesados/      # Datasets normalizados y matriz maestra lista para PCA
+├── preparacion de datos/
+│   ├── data_kaggle.py          # Descarga de datos desde Kaggle
+│   ├── procesar_datos.py       # Limpieza, filtro de minutos (>900 min), exclusión de GK y Z-Score
+│   └── pca_global.py           # Reducción de dimensionalidad (PCA) y exportación a Parquet
+├── Clustering/
+│   ├── clustering.py           # Evaluación comparativa de modelos y métricas. modelo GMM final (k=8), cálculo de entropía, perfiles tácticos y gráficos
+│   └── datos_pca.parquet       # Matriz de componentes principales lista para modelado
+├── requirements.txt            # Hacer pip install -r requirements.txt para facilitar la preparacion de tu .venv
+└── README.md
+
