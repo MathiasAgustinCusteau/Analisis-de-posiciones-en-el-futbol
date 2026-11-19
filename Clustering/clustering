@@ -95,9 +95,12 @@ df_res['Cluster'] = etiquetas
 df_res['Rol'] = df_res['Cluster'].map(nombres_clusters)
 df_res['Prob_Max'] = probas.max(axis=1)
 df_res['Log_Densidad'] = gmm_final.score_samples(X_campo)
+# Probabilidad de pertenecer a cada rol (la usa el buscador de reemplazos)
+cols_prob = [f'Prob_C{k}' for k in range(K_ELEGIDO)]
+df_res[cols_prob] = probas
 
 if not ruta_ref.exists():
-    df_res[cols_meta + ['Cluster', 'Rol', 'Prob_Max', 'Log_Densidad']].to_csv(ruta_ref, index=False)
+    df_res[cols_meta + ['Cluster', 'Rol', 'Prob_Max', 'Log_Densidad'] + cols_prob].to_csv(ruta_ref, index=False)
 
 # 4. Distribución de posiciones y Entropía de Versatilidad
 tabla_pct = pd.crosstab(df_res['pos_'], df_res['Cluster'], normalize='index') * 100
