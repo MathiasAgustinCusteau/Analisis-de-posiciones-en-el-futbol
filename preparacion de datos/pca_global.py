@@ -15,7 +15,7 @@ carpeta_clustering.mkdir(parents=True, exist_ok=True)
 df_master = pd.read_csv(ruta_entrada)
 
 # Restauramos el índice con la metadata
-metadata = ['league', 'season', 'team', 'player', 'nation_', 'pos_']
+metadata = ['league', 'season', 'team', 'player', 'id_jugador', 'nation_', 'pos_']
 df_master = df_master.set_index(metadata)
 
 # Verificamos que no haya arqueros ni NaNs
@@ -83,8 +83,9 @@ columnas_pca = [f'PC{i+1}' for i in range(N_COMP)] # Podés reemplazar por nombr
 
 df_pca = pd.DataFrame(X_pca, columns=columnas_pca, index=df_master.index)
 
-ruta_salida_pca = carpeta_clustering / 'datos_pca_sin_gk.parquet'
-ruta_salida_loadings = carpeta_clustering / 'loadings_pca_sin_gk.csv'
+# Estos nombres tienen que coincidir con los que lee Clustering/clustering
+ruta_salida_pca = carpeta_clustering / 'datos_pca.parquet'
+ruta_salida_loadings = carpeta_clustering / 'loadings_pca.csv'
 
 df_pca.to_parquet(ruta_salida_pca)
 loadings.to_csv(ruta_salida_loadings)

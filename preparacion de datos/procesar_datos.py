@@ -28,7 +28,9 @@ carpeta_save = RAIZ_PROYECTO / 'datos_kaggle' / 'procesados'
 
 carpeta_save.mkdir(parents=True, exist_ok=True)
 
-archivos_csv = glob.glob(str(carpeta_read / '*.csv'))
+# sorted(): glob no garantiza orden (Windows y Linux devuelven órdenes distintos),
+# y el orden de las filas puede cambiar levemente el resultado del clustering
+archivos_csv = sorted(glob.glob(str(carpeta_read / '*.csv')))
 print(f"=== SE ENCONTRARON {len(archivos_csv)} ARCHIVOS ===")
 
 #%%
@@ -107,9 +109,14 @@ mapeo_variables = {
 # 3. Función procesadora de archivos
 def procesar_archivo(ruta_archivo):
     df = pd.read_csv(ruta_archivo)
-    
+
+    # 3.0 Identificador único de jugador: nombre + año de nacimiento.
+    # El nombre solo no alcanza (hay homónimos, ej. dos "Rodri" o dos "Danilo").
+    nacimiento = pd.to_numeric(df['born_'], errors='coerce').astype('Int64').astype(str)
+    df['id_jugador'] = df['player'].astype(str) + ' (' + nacimiento + ')'
+
     # 3.1 Preprocesamiento de tipos de datos
-    text_cols = ['league', 'season', 'team', 'player', 'nation_', 'pos_']
+    text_cols = ['league', 'season', 'team', 'player', 'id_jugador', 'nation_', 'pos_']
     for col in df.columns:
         if col not in text_cols:
             df[col] = df[col].astype(str).str.replace(',', '.', regex=False)

@@ -5,6 +5,7 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 from scipy.stats import entropy
+from scipy.optimize import linear_sum_assignment
 from sklearn.cluster import KMeans
 from sklearn.mixture import GaussianMixture
 from sklearn.metrics import silhouette_score, davies_bouldin_score, adjusted_rand_score
@@ -48,9 +49,55 @@ print(df_diag.round(4).to_string(index=False))
 #%%
 K_ELEGIDO = 8
 gmm_final = GaussianMixture(n_components=K_ELEGIDO, covariance_type='full', n_init=15, random_state=42)
-df_res['Cluster'] = gmm_final.fit_predict(X_campo)
-df_res['Prob_Max'] = gmm_final.predict_proba(X_campo).max(axis=1)
+etiquetas = gmm_final.fit_predict(X_campo)
+probas = gmm_final.predict_proba(X_campo)
+
+# 3. Alineación con la asignación de referencia
+# GMM no garantiza que el mismo grupo reciba siempre el mismo número (puede cambiar con
+# otra versión de sklearn, otra semilla o datos levemente distintos). Para que los nombres
+# de los roles no queden cruzados, la primera corrida se guarda como referencia y las
+# siguientes se renumeran para coincidir con ella (asignación húngara sobre la tabla cruzada).
+nombres_clusters = {
+    0: 'C0: Generador Élite',
+    1: 'C1: Organizador / Regista',
+    2: 'C2: Volante Recuperador',
+    3: 'C3: Defensor Central',
+    4: 'C4: Lateral / Carrilero',
+    5: 'C5: Mediapunta / Extremo Std',
+    6: 'C6: Delantero Finalizador (9)',
+    7: 'C7: Pivot Físico / Choque'
+}
+ruta_ref = RAIZ_PROYECTO / 'Clustering' / 'asignacion_clusters.csv'
+cols_clave = ['league', 'season', 'team', 'id_jugador']
+
+if ruta_ref.exists():
+    ref = pd.read_csv(ruta_ref)
+    clave_ref = ref[cols_clave].astype(str).agg('|'.join, axis=1)
+    clave_new = df_res[cols_clave].astype(str).agg('|'.join, axis=1)
+    if set(clave_ref) != set(clave_new):
+        raise ValueError("Los jugadores no coinciden con la asignación de referencia: "
+                         "cambiaron los datos. Borrá asignacion_clusters.csv y revisá los nombres de los clústeres a mano.")
+    lbl_ref = ref.set_index(clave_ref)['Cluster'].loc[clave_new].values
+    tabla = pd.crosstab(etiquetas, lbl_ref).reindex(index=range(K_ELEGIDO), columns=range(K_ELEGIDO), fill_value=0)
+    filas, cols = linear_sum_assignment(-tabla.values)
+    mapeo = dict(zip(filas, cols))
+    etiquetas = np.array([mapeo[e] for e in etiquetas])
+    probas = probas[:, [k for k, _ in sorted(mapeo.items(), key=lambda kv: kv[1])]]
+    acuerdo = (etiquetas == lbl_ref).mean()
+    print(f"\nAcuerdo con la asignación de referencia: {acuerdo:.1%}")
+    if acuerdo < 0.95:
+        print("¡Ojo! Menos del 95% de acuerdo: los clústeres cambiaron. Revisá que los nombres sigan siendo correctos.")
+else:
+    print(f"\nNo hay asignación de referencia: se guarda esta corrida en {ruta_ref.name}. "
+          "Verificá que los nombres de los clústeres correspondan a los perfiles impresos abajo.")
+
+df_res['Cluster'] = etiquetas
+df_res['Rol'] = df_res['Cluster'].map(nombres_clusters)
+df_res['Prob_Max'] = probas.max(axis=1)
 df_res['Log_Densidad'] = gmm_final.score_samples(X_campo)
+
+if not ruta_ref.exists():
+    df_res[cols_meta + ['Cluster', 'Rol', 'Prob_Max', 'Log_Densidad']].to_csv(ruta_ref, index=False)
 
 # 4. Distribución de posiciones y Entropía de Versatilidad
 tabla_pct = pd.crosstab(df_res['pos_'], df_res['Cluster'], normalize='index') * 100
@@ -80,14 +127,20 @@ print(df_res.sort_values('Log_Densidad').head(15)[cols_meta + ['Cluster', 'Prob_
 # %%
 
 # 1. Buscar jugadores específicos a lo largo de las temporadas
-jugadores_interes = ['Lionel Messi', 'Kevin De Bruyne', 'Trent Alexander-Arnold', 'Rodri', 'Kylian Mbappé']
-df_estrellas = df_res[df_res['player'].isin(jugadores_interes)].sort_values(['player', 'season'])
+# Se busca por id_jugador (nombre + año de nacimiento), no por nombre: hay homónimos
+# (ej. 'Rodri (1996)' es el del City y 'Rodri (2000)' el del Betis).
+jugadores_interes = ['Lionel Messi (1987)', 'Kevin De Bruyne (1991)', 'Trent Alexander-Arnold (1998)',
+                     'Rodri (1996)', 'Kylian Mbappé (1998)']
+faltantes = set(jugadores_interes) - set(df_res['id_jugador'])
+if faltantes:
+    print(f"¡Ojo! Estos id_jugador no están en los datos: {faltantes}")
+df_estrellas = df_res[df_res['id_jugador'].isin(jugadores_interes)].sort_values(['id_jugador', 'season'])
 print("\n=== TRAYECTORIA DE CLÚSTERES DE JUGADORES REFERENCIA ===")
-print(df_estrellas[['player', 'season', 'team', 'pos_', 'Cluster', 'Prob_Max', 'Log_Densidad']].to_string(index=False))
+print(df_estrellas[['id_jugador', 'season', 'team', 'pos_', 'Rol', 'Prob_Max', 'Log_Densidad']].to_string(index=False))
 
 # 2. Top 10 jugadores más híbridos (mayor incertidumbre entre dos clústeres)
 print("\n=== TOP 10 JUGADORES MÁS HÍBRIDOS (Menor Prob_Max) ===")
-print(df_res.sort_values('Prob_Max').head(10)[['player', 'season', 'team', 'pos_', 'Cluster', 'Prob_Max']].to_string(index=False))
+print(df_res.sort_values('Prob_Max').head(10)[['id_jugador', 'season', 'team', 'pos_', 'Cluster', 'Prob_Max']].to_string(index=False))
 # %%
 
 # Configuración estética general
@@ -113,20 +166,11 @@ ax2.tick_params(axis='y', labelcolor=color_est)
 
 plt.title('Evaluación de Modelos: BIC (GMM) vs. Estabilidad por Semilla (k = 3 a 10)')
 fig.tight_layout()
-plt.savefig('1_seleccion_k.png', dpi=300)
+plt.savefig(RAIZ_PROYECTO / 'Clustering' / '1_seleccion_k.png', dpi=300)
 plt.show()
 
 # --- FIGURA 2: HEATMAP DE DISTRIBUCIÓN DE POSICIONES POR CLÚSTER ---
-nombres_clusters = {
-    0: 'C0: Generador Élite',
-    1: 'C1: Organizador / Regista',
-    2: 'C2: Volante Recuperador',
-    3: 'C3: Defensor Central',
-    4: 'C4: Lateral / Carrilero',
-    5: 'C5: Mediapunta / Extremo Std',
-    6: 'C6: Delantero Finalizador (9)',
-    7: 'C7: Pivot Físico / Choque'
-}
+# (nombres_clusters está definido arriba, junto al modelo final)
 
 tabla_heatmap = tabla_pct.rename(columns=nombres_clusters)
 # Ordenamos las filas por entropía para que el gráfico sea más fácil de leer
@@ -147,7 +191,7 @@ plt.xlabel('Arquetipo Táctico Descubierto (GMM k=8)')
 plt.ylabel('Posición Nominal (Ordenada de mayor a menor versatilidad)')
 plt.xticks(rotation=30, ha='right')
 plt.tight_layout()
-plt.savefig('2_heatmap_posiciones_clusters.png', dpi=300)
+plt.savefig(RAIZ_PROYECTO / 'Clustering' / '2_heatmap_posiciones_clusters.png', dpi=300)
 plt.show()
 
 # --- FIGURA 3: RANKING DE VERSATILIDAD (ENTROPÍA DE SHANNON) ---
@@ -171,6 +215,6 @@ for bar, (_, row) in zip(bars, df_ent.iterrows()):
     )
 
 plt.tight_layout()
-plt.savefig('3_entropia_versatilidad.png', dpi=300)
+plt.savefig(RAIZ_PROYECTO / 'Clustering' / '3_entropia_versatilidad.png', dpi=300)
 plt.show()
 # %%
