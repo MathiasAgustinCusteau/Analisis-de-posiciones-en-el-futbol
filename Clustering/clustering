@@ -46,6 +46,7 @@ for k in range(3, 11):
 
 df_diag = pd.DataFrame(diag)
 print(df_diag.round(4).to_string(index=False))
+df_diag.to_csv(RAIZ_PROYECTO / 'Clustering' / 'diagnostico_k.csv', index=False)
 #%%
 K_ELEGIDO = 8
 gmm_final = GaussianMixture(n_components=K_ELEGIDO, covariance_type='full', n_init=15, random_state=42)

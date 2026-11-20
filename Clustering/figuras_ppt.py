@@ -190,3 +190,127 @@ figura_reemplazos('Rodri (1996)', 2324, 2425, rol=1,
                   titulo='Se lesiona Rodri: los 10 jugadores de 2024/25 más parecidos a su 2023/24',
                   archivo='D_reemplazos_rodri.png')
 # %%
+
+#%%
+# ---------------------------------------------------------------------
+# FIGURA E: Versatilidad por posición (entropía de Shannon normalizada)
+# Un solo color: la longitud de la barra ya codifica el valor; pintar cada
+# barra de un color distinto (viridis) no agrega información y sugiere
+# categorías que no existen.
+# ---------------------------------------------------------------------
+from scipy.stats import entropy
+
+tabla_e = pd.crosstab(asig['pos_'], asig['Cluster'], normalize='index')
+ent = tabla_e.apply(lambda r: entropy(r, base=len(r)), axis=1).sort_values()
+n_e = asig['pos_'].value_counts()
+
+fig, ax = plt.subplots(figsize=(10, 5.5))
+yy = np.arange(len(ent))
+ax.barh(yy, ent.values, color=AZUL, height=0.62)
+for k, (p, v) in enumerate(ent.items()):
+    ax.text(v + 0.01, k, f'{v:.2f}', va='center', fontsize=12, color=TINTA)
+ax.set_yticks(yy, [f'{ETIQ_POS[p]}  (n={n_e[p]:,})'.replace(',', '.') for p in ent.index], fontsize=12)
+ax.set_xlim(0, 1)
+ax.set_xlabel('Entropía normalizada\n0 = todos caen en un mismo rol  ·  1 = repartidos en partes iguales en los 8')
+ax.grid(axis='x', color=GRILLA, linewidth=0.8)
+ax.set_axisbelow(True)
+ax.tick_params(length=0)
+ax.set_title('¿Qué tan repartida está cada posición entre los 8 roles?')
+fig.savefig(carpeta_fig / 'E_versatilidad_entropia.png')
+plt.show()
+
+#%%
+# ---------------------------------------------------------------------
+# FIGURA F: Elección de k (sin doble eje: un panel por criterio)
+# ---------------------------------------------------------------------
+ruta_diag = RAIZ_PROYECTO / 'Clustering' / 'diagnostico_k.csv'
+if ruta_diag.exists():
+    diag = pd.read_csv(ruta_diag)
+    paneles = [
+        ('GMM_BIC', 'BIC del GMM\n(menor = mejor ajuste)', AZUL),
+        ('GMM_Sil', 'Silueta del GMM\n(mayor = grupos más separados)', AZUL),
+        ('KM_Estab(ARI)', 'Estabilidad de K-Means entre semillas\n(ARI, 1 = misma partición)', NARANJA),
+    ]
+    fig, axes = plt.subplots(1, 3, figsize=(15, 4.6), sharex=True)
+    for ax, (col, titulo, color) in zip(axes, paneles):
+        ax.plot(diag['k'], diag[col], marker='o', color=color, linewidth=2, markersize=8)
+        sel = diag[diag['k'] == 8]
+        ax.scatter(sel['k'], sel[col], s=160, facecolor='none', edgecolor=TINTA, linewidth=2, zorder=4)
+        ax.axvline(8, color=GRIS, linestyle='--', linewidth=1, zorder=0)
+        ax.set_title(titulo, fontsize=13)
+        ax.grid(color=GRILLA, linewidth=0.8)
+        ax.set_axisbelow(True)
+        ax.set_xticks(diag['k'])
+        if col == 'KM_Estab(ARI)':
+            ax.set_ylim(0.9, 1.005)   # no exagerar diferencias mínimas
+        ax.set_xlabel('k (cantidad de clústeres)')
+        ax.tick_params(length=0)
+    fig.suptitle('¿Cuántos roles? Tres criterios para elegir k (k = 8 marcado)', x=0.01, ha='left',
+                 fontsize=17, fontweight='bold')
+    fig.tight_layout()
+    fig.savefig(carpeta_fig / 'F_seleccion_k.png')
+    plt.show()
+else:
+    print("Falta diagnostico_k.csv: corré Clustering/clustering primero.")
+
+#%%
+# ---------------------------------------------------------------------
+# FIGURA G: Varianza explicada por el PCA
+# ---------------------------------------------------------------------
+from sklearn.decomposition import PCA
+
+var_acum = np.cumsum(PCA().fit(Z).explained_variance_ratio_)
+n90 = int(np.argmax(var_acum >= 0.90) + 1)
+fig, ax = plt.subplots(figsize=(10, 5))
+k_eje = np.arange(1, len(var_acum) + 1)
+ax.plot(k_eje, var_acum * 100, color=AZUL, linewidth=2, marker='o', markersize=4)
+ax.axhline(90, color=GRIS, linestyle='--', linewidth=1)
+ax.scatter([n90], [var_acum[n90 - 1] * 100], s=160, facecolor='none', edgecolor=TINTA, linewidth=2, zorder=4)
+ax.annotate(f'{n90} componentes → 90% de la varianza', (n90, var_acum[n90 - 1] * 100),
+            xytext=(n90 + 4, 72), fontsize=12, arrowprops=dict(arrowstyle='-', color=TINTA_2))
+ax.set_xlabel('Cantidad de componentes principales')
+ax.set_ylabel('Varianza explicada acumulada (%)')
+ax.set_ylim(0, 102)
+ax.grid(color=GRILLA, linewidth=0.8)
+ax.set_axisbelow(True)
+ax.tick_params(length=0)
+ax.set_title(f'De {Z.shape[1]} métricas a {n90} componentes')
+fig.savefig(carpeta_fig / 'G_varianza_pca.png')
+plt.show()
+
+#%%
+# ---------------------------------------------------------------------
+# FIGURA H: Trent vs Pedro Porro (2024/25), métrica por métrica
+# Se muestran las métricas en las que Trent más se destaca (|z| más grande).
+# ---------------------------------------------------------------------
+def fila_z(id_jugador, temporada):
+    i = asig.index[(asig['id_jugador'] == id_jugador) & (asig['season'] == temporada)][0]
+    return pd.Series(Z[i], index=VARIABLES)
+
+
+trent = fila_z('Trent Alexander-Arnold (1998)', 2425)
+porro = fila_z('Pedro Porro (1999)', 2425)
+vars_h = trent.abs().sort_values(ascending=False).head(16).index
+vars_h = trent[vars_h].sort_values().index   # ordenadas por el valor de Trent
+
+fig, ax = plt.subplots(figsize=(11, 8))
+y = np.arange(len(vars_h))
+for k, v in enumerate(vars_h):
+    ax.plot([trent[v], porro[v]], [k + 0.13, k - 0.13], color=GRILLA, linewidth=3, zorder=1)
+ax.scatter(trent[vars_h], y + 0.13, s=120, color=AZUL, marker='o', label='Trent Alexander-Arnold (Liverpool)',
+           edgecolor='white', linewidth=1.5, zorder=3)
+ax.scatter(porro[vars_h], y - 0.13, s=120, color=NARANJA, marker='D', label='Pedro Porro (Tottenham)',
+           edgecolor='white', linewidth=1.5, zorder=3)
+ax.axvline(0, color=TINTA_2, linewidth=1, zorder=0)
+ax.text(0.05, -0.9, 'promedio de la liga', fontsize=10, color=TINTA_2)
+ax.set_ylim(-1.2, len(vars_h) - 0.4)
+ax.set_yticks(y, [etiqueta(v) for v in vars_h])
+ax.set_xlabel('Diferencia con el promedio de su liga y temporada (desvíos estándar, por 90 min)')
+ax.grid(axis='x', color=GRILLA, linewidth=0.8)
+ax.set_axisbelow(True)
+ax.tick_params(length=0)
+ax.legend(loc='lower right', frameon=False, fontsize=12)
+ax.set_title('Trent vs. Porro (2024/25): mismo perfil, distinta intensidad')
+fig.savefig(carpeta_fig / 'H_trent_vs_porro.png')
+plt.show()
+# %%
