@@ -43,6 +43,7 @@ Las etiquetas posicionales tradicionales (`DF`, `MF`, `FW`) suelen ocultar la ve
   * *Transiciones:* el 69% de los jugadores repite su rol al año siguiente (16% si fuera al azar). Los que cambian de liga lo repiten igual que los que cambian de equipo dentro de su liga (65%), lo que respalda la estandarización por liga. Una regresión logística entrenada solo con temporadas anteriores predice el rol del año siguiente mejor que "repite su rol" en las 5 temporadas evaluadas (71,1% vs 68,1%; mejora significativa en 4 de 5) y anticipa el 26% de los cambios de rol. Incluye un pronóstico para 2025/26.
   * *Edad:* la probabilidad de cambiar de rol baja con la edad (37% a los 19 años, 29% a los 31, a igual rol, confianza y liga). Siguiendo a los mismos 1.209 jugadores durante 4+ años, el rol *Extremo / Creador* pierde 7 puntos y crecen *Segunda Punta*, *Volante* y *Organizador*: los extremos se van retrasando o centralizando.
   * *Clasificador de posición:* con las 55 métricas se adivina la posición nominal (DF/MF/FW) en el 93% de los casos (validación cruzada agrupada por jugador). Los errores se concentran en las posiciones híbridas (23% vs 1,2% en las puras) y en los roles de bordes difusos del consenso (Extremo 21%, Segunda Punta 17%, Central 0,4%): la correlación entre el error y la confianza del rol es −0,91. Lo supervisado y lo no supervisado se validan mutuamente.
+* **Robustez al estilo de equipo (`Robustez/`):** un jugador de un equipo que tiene mucho la pelota acumula más pases aunque cumpla la misma función. Se estimó el estilo de cada equipo-temporada (pases por partido respecto de su liga, sumando a todos sus jugadores), se le quitó a cada métrica la parte que explica ese estilo y se repitió el pipeline. El estilo explica bastante de las métricas de pase (48% de *pases recibidos*, 40% de *pases cortos completados*) pero poco del resto (mediana 3%). Con la matriz ajustada, **el 90% de los jugadores mantiene su rol** (ARI 0,81), y Trent, Rodri y Messi siguen igual. Los cambios se concentran en los equipos con muchísima pelota (15% vs 7–10% en el resto) y en el rol *Organizador* (20%): parte de los laterales de equipos de posesión pasan a *Lateral* al quitar el efecto del equipo.
 * **Validación de Casos Reales:** El algoritmo captura evoluciones tácticas y roles atípicos sin supervisión previa: *Trent Alexander-Arnold* es *Organizador / Regista* en las 8 temporadas pese a figurar como `DF`; *Rodri* pasa de *Volante Recuperador* a *Organizador* justo en 2023/24; y *Lionel Messi 2018/19* es el registro más atípico de todo el dataset (menor log-densidad).
 
 
@@ -74,6 +75,9 @@ Las etiquetas posicionales tradicionales (`DF`, `MF`, `FW`) suelen ocultar la ve
 │   ├── edad_roles.py           # Edad y cambio de rol
 │   ├── clasificador_posicion.py # Clasificador supervisado de la posición nominal
 │   └── figuras/                # M_transiciones_roles, N_edad_y_roles, O_clasificador_posicion
+├── Robustez/
+│   ├── ajuste_estilo_equipo.py # Repite el pipeline quitando el efecto del estilo de equipo
+│   └── figuras/                # P_ajuste_estilo_equipo
 ├── tests/                      # Tests de cluster_profiles.py
 ├── requirements.txt            # Hacer pip install -r requirements.txt para facilitar la preparacion de tu .venv
 └── README.md
@@ -93,6 +97,7 @@ python "Clustering/estabilidad_gmm.py"        # opcional (~10 min): evalúa el m
 python "Prediccion/transiciones.py"
 python "Prediccion/edad_roles.py"             # ~2 min (bootstrap)
 python "Prediccion/clasificador_posicion.py"
+python "Robustez/ajuste_estilo_equipo.py"     # ~4 min
 ```
 
 ## Perfiles de los siete roles
