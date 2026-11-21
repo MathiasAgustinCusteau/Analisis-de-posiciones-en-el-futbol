@@ -438,3 +438,53 @@ print(f"\nPerfiles completos guardados en: {ruta_perfiles}")
 print(f"Resumen de métricas guardado en: {ruta_resumen}")
 print(f"Tabla y mapa de calor guardados en: {carpeta_fig}")
 # %%
+
+#%%
+# ---------------------------------------------------------------------
+# FIGURA Q: Radar de cada rol
+# Percentil promedio del rol en 11 métricas elegidas para recorrer la cancha
+# (defensa -> construcción -> creación -> ataque). Percentil 50 = jugador típico.
+# Se usan percentiles y no z-scores porque el radar necesita una escala 0-100.
+# ---------------------------------------------------------------------
+METRICAS_RADAR = {
+    'despejes_p90': 'Despejes', 'duelos_aereos_ganados_p90': 'Duelos\naéreos', 'quites_totales_p90': 'Quites',
+    'intercepciones_p90': 'Intercep-\nciones', 'pases_completados_p90': 'Pases', 'pases_progresivos_p90': 'Pases\nprogresivos',
+    'centros_totales_p90': 'Centros', 'pases_clave_p90': 'Pases\nclave', 'regates_intentados_p90': 'Regates',
+    'toques_area_rival_p90': 'Toques en\nárea rival', 'npxg_p90': 'xG sin\npenales',
+}
+percentiles = df_z[list(METRICAS_RADAR)].rank(pct=True) * 100
+perfil_radar = percentiles.groupby(asig['Cluster'].values).mean()
+angulos = np.linspace(0, 2 * np.pi, len(METRICAS_RADAR), endpoint=False)
+cerrar = lambda v: np.append(v, v[0])
+
+n_col = 4
+n_fil = int(np.ceil((K + 1) / n_col))
+fig, axes = plt.subplots(n_fil, n_col, figsize=(17, 4.6 * n_fil), subplot_kw={'projection': 'polar'})
+axes = axes.ravel()
+for ax, c in zip(axes, range(K)):
+    ax.set_theta_offset(np.pi / 2)
+    ax.set_theta_direction(-1)
+    ax.plot(cerrar(angulos), [50] * (len(angulos) + 1), color=GRIS, linewidth=1.2, linestyle='--', zorder=2)
+    ax.fill(cerrar(angulos), cerrar(perfil_radar.loc[c].to_numpy()), color=AZUL, alpha=0.25, zorder=3)
+    ax.plot(cerrar(angulos), cerrar(perfil_radar.loc[c].to_numpy()), color=AZUL, linewidth=2.2, zorder=4)
+    ax.set_ylim(0, 100)
+    ax.set_yticks([25, 50, 75], ['', '', ''])
+    ax.set_xticks(angulos, list(METRICAS_RADAR.values()), fontsize=9, color=TINTA_2)
+    ax.tick_params(axis='x', pad=2)
+    ax.grid(color=GRILLA, linewidth=0.8)
+    ax.spines['polar'].set_color(GRILLA)
+    n_rol = (asig['Cluster'] == c).sum()
+    ax.set_title(f"{NOMBRE_ROL[c]}\n(n={n_rol:,})".replace(',', '.'), fontsize=13, fontweight='bold', pad=18)
+for ax in axes[K:]:
+    ax.axis('off')
+leyenda = axes[K] if K < len(axes) else axes[-1]
+leyenda.text(0.5, 0.62, 'Cómo leerlo', ha='center', fontsize=13, fontweight='bold', transform=leyenda.transAxes)
+leyenda.text(0.5, 0.30,
+             'Cada eje es una métrica por 90 min.\nLa forma azul es el percentil promedio\ndel rol '
+             '(0 = el que menos hace,\n100 = el que más).\nLa línea punteada es el percentil 50:\nun jugador típico.',
+             ha='center', va='center', fontsize=11, color=TINTA_2, transform=leyenda.transAxes)
+fig.suptitle(f'La forma de cada uno de los {K} roles', x=0.01, ha='left', fontsize=19, fontweight='bold')
+fig.tight_layout(h_pad=4)
+fig.savefig(carpeta_fig / 'Q_radar_roles.png')
+plt.show()
+# %%
