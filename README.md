@@ -44,6 +44,7 @@ Las etiquetas posicionales tradicionales (`DF`, `MF`, `FW`) suelen ocultar la ve
   * *Edad:* la probabilidad de cambiar de rol baja con la edad (37% a los 19 años, 29% a los 31, a igual rol, confianza y liga). Siguiendo a los mismos 1.209 jugadores durante 4+ años, el rol *Extremo / Creador* pierde 7 puntos y crecen *Segunda Punta*, *Volante* y *Organizador*: los extremos se van retrasando o centralizando.
   * *Clasificador de posición:* con las 55 métricas se adivina la posición nominal (DF/MF/FW) en el 93% de los casos (validación cruzada agrupada por jugador). Los errores se concentran en las posiciones híbridas (23% vs 1,2% en las puras) y en los roles de bordes difusos del consenso (Extremo 21%, Segunda Punta 17%, Central 0,4%): la correlación entre el error y la confianza del rol es −0,91. Lo supervisado y lo no supervisado se validan mutuamente.
 * **Robustez al estilo de equipo (`Robustez/`):** un jugador de un equipo que tiene mucho la pelota acumula más pases aunque cumpla la misma función. Se estimó el estilo de cada equipo-temporada (pases por partido respecto de su liga, sumando a todos sus jugadores), se le quitó a cada métrica la parte que explica ese estilo y se repitió el pipeline. El estilo explica bastante de las métricas de pase (48% de *pases recibidos*, 40% de *pases cortos completados*) pero poco del resto (mediana 3%). Con la matriz ajustada, **el 90% de los jugadores mantiene su rol** (ARI 0,81), y Trent, Rodri y Messi siguen igual. Los cambios se concentran en los equipos con muchísima pelota (15% vs 7–10% en el resto) y en el rol *Organizador* (20%): parte de los laterales de equipos de posesión pasan a *Lateral* al quitar el efecto del equipo.
+* **Mapa 2D (`mapa_2d.py`, t-SNE):** proyectando los 16 componentes del PCA a un plano, cada rol ocupa su propia zona; Defensor Central, Lateral y Delantero 9 forman zonas compactas, y Extremo y Segunda Punta comparten zona. Los roles se calculan en las 16 dimensiones: el plano es solo para visualizarlos (sus ejes no son la cancha).
 * **Validación de Casos Reales:** El algoritmo captura evoluciones tácticas y roles atípicos sin supervisión previa: *Trent Alexander-Arnold* es *Organizador / Regista* en las 8 temporadas pese a figurar como `DF`; *Rodri* pasa de *Volante Recuperador* a *Organizador* justo en 2023/24; y *Lionel Messi 2018/19* es el registro más atípico de todo el dataset (menor log-densidad).
 
 
@@ -65,7 +66,8 @@ Las etiquetas posicionales tradicionales (`DF`, `MF`, `FW`) suelen ocultar la ve
 │   ├── clustering              # Diagnóstico de k (K-Means vs GMM), entropía, perfiles, outliers y gráficos
 │   ├── estabilidad_gmm.py      # Estabilidad del modelo inicial (GMM único, k=8): motivó el consenso
 │   ├── reemplazos.py           # Buscador de reemplazos (casos Trent y Rodri)
-│   ├── figuras_ppt.py          # Figuras de la presentación (Clustering/figuras/)
+│   ├── figuras_ppt.py          # Figuras de la presentación (Clustering/figuras/), incluye radar por rol
+│   ├── mapa_2d.py              # Mapa 2D de los jugadores (t-SNE) por rol; guarda mapa_2d.csv
 │   ├── cluster_profiles.py     # Perfiles promedio por rol (lo usa figuras_ppt.py)
 │   ├── asignacion_clusters.csv # Rol, probabilidades y confianza de cada registro (modelo final)
 │   └── asignacion_clusters_k8_original.csv  # Copia del modelo inicial (k=8), para comparar
@@ -93,6 +95,7 @@ python "Clustering/consenso.py"               # modelo final (~5 min)
 python "Clustering/clustering"                # diagnóstico, entropía, perfiles y outliers
 python "Clustering/reemplazos.py"
 python "Clustering/figuras_ppt.py"
+python "Clustering/mapa_2d.py"                # ~1 min la primera vez (t-SNE)
 python "Clustering/estabilidad_gmm.py"        # opcional (~10 min): evalúa el modelo inicial k=8
 python "Prediccion/transiciones.py"
 python "Prediccion/edad_roles.py"             # ~2 min (bootstrap)
