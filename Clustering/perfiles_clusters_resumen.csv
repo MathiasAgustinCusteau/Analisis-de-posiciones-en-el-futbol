@@ -1,0 +1,8 @@
+Cluster,Rol,N_registros,N_jugadores_unicos,metricas_mas_altas,metricas_mas_bajas
+0,C0: Defensor Central,2231,836,toques_area_propia_p90 (+1.69); despejes_p90 (+1.56); tiros_bloqueados_p90 (+1.49),acciones_creacion_tiro_p90 (-1.21); pases_progresivos_recibidos_p90 (-1.15)
+1,C1: Lateral / Carrilero,1838,799,centros_area_rival_p90 (+1.05); quites_tercio_defensivo_p90 (+0.85); dribladores_tackleados_p90 (+0.81),tiros_totales_p90 (-0.74); tiros_al_arco_p90 (-0.69)
+2,C2: Volante Recuperador,1872,931,quites_tercio_medio_p90 (+0.89); recuperaciones_p90 (+0.80); quites_totales_p90 (+0.75),pases_progresivos_recibidos_p90 (-0.82); toques_area_rival_p90 (-0.70)
+3,C3: Organizador / Regista,1381,706,pases_progresivos_p90 (+1.23); pases_tercio_ofensivo_p90 (+1.12); pases_cortos_completados_p90 (+1.01),duelos_aereos_ganados_p90 (-0.65); duelos_aereos_perdidos_p90 (-0.63)
+4,C4: Extremo / Creador,2402,1217,regates_intentados_p90 (+0.93); acciones_creacion_tiro_p90 (+0.90); regates_exitosos_p90 (+0.87),despejes_p90 (-0.80); toques_area_propia_p90 (-0.79)
+5,C5: Segunda Punta / Delantero Móvil,827,574,toques_area_rival_p90 (+1.04); tiros_al_arco_p90 (+1.03); tiros_totales_p90 (+1.03),distancia_pases_progresivos_p90 (-0.88); pases_medios_completados_p90 (-0.82)
+6,C6: Delantero Finalizador (9),1338,579,fueras_de_juego_p90 (+1.79); npxg_p90 (+1.75); xg_p90 (+1.72),recuperaciones_p90 (-1.57); toques_totales_p90 (-1.51)

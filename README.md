@@ -21,17 +21,29 @@ Las etiquetas posicionales tradicionales (`DF`, `MF`, `FW`) suelen ocultar la ve
 2. **Reducción de Dimensionalidad (`pca_global.py`):**
    * Aplicación de **PCA Global**, reteniendo **16 componentes principales** que explican el **90% de la varianza** total del dataset.
 
-3. **Clustering Probabilístico y Evaluación (`exploracion_inicial.py` y `clustering.py`):**
+3. **Clustering Probabilístico y Evaluación (`Clustering/clustering`):**
    * Comparación entre **K-Means** y **Gaussian Mixture Models (GMM)** mediante Coeficiente de Silueta, Índice de Davies-Bouldin, Criterio de Información Bayesiano (BIC) y estabilidad por semilla (*Adjusted Rand Index*).
-   * Selección de **GMM con covarianza completa ($k = 8$)**, permitiendo tanto la asignación a 8 arquetipos tácticos definidos como el cálculo de probabilidades de pertenencia (*soft clustering*) y log-densidad para detección de *outliers*.
+
+4. **Estabilidad del modelo inicial (`estabilidad_gmm.py`):**
+   * El primer modelo era un único **GMM con $k = 8$** (semilla 42). Al repetirlo con otras semillas y con submuestras del 80% de los datos, los roles cambiaban: solo *Defensor Central* y *Delantero Finalizador* eran estables (Jaccard > 0,9) y *Generador Élite* se disolvía (Jaccard 0,49). Además, 7 de 10 semillas encontraban una solución con mejor ajuste que la de la semilla 42 y que coincidía con ella solo en un 58% (ARI).
+
+5. **Modelo final: Clustering de Consenso con $k = 7$ (`consenso.py`):**
+   * Se ajustan **200 GMM** (covarianza completa), cada uno con una semilla distinta y el 80% de los registros elegidos al azar, y se cuenta en qué fracción de las corridas cada par de jugadores cae en el mismo grupo (**matriz de co-asociación**). Los roles finales salen de agrupar esa matriz con enlace promedio (*evidence accumulation*).
+   * **Elección de k** por **PAC** (proporción de pares ambiguos; menor es mejor): k=6: 0,212 · **k=7: 0,113** · k=8: 0,147 · k=9: 0,156.
+   * **Reproducibilidad:** el consenso armado con las corridas 1–100 y con las 101–200 por separado coincide en un 94,5% (ARI). Ya no depende de la semilla.
+   * Con los grupos de consenso se estima un GMM (peso, media y covarianza de cada rol), que da las **probabilidades de pertenencia** (*soft clustering*, usadas por el buscador de reemplazos) y la **log-densidad** para detectar *outliers*. Coincide con el rol de consenso en el 98,9% de los registros.
 
 ---
 
 ## Principales Hallazgos
 
-* **8 Arquetipos Tácticos Descubiertos:** El modelo separa de forma natural perfiles como *Defensor Central Clásico*, *Lateral/Carrilero*, *Volante Recuperador*, *Organizador/Regista*, *Mediapunta de Transición*, *Generador Élite*, *Delantero Finalizador (9)* y *Pivot Físico*.
-* **Versatilidad Posicional:** Los delanteros puros (`FW`) presentan la menor entropía (`0.484`), concentrándose mayoritariamente en roles de finalización, mientras que los perfiles híbridos defensivos-mediocampistas (`DF,MF` con `0.774`) muestran la mayor dispersión funcional.
-* **Validación de Casos Reales:** El algoritmo captura evoluciones tácticas y roles atípicos sin supervisión previa (ej. *Trent Alexander-Arnold* clasificado consistentemente como mediocampista organizador pese a figurar como `DF`, el salto de rol de *Rodri* en 2023/24, y *Lionel Messi 2018/19* como extremo estadístico dentro del clúster de creadores de élite). 
+* **7 Roles Tácticos Estables:** *Defensor Central*, *Lateral / Carrilero*, *Volante Recuperador*, *Organizador / Regista*, *Extremo / Creador*, *Segunda Punta / Delantero Móvil* y *Delantero Finalizador (9)*. Los más sólidos son Defensor Central (confianza 0,95), Lateral (0,94) y Delantero Finalizador (0,93); los de bordes más difusos son los ofensivos: Extremo / Creador (0,78) y Segunda Punta (0,71). La *Segunda Punta* queda, métrica por métrica, a mitad de camino entre un 9 y un extremo.
+* **Versatilidad Posicional:** Los delanteros puros (`FW`) presentan la menor entropía (`0.466`), concentrándose mayoritariamente en roles de finalización, mientras que los perfiles híbridos defensivos-mediocampistas (`DF,MF` con `0.762`) muestran la mayor dispersión funcional.
+* **Predicción (`Prediccion/`):**
+  * *Transiciones:* el 69% de los jugadores repite su rol al año siguiente (16% si fuera al azar). Los que cambian de liga lo repiten igual que los que cambian de equipo dentro de su liga (65%), lo que respalda la estandarización por liga. Una regresión logística entrenada solo con temporadas anteriores predice el rol del año siguiente mejor que "repite su rol" en las 5 temporadas evaluadas (71,1% vs 68,1%; mejora significativa en 4 de 5) y anticipa el 26% de los cambios de rol. Incluye un pronóstico para 2025/26.
+  * *Edad:* la probabilidad de cambiar de rol baja con la edad (37% a los 19 años, 29% a los 31, a igual rol, confianza y liga). Siguiendo a los mismos 1.209 jugadores durante 4+ años, el rol *Extremo / Creador* pierde 7 puntos y crecen *Segunda Punta*, *Volante* y *Organizador*: los extremos se van retrasando o centralizando.
+  * *Clasificador de posición:* con las 55 métricas se adivina la posición nominal (DF/MF/FW) en el 93% de los casos (validación cruzada agrupada por jugador). Los errores se concentran en las posiciones híbridas (23% vs 1,2% en las puras) y en los roles de bordes difusos del consenso (Extremo 21%, Segunda Punta 17%, Central 0,4%): la correlación entre el error y la confianza del rol es −0,91. Lo supervisado y lo no supervisado se validan mutuamente.
+* **Validación de Casos Reales:** El algoritmo captura evoluciones tácticas y roles atípicos sin supervisión previa: *Trent Alexander-Arnold* es *Organizador / Regista* en las 8 temporadas pese a figurar como `DF`; *Rodri* pasa de *Volante Recuperador* a *Organizador* justo en 2023/24; y *Lionel Messi 2018/19* es el registro más atípico de todo el dataset (menor log-densidad).
 
 
 ---
@@ -47,8 +59,43 @@ Las etiquetas posicionales tradicionales (`DF`, `MF`, `FW`) suelen ocultar la ve
 │   ├── procesar_datos.py       # Limpieza, filtro de minutos (>900 min), exclusión de GK y Z-Score
 │   └── pca_global.py           # Reducción de dimensionalidad (PCA) y exportación a Parquet
 ├── Clustering/
-│   ├── clustering.py           # Evaluación comparativa de modelos y métricas. modelo GMM final (k=8), cálculo de entropía, perfiles tácticos y gráficos
-│   └── datos_pca.parquet       # Matriz de componentes principales lista para modelado
+│   ├── datos_pca.parquet       # Matriz de componentes principales lista para modelado
+│   ├── consenso.py             # MODELO FINAL: consenso de 200 GMM (k=7) -> asignacion_clusters.csv
+│   ├── clustering              # Diagnóstico de k (K-Means vs GMM), entropía, perfiles, outliers y gráficos
+│   ├── estabilidad_gmm.py      # Estabilidad del modelo inicial (GMM único, k=8): motivó el consenso
+│   ├── reemplazos.py           # Buscador de reemplazos (casos Trent y Rodri)
+│   ├── figuras_ppt.py          # Figuras de la presentación (Clustering/figuras/)
+│   ├── cluster_profiles.py     # Perfiles promedio por rol (lo usa figuras_ppt.py)
+│   ├── asignacion_clusters.csv # Rol, probabilidades y confianza de cada registro (modelo final)
+│   └── asignacion_clusters_k8_original.csv  # Copia del modelo inicial (k=8), para comparar
+├── Prediccion/
+│   ├── comun.py                # Carga de datos y estilo compartidos
+│   ├── transiciones.py         # Matriz de transición, predicción del rol siguiente y pronóstico 2025/26
+│   ├── edad_roles.py           # Edad y cambio de rol
+│   ├── clasificador_posicion.py # Clasificador supervisado de la posición nominal
+│   └── figuras/                # M_transiciones_roles, N_edad_y_roles, O_clasificador_posicion
+├── tests/                      # Tests de cluster_profiles.py
 ├── requirements.txt            # Hacer pip install -r requirements.txt para facilitar la preparacion de tu .venv
 └── README.md
+```
+
+## Orden de ejecución
+
+Desde la raíz del repo (los datos procesados ya están generados, no hace falta volver a descargarlos):
+
+```bash
+python "preparacion de datos/pca_global.py"   # solo si cambian los datos procesados
+python "Clustering/consenso.py"               # modelo final (~5 min)
+python "Clustering/clustering"                # diagnóstico, entropía, perfiles y outliers
+python "Clustering/reemplazos.py"
+python "Clustering/figuras_ppt.py"
+python "Clustering/estabilidad_gmm.py"        # opcional (~10 min): evalúa el modelo inicial k=8
+python "Prediccion/transiciones.py"
+python "Prediccion/edad_roles.py"             # ~2 min (bootstrap)
+python "Prediccion/clasificador_posicion.py"
+```
+
+## Perfiles de los siete roles
+
+El script guarda `Clustering/perfiles_clusters.csv` con el promedio de cada métrica por clúster, `N_registros` (filas jugador-equipo-temporada) y `N_jugadores_unicos`. También genera `perfiles_clusters_resumen.csv` con las métricas promedio más altas y más bajas, además de `figuras/I_tabla_perfiles_clusters.png` y `figuras/J_heatmap_perfiles_clusters.png`. Las métricas son Z-scores: valores positivos indican un promedio por encima de su liga y temporada; negativos, por debajo.
 

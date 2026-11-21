@@ -1,0 +1,1425 @@
+id_jugador,team,league,pos_,edad,Rol_actual,Rol_pronosticado,Prob_pronostico,Prob_cambiar_rol
+Mattia Felici (2001),Cagliari,ITA-Serie A,"MF,FW",24,Organizador / Regista,Extremo / Creador,0.679339288528594,0.9862254713262282
+Alexis Saelemaekers (1999),Roma,ITA-Serie A,"DF,FW",26,Segunda Punta / Delantero Móvil,Organizador / Regista,0.6839164651259034,0.9814643862419137
+Yaser Asprilla (2003),Girona,ESP-La Liga,"FW,MF",22,Segunda Punta / Delantero Móvil,Extremo / Creador,0.5640236193454167,0.9797029575027874
+Caio Henrique Oliveira Silva (1997),Monaco,FRA-Ligue 1,DF,28,Extremo / Creador,Lateral / Carrilero,0.7726560474526886,0.9794410833029981
+Ibrahima Niane (1999),Angers,FRA-Ligue 1,FW,26,Segunda Punta / Delantero Móvil,Delantero Finalizador (9),0.9708830569440641,0.9729945537312161
+Andrej Ilic (2000),Union Berlin,GER-Bundesliga,FW,25,Segunda Punta / Delantero Móvil,Delantero Finalizador (9),0.9697946613452291,0.9712764124443689
+Elvis Rexhbeçaj (1997),Augsburg,GER-Bundesliga,MF,28,Segunda Punta / Delantero Móvil,Extremo / Creador,0.8133706205431578,0.9698294254723863
+Alejo Véliz (2003),Espanyol,ESP-La Liga,FW,22,Segunda Punta / Delantero Móvil,Delantero Finalizador (9),0.9659118750912502,0.9697120011870053
+Akor Adams (2000),Montpellier,FRA-Ligue 1,FW,25,Segunda Punta / Delantero Móvil,Delantero Finalizador (9),0.9639444130877881,0.9671896069557008
+Patrizio Masini (2001),Genoa,ITA-Serie A,MF,24,Segunda Punta / Delantero Móvil,Volante Recuperador,0.7627039565142518,0.9636314641406408
+Matias Fernandez-Pardo (2005),Lille,FRA-Ligue 1,"FW,MF",20,Delantero Finalizador (9),Extremo / Creador,0.8329814126469589,0.9573757237655945
+Miguel (1999),Leganés,ESP-La Liga,FW,26,Segunda Punta / Delantero Móvil,Delantero Finalizador (9),0.9066388334093572,0.9559529231965337
+Gianluca Caprari (1993),Monza,ITA-Serie A,"MF,FW",32,Segunda Punta / Delantero Móvil,Extremo / Creador,0.8227797611719475,0.9540720808339332
+Dušan Vlahović (2000),Juventus,ITA-Serie A,FW,25,Segunda Punta / Delantero Móvil,Delantero Finalizador (9),0.9476770767885292,0.950673677889945
+Óscar de Marcos (1989),Athletic Club,ESP-La Liga,DF,36,Extremo / Creador,Organizador / Regista,0.5362313356166608,0.9505567219356766
+Arthur Atta (2003),Udinese,ITA-Serie A,"MF,FW",22,Segunda Punta / Delantero Móvil,Extremo / Creador,0.4443495565171329,0.9483847525923089
+Paul Onuachu (1994),Southampton,ENG-Premier League,FW,31,Segunda Punta / Delantero Móvil,Delantero Finalizador (9),0.947781328614528,0.9477958232593627
+Jean Mattéo Bahoya (2005),Eint Frankfurt,GER-Bundesliga,"MF,FW",20,Segunda Punta / Delantero Móvil,Extremo / Creador,0.7985483954387446,0.9468477022333716
+Juanmi Latasa (2001),Valladolid,ESP-La Liga,FW,24,Segunda Punta / Delantero Móvil,Delantero Finalizador (9),0.9451405136486887,0.9458917202114884
+Amos Pieper (1998),Werder Bremen,GER-Bundesliga,DF,27,Volante Recuperador,Defensor Central,0.9404567578548427,0.9430215664756778
+Moise Kean (2000),Fiorentina,ITA-Serie A,FW,25,Segunda Punta / Delantero Móvil,Delantero Finalizador (9),0.9411421626014972,0.9427298017792686
+Mattias Svanberg (1999),Wolfsburg,GER-Bundesliga,MF,26,Segunda Punta / Delantero Móvil,Extremo / Creador,0.6638689224577657,0.9408394163856318
+Abdukodir Khusanov (2004),Lens,FRA-Ligue 1,DF,21,Volante Recuperador,Defensor Central,0.9341419050928609,0.9401977748036592
+André Ayew (1989),Le Havre,FRA-Ligue 1,FW,36,Segunda Punta / Delantero Móvil,Delantero Finalizador (9),0.8942624933036246,0.9395122444300936
+Adri Embarba (1992),Rayo Vallecano,ESP-La Liga,"FW,MF",33,Segunda Punta / Delantero Móvil,Extremo / Creador,0.794918425398142,0.9390686099163662
+Rassoul Ndiaye (2001),Le Havre,FRA-Ligue 1,MF,24,Segunda Punta / Delantero Móvil,Extremo / Creador,0.41398220945383357,0.9388476694935656
+Adama Traoré (1996),Fulham,ENG-Premier League,"FW,MF",29,Organizador / Regista,Extremo / Creador,0.7662511631908699,0.9387676468226913
+Benjamin André (1990),Lille,FRA-Ligue 1,MF,35,Segunda Punta / Delantero Móvil,Volante Recuperador,0.8175185740153188,0.9339261590374159
+Jamie Vardy (1987),Leicester City,ENG-Premier League,FW,38,Segunda Punta / Delantero Móvil,Delantero Finalizador (9),0.8816191844720073,0.9317361652227756
+Jake O'Brien (2001),Everton,ENG-Premier League,DF,24,Volante Recuperador,Defensor Central,0.6482221080833367,0.9308361289273108
+Mamadou Sylla (1994),Valladolid,ESP-La Liga,"FW,MF",31,Segunda Punta / Delantero Móvil,Delantero Finalizador (9),0.8984341066007677,0.9300051374290544
+Patrik Schick (1996),Leverkusen,GER-Bundesliga,FW,29,Segunda Punta / Delantero Móvil,Delantero Finalizador (9),0.9200612856087822,0.9296610930090902
+Wes Burns (1994),Ipswich Town,ENG-Premier League,"FW,DF",31,Organizador / Regista,Lateral / Carrilero,0.4518060534654026,0.9282303865552047
+Timothy Weah (2000),Juventus,ITA-Serie A,"DF,FW",25,Segunda Punta / Delantero Móvil,Extremo / Creador,0.5004332581016503,0.9276303300148285
+Jeremie Frimpong (2000),Leverkusen,GER-Bundesliga,"DF,MF",25,Organizador / Regista,Extremo / Creador,0.6786039138375344,0.9243710136949119
+Bryan Gil (2001),Girona,ESP-La Liga,"FW,MF",24,Organizador / Regista,Extremo / Creador,0.8747891105982899,0.9243346804629616
+Tijjani Reijnders (1998),Milan,ITA-Serie A,MF,27,Segunda Punta / Delantero Móvil,Extremo / Creador,0.5407590786043598,0.9238920215699881
+Simon Adingra (2002),Brighton,ENG-Premier League,"FW,MF",23,Organizador / Regista,Extremo / Creador,0.6832359709116469,0.9235157137574536
+Rodrigo Muniz (2001),Fulham,ENG-Premier League,FW,24,Segunda Punta / Delantero Móvil,Delantero Finalizador (9),0.9211471286796523,0.9213094833405366
+Jean-Ricner Bellegarde (1998),Wolves,ENG-Premier League,"MF,FW",27,Segunda Punta / Delantero Móvil,Extremo / Creador,0.7722365299957384,0.9208635108165231
+Sandro Ramírez (1995),Las Palmas,ESP-La Liga,"FW,MF",30,Segunda Punta / Delantero Móvil,Extremo / Creador,0.8573996456878971,0.9205531534809259
+Ollie Watkins (1995),Aston Villa,ENG-Premier League,FW,30,Segunda Punta / Delantero Móvil,Delantero Finalizador (9),0.9078543160345635,0.9200946424861299
+Samuel Essende (1998),Augsburg,GER-Bundesliga,FW,27,Segunda Punta / Delantero Móvil,Delantero Finalizador (9),0.9052623947397332,0.9200877480231612
+Osame Sahraoui (2001),Lille,FRA-Ligue 1,"FW,MF",24,Segunda Punta / Delantero Móvil,Extremo / Creador,0.7778598152207201,0.9185718850091246
+Antoine Griezmann (1991),Atlético Madrid,ESP-La Liga,"FW,MF",34,Segunda Punta / Delantero Móvil,Extremo / Creador,0.5958493125562552,0.9184846898614938
+Dani Raba (1995),Leganés,ESP-La Liga,"FW,MF",30,Organizador / Regista,Extremo / Creador,0.8862939490996266,0.9182032836379512
+Abdoulaye Touré (1994),Le Havre,FRA-Ligue 1,MF,31,Organizador / Regista,Volante Recuperador,0.7927236044419246,0.9160458614544342
+Christian Mawissa (2005),Monaco,FRA-Ligue 1,DF,20,Lateral / Carrilero,Defensor Central,0.7122865959917293,0.9146940985226254
+Morten Frendrup (2001),Genoa,ITA-Serie A,MF,24,Extremo / Creador,Volante Recuperador,0.8456456425693816,0.9141790781075816
+Kobbie Mainoo (2005),Manchester Utd,ENG-Premier League,MF,20,Segunda Punta / Delantero Móvil,Extremo / Creador,0.33585384810131236,0.9140990348140785
+Mathys Tel (2005),Tottenham,ENG-Premier League,FW,20,Organizador / Regista,Extremo / Creador,0.7547860148860237,0.9120349909322856
+Léo Scienza (1998),Heidenheim,GER-Bundesliga,"FW,MF",27,Segunda Punta / Delantero Móvil,Extremo / Creador,0.8443990274646939,0.9107933716355789
+Kamory Doumbia (2003),Brest,FRA-Ligue 1,"MF,FW",22,Segunda Punta / Delantero Móvil,Extremo / Creador,0.5528880508465234,0.9098114902478299
+Antoniu (2002),Espanyol,ESP-La Liga,"FW,MF",23,Segunda Punta / Delantero Móvil,Extremo / Creador,0.6286602042276902,0.909638428974068
+Teun Koopmeiners (1998),Juventus,ITA-Serie A,"MF,FW",27,Segunda Punta / Delantero Móvil,Extremo / Creador,0.6548754404962711,0.9086200895918216
+Jack Harrison (1996),Everton,ENG-Premier League,FW,29,Segunda Punta / Delantero Móvil,Extremo / Creador,0.5590283894295773,0.9066089157705578
+Franck Honorat (1996),Gladbach,GER-Bundesliga,FW,29,Organizador / Regista,Extremo / Creador,0.8605128869123555,0.9041137174868624
+Jamie Leweling (2001),Stuttgart,GER-Bundesliga,"MF,FW",24,Segunda Punta / Delantero Móvil,Extremo / Creador,0.7351411059521571,0.9035272890021794
+Merlin Röhl (2002),Freiburg,GER-Bundesliga,"MF,FW",23,Segunda Punta / Delantero Móvil,Extremo / Creador,0.7607987008067386,0.9023436448458136
+Raoul Bellanova (2000),Atalanta,ITA-Serie A,DF,25,Extremo / Creador,Lateral / Carrilero,0.6825776916646186,0.9021994586537687
+Florian Wirtz (2003),Leverkusen,GER-Bundesliga,"MF,FW",22,Segunda Punta / Delantero Móvil,Extremo / Creador,0.6389130836087913,0.9012587036900441
+Beto (1998),Everton,ENG-Premier League,FW,27,Segunda Punta / Delantero Móvil,Delantero Finalizador (9),0.9008389376033191,0.9011054815805066
+Chris Richards (2000),Crystal Palace,ENG-Premier League,DF,25,Volante Recuperador,Defensor Central,0.8600382839512816,0.8996405207241763
+Farid El Melali (1997),Angers,FRA-Ligue 1,FW,28,Segunda Punta / Delantero Móvil,Extremo / Creador,0.8229459679730411,0.8991149513770318
+Elif Elmas (1999),Torino,ITA-Serie A,"FW,MF",26,Segunda Punta / Delantero Móvil,Extremo / Creador,0.5651090804210857,0.8987032713809583
+Samuele Birindelli (1999),Monza,ITA-Serie A,"DF,MF",26,Organizador / Regista,Lateral / Carrilero,0.7078557535044602,0.8983441032770277
+Mattia Zaccagni (1995),Lazio,ITA-Serie A,FW,30,Segunda Punta / Delantero Móvil,Extremo / Creador,0.7148573984611155,0.8940813666770878
+Mitchell Weiser (1994),Werder Bremen,GER-Bundesliga,"DF,MF",31,Segunda Punta / Delantero Móvil,Extremo / Creador,0.43049340274282427,0.8912309060812615
+Kike Salas (2002),Sevilla,ESP-La Liga,DF,23,Volante Recuperador,Defensor Central,0.8818296470679265,0.8893462156934258
+Marvin Ducksch (1994),Werder Bremen,GER-Bundesliga,FW,31,Segunda Punta / Delantero Móvil,Extremo / Creador,0.7744868210715656,0.8891120760515203
+Isaac Palazón Camacho (1994),Rayo Vallecano,ESP-La Liga,"MF,FW",31,Segunda Punta / Delantero Móvil,Extremo / Creador,0.7520060389644818,0.8875896851883753
+Andrej Kramarić (1991),Hoffenheim,GER-Bundesliga,"MF,FW",34,Segunda Punta / Delantero Móvil,Extremo / Creador,0.7693691990855758,0.8874220273451656
+John McGinn (1994),Aston Villa,ENG-Premier League,"MF,FW",31,Segunda Punta / Delantero Móvil,Extremo / Creador,0.6324664623714203,0.8845542057470936
+Saša Lukić (1996),Fulham,ENG-Premier League,MF,29,Extremo / Creador,Volante Recuperador,0.5105669507397471,0.8809762192549204
+Antony (2000),Betis,ESP-La Liga,FW,25,Segunda Punta / Delantero Móvil,Extremo / Creador,0.5554752352582486,0.8799759896985188
+Liam Delap (2003),Ipswich Town,ENG-Premier League,FW,22,Segunda Punta / Delantero Móvil,Delantero Finalizador (9),0.8563259113045641,0.8763043516420284
+Kenan Yıldız (2005),Juventus,ITA-Serie A,"FW,MF",20,Organizador / Regista,Extremo / Creador,0.7920604223236357,0.8754956293816349
+Woyo Coulibaly (1999),Parma,ITA-Serie A,DF,26,Extremo / Creador,Volante Recuperador,0.4229297931395992,0.8714731081290379
+Amadou Koné (2005),Reims,FRA-Ligue 1,MF,20,Organizador / Regista,Volante Recuperador,0.6872082647923624,0.871302293106943
+Gustav Isaksen (2001),Lazio,ITA-Serie A,FW,24,Segunda Punta / Delantero Móvil,Extremo / Creador,0.7388767125650418,0.8698097002381431
+Juan Foyth (1998),Villarreal,ESP-La Liga,DF,27,Volante Recuperador,Defensor Central,0.8162484921022138,0.8691026485490199
+Joe Willock (1999),Newcastle Utd,ENG-Premier League,"MF,FW",26,Segunda Punta / Delantero Móvil,Extremo / Creador,0.7981437889203786,0.8686350317351592
+Gaëtan Perrin (1996),Auxerre,FRA-Ligue 1,"MF,FW",29,Organizador / Regista,Extremo / Creador,0.8393559199595307,0.8679259113262878
+Selim Amallah (1996),Valladolid,ESP-La Liga,MF,29,Organizador / Regista,Extremo / Creador,0.7958016187529469,0.8659162189428757
+Nhoa Sangui (2006),Reims,FRA-Ligue 1,"DF,MF",19,Extremo / Creador,Lateral / Carrilero,0.4093728218322011,0.8633264567004459
+Marius Bülter (1993),Hoffenheim,GER-Bundesliga,"FW,DF",32,Segunda Punta / Delantero Móvil,Extremo / Creador,0.7276312954438358,0.861152680249216
+Phil Foden (2000),Manchester City,ENG-Premier League,"MF,FW",25,Segunda Punta / Delantero Móvil,Extremo / Creador,0.5554180011005785,0.860513186706805
+Jens Stage (1996),Werder Bremen,GER-Bundesliga,MF,29,Segunda Punta / Delantero Móvil,Extremo / Creador,0.4143222433870418,0.8580395985733864
+Francesco Acerbi (1988),Inter,ITA-Serie A,DF,37,Volante Recuperador,Defensor Central,0.8489483159671262,0.8550800296533185
+Shavy Babicka (2000),Toulouse,FRA-Ligue 1,"MF,FW",25,Segunda Punta / Delantero Móvil,Delantero Finalizador (9),0.502720201880888,0.8531598646023308
+Giorgos Masouras (1994),Bochum,GER-Bundesliga,"FW,MF",31,Segunda Punta / Delantero Móvil,Delantero Finalizador (9),0.7359105562353436,0.8530981330144709
+Anthony Gordon (2001),Newcastle Utd,ENG-Premier League,"FW,MF",24,Segunda Punta / Delantero Móvil,Extremo / Creador,0.7510309867141378,0.852688936831087
+Joël Schingtienne (2002),Venezia,ITA-Serie A,DF,23,Defensor Central,Lateral / Carrilero,0.6019518304663798,0.8509883593203804
+Paul Nebel (2002),Mainz 05,GER-Bundesliga,MF,23,Segunda Punta / Delantero Móvil,Extremo / Creador,0.7233616998145772,0.8480601140258192
+Ander Barrenetxea (2001),Real Sociedad,ESP-La Liga,"MF,FW",24,Organizador / Regista,Extremo / Creador,0.7196177084358799,0.8475390469685871
+Stephy Mavididi (1998),Leicester City,ENG-Premier League,FW,27,Segunda Punta / Delantero Móvil,Extremo / Creador,0.7450525054201346,0.8453651626042962
+Valentín Barco (2004),Strasbourg,FRA-Ligue 1,"MF,DF",21,Lateral / Carrilero,Organizador / Regista,0.6977023860500703,0.8429960378629453
+Benjamin Henrichs (1997),RB Leipzig,GER-Bundesliga,DF,28,Lateral / Carrilero,Volante Recuperador,0.44062496367030296,0.8412328504426047
+Jadon Sancho (2000),Chelsea,ENG-Premier League,FW,25,Segunda Punta / Delantero Móvil,Extremo / Creador,0.7445600519971713,0.8400211841721266
+David Raum (1998),RB Leipzig,GER-Bundesliga,DF,27,Organizador / Regista,Lateral / Carrilero,0.7889439420099749,0.8397384321791019
+Tammy Abraham (1997),Milan,ITA-Serie A,FW,28,Segunda Punta / Delantero Móvil,Delantero Finalizador (9),0.8213500862648037,0.8379595183686434
+Adrien Thomasson (1993),Lens,FRA-Ligue 1,MF,32,Segunda Punta / Delantero Móvil,Extremo / Creador,0.48832931229959015,0.8378483747887902
+Álvaro García (1992),Rayo Vallecano,ESP-La Liga,"FW,MF",33,Segunda Punta / Delantero Móvil,Extremo / Creador,0.699946438893799,0.8371205169676601
+Dominic Solanke (1997),Tottenham,ENG-Premier League,FW,28,Segunda Punta / Delantero Móvil,Delantero Finalizador (9),0.7995019086763734,0.8356479440408399
+Quentin Merlin (2002),Marseille,FRA-Ligue 1,DF,23,Lateral / Carrilero,Organizador / Regista,0.5442538368199991,0.8354791817325788
+Paweł Dawidowicz (1995),Hellas Verona,ITA-Serie A,"DF,MF",30,Volante Recuperador,Defensor Central,0.809455884364233,0.8352462428705539
+Issa Doumbia (2003),Venezia,ITA-Serie A,MF,22,Segunda Punta / Delantero Móvil,Extremo / Creador,0.3608529515492566,0.8338272885819892
+Lucas Vázquez (1991),Real Madrid,ESP-La Liga,DF,34,Lateral / Carrilero,Organizador / Regista,0.5643361190163604,0.833809440188345
+Thijs Dallinga (2000),Bologna,ITA-Serie A,FW,25,Segunda Punta / Delantero Móvil,Delantero Finalizador (9),0.8267113783434525,0.8337345309138877
+Haris Belkebla (1994),Angers,FRA-Ligue 1,MF,31,Lateral / Carrilero,Volante Recuperador,0.7144853799145908,0.8333475292418515
+Tomáš Suslov (2002),Hellas Verona,ITA-Serie A,"MF,FW",23,Organizador / Regista,Extremo / Creador,0.7854659382770319,0.8328108031244781
+Giuliano Simeone (2002),Atlético Madrid,ESP-La Liga,MF,23,Segunda Punta / Delantero Móvil,Extremo / Creador,0.5884403574349434,0.8321822155721098
+Kirian Rodríguez (1996),Las Palmas,ESP-La Liga,MF,29,Extremo / Creador,Organizador / Regista,0.48042792713312904,0.8312022065018532
+Nicolò Casale (1998),Bologna,ITA-Serie A,DF,27,Volante Recuperador,Defensor Central,0.8282842471216451,0.8309604730738124
+Alan Matturro (2004),Genoa,ITA-Serie A,DF,21,Volante Recuperador,Defensor Central,0.7092808633553795,0.8304983166029556
+Habib Diarra (2004),Strasbourg,FRA-Ligue 1,"MF,FW",21,Organizador / Regista,Extremo / Creador,0.5999975930650377,0.8295913229057217
+Tete Morente (1996),Lecce,ITA-Serie A,"FW,MF",29,Segunda Punta / Delantero Móvil,Extremo / Creador,0.48496656162722945,0.8295622200628372
+Jakub Kamiński (2002),Wolfsburg,GER-Bundesliga,"DF,MF",23,Lateral / Carrilero,Extremo / Creador,0.6038392381754345,0.8295169903999309
+Yassine Kechta (2002),Le Havre,FRA-Ligue 1,"MF,FW",23,Volante Recuperador,Extremo / Creador,0.5104271102430096,0.8292715933740262
+Þórir Jóhann Helgason (2000),Lecce,ITA-Serie A,MF,25,Organizador / Regista,Extremo / Creador,0.718934318830933,0.8290862870499561
+Clément Akpa (2001),Auxerre,FRA-Ligue 1,DF,24,Volante Recuperador,Defensor Central,0.7980923418294599,0.8281811741234036
+Harry Wilson (1997),Fulham,ENG-Premier League,"FW,MF",28,Segunda Punta / Delantero Móvil,Extremo / Creador,0.6803456746575218,0.8280363751024329
+Will Hughes (1995),Crystal Palace,ENG-Premier League,MF,30,Organizador / Regista,Volante Recuperador,0.39144890571707314,0.8268380998740102
+Tommaso Pobega (1999),Bologna,ITA-Serie A,MF,26,Extremo / Creador,Volante Recuperador,0.7021694492924136,0.8268259507633413
+Sávio (2004),Manchester City,ENG-Premier League,"FW,MF",21,Segunda Punta / Delantero Móvil,Extremo / Creador,0.7295172030693423,0.8265492533707812
+Noah Weißhaupt (2001),St. Pauli,GER-Bundesliga,"FW,MF",24,Segunda Punta / Delantero Móvil,Extremo / Creador,0.6441646232828019,0.82425972624405
+Emile Smith Rowe (2000),Fulham,ENG-Premier League,MF,25,Organizador / Regista,Extremo / Creador,0.7316774565604054,0.8209795718593946
+Nicolas Pallois (1987),Nantes,FRA-Ligue 1,DF,38,Volante Recuperador,Defensor Central,0.7825872105772804,0.8208216958146508
+Hicham Boudaoui (1999),Nice,FRA-Ligue 1,MF,26,Organizador / Regista,Extremo / Creador,0.44894910319497827,0.820369976581905
+Patrick Wimmer (2001),Wolfsburg,GER-Bundesliga,"MF,FW",24,Segunda Punta / Delantero Móvil,Extremo / Creador,0.7105937880385533,0.8203036687034724
+Ramy Bensebaini (1995),Dortmund,GER-Bundesliga,DF,30,Lateral / Carrilero,Volante Recuperador,0.627442878381353,0.8199553443770652
+Máximo Perrone (2003),Como,ITA-Serie A,MF,22,Organizador / Regista,Volante Recuperador,0.7845124194883608,0.8188900025784078
+Elliot Anderson (2002),Nott'ham Forest,ENG-Premier League,MF,23,Segunda Punta / Delantero Móvil,Extremo / Creador,0.37293710809266495,0.8187447756560673
+Andrea Pinamonti (1999),Genoa,ITA-Serie A,FW,26,Segunda Punta / Delantero Móvil,Delantero Finalizador (9),0.781569038408704,0.8174088490035939
+Emmanuel Gyasi (1994),Empoli,ITA-Serie A,"DF,FW",31,Volante Recuperador,Lateral / Carrilero,0.5842516073766425,0.8167048069269142
+Yoane Wissa (1996),Brentford,ENG-Premier League,FW,29,Segunda Punta / Delantero Móvil,Delantero Finalizador (9),0.7542575407144415,0.8165592757295181
+Viktor Tsyhankov (1997),Girona,ESP-La Liga,"FW,MF",28,Organizador / Regista,Extremo / Creador,0.7538901127560946,0.8163171288527215
+Mason Greenwood (2001),Marseille,FRA-Ligue 1,"FW,MF",24,Segunda Punta / Delantero Móvil,Extremo / Creador,0.5700927034060125,0.815802398583072
+Phillip Tietz (1997),Augsburg,GER-Bundesliga,FW,28,Segunda Punta / Delantero Móvil,Delantero Finalizador (9),0.7947318258174442,0.8113765101994564
+Marcus Rashford (1997),Manchester Utd,ENG-Premier League,"FW,MF",28,Segunda Punta / Delantero Móvil,Extremo / Creador,0.5139345698672803,0.8092960956369979
+Juanlu Sánchez (2003),Sevilla,ESP-La Liga,"MF,DF",22,Lateral / Carrilero,Extremo / Creador,0.5118039663708851,0.8059936664209064
+Brahim Díaz (1999),Real Madrid,ESP-La Liga,"FW,MF",26,Segunda Punta / Delantero Móvil,Extremo / Creador,0.6175451655432767,0.8054625435167582
+Alexis Claude-Maurice (1998),Augsburg,GER-Bundesliga,"MF,FW",27,Segunda Punta / Delantero Móvil,Extremo / Creador,0.7009847271341554,0.8048708477921052
+Thomas Kristensen (2002),Udinese,ITA-Serie A,DF,23,Volante Recuperador,Defensor Central,0.7694045009604251,0.8025735992419798
+Jacob Ramsey (2001),Aston Villa,ENG-Premier League,"FW,MF",24,Segunda Punta / Delantero Móvil,Extremo / Creador,0.6678039858168249,0.8003748366195444
+Vitaly Janelt (1998),Brentford,ENG-Premier League,MF,27,Lateral / Carrilero,Volante Recuperador,0.5770484246112363,0.798067521824997
+Neil El Aynaoui (2001),Lens,FRA-Ligue 1,MF,24,Extremo / Creador,Volante Recuperador,0.5465678828268188,0.7967191745633703
+Pedro Neto (2000),Chelsea,ENG-Premier League,FW,25,Organizador / Regista,Extremo / Creador,0.7408453914801556,0.7965243965955883
+Alfred Duncan (1993),Venezia,ITA-Serie A,MF,32,Extremo / Creador,Organizador / Regista,0.6064028493769379,0.794945224544162
+Josué Casimir (2001),Le Havre,FRA-Ligue 1,"FW,MF",24,Segunda Punta / Delantero Móvil,Extremo / Creador,0.6264078230396618,0.7948409456048119
+Jurriën Timber (2001),Arsenal,ENG-Premier League,DF,24,Extremo / Creador,Lateral / Carrilero,0.47490138003210725,0.7943246237580331
+Reda Belahyane (2004),Hellas Verona,ITA-Serie A,MF,21,Organizador / Regista,Volante Recuperador,0.47785772135179294,0.7940672507109039
+Jesper Lindstrøm (2000),Everton,ENG-Premier League,FW,25,Organizador / Regista,Extremo / Creador,0.6248363562639913,0.791090368702386
+Breel Embolo (1997),Monaco,FRA-Ligue 1,"FW,MF",28,Segunda Punta / Delantero Móvil,Delantero Finalizador (9),0.7487252133650747,0.7910811393772827
+Alassane Pléa (1993),Gladbach,GER-Bundesliga,"MF,FW",32,Segunda Punta / Delantero Móvil,Extremo / Creador,0.6695744018980924,0.790618242613531
+Ilaix Moriba (2003),Celta Vigo,ESP-La Liga,MF,22,Volante Recuperador,Extremo / Creador,0.5695088549783344,0.7903272007511193
+Pedro (1987),Lazio,ITA-Serie A,"FW,MF",38,Segunda Punta / Delantero Móvil,Extremo / Creador,0.628472032962238,0.7900426728457858
+Fikayo Tomori (1997),Milan,ITA-Serie A,DF,28,Volante Recuperador,Defensor Central,0.718627768053438,0.7900125652267269
+Serge Gnabry (1995),Bayern Munich,GER-Bundesliga,"FW,MF",30,Segunda Punta / Delantero Móvil,Extremo / Creador,0.7203356068764791,0.7874018941777174
+Junya Ito (1993),Reims,FRA-Ligue 1,"FW,MF",32,Organizador / Regista,Extremo / Creador,0.714992468481285,0.7873498466824485
+Eberechi Eze (1998),Crystal Palace,ENG-Premier League,"MF,FW",27,Segunda Punta / Delantero Móvil,Extremo / Creador,0.6895090952002912,0.785223888601806
+Julian Brandt (1996),Dortmund,GER-Bundesliga,MF,29,Organizador / Regista,Extremo / Creador,0.7648599245889522,0.7850041596621601
+Nicolas Seiwald (2001),RB Leipzig,GER-Bundesliga,"MF,DF",24,Organizador / Regista,Volante Recuperador,0.6491845244347614,0.7817690554633846
+Alessio Zerbin (1999),Venezia,ITA-Serie A,DF,26,Organizador / Regista,Extremo / Creador,0.44019199103898643,0.7773801427970795
+Alejandro Balde (2003),Barcelona,ESP-La Liga,DF,22,Extremo / Creador,Organizador / Regista,0.596954020603194,0.7769991050469082
+Luka Sučić (2002),Real Sociedad,ESP-La Liga,MF,23,Segunda Punta / Delantero Móvil,Extremo / Creador,0.46946209528631694,0.7746533724698108
+David Brooks (1997),Bournemouth,ENG-Premier League,"FW,MF",28,Segunda Punta / Delantero Móvil,Extremo / Creador,0.6359394690871161,0.7730722070959567
+Danny Welbeck (1990),Brighton,ENG-Premier League,FW,35,Segunda Punta / Delantero Móvil,Delantero Finalizador (9),0.5173500328424523,0.7723539053391532
+Marquinhos (1994),Paris S-G,FRA-Ligue 1,DF,31,Volante Recuperador,Defensor Central,0.7680122889668209,0.7720209158149487
+Gonçalo Guedes (1996),Wolves,ENG-Premier League,"MF,FW",29,Segunda Punta / Delantero Móvil,Extremo / Creador,0.6869862419578812,0.7719206539328268
+Danilo D'Ambrosio (1988),Monza,ITA-Serie A,DF,37,Volante Recuperador,Defensor Central,0.475664249647654,0.7716535447440395
+Jorge de Frutos (1997),Rayo Vallecano,ESP-La Liga,"FW,MF",28,Segunda Punta / Delantero Móvil,Extremo / Creador,0.5491360431599182,0.7674771819221976
+Williot Swedberg (2004),Celta Vigo,ESP-La Liga,"FW,MF",21,Segunda Punta / Delantero Móvil,Delantero Finalizador (9),0.3986661993571218,0.7661800818380681
+Mauro Arambarri (1995),Getafe,ESP-La Liga,MF,30,Extremo / Creador,Segunda Punta / Delantero Móvil,0.36934906656097544,0.765941384015651
+Toti Gomes (1999),Wolves,ENG-Premier League,DF,26,Volante Recuperador,Defensor Central,0.611137441513155,0.765160464864073
+Musa Al-Taamari (1997),Montpellier,FRA-Ligue 1,"FW,MF",28,Segunda Punta / Delantero Móvil,Extremo / Creador,0.39767333597866855,0.7648011462060288
+Luis Rioja (1993),Valencia,ESP-La Liga,"MF,FW",32,Organizador / Regista,Extremo / Creador,0.6217300119781797,0.7646252236193759
+Junior Mwanga (2003),Le Havre,FRA-Ligue 1,MF,22,Organizador / Regista,Volante Recuperador,0.4984661437671426,0.7591326949547822
+Dani de Wit (1998),Bochum,GER-Bundesliga,"MF,FW",27,Segunda Punta / Delantero Móvil,Segunda Punta / Delantero Móvil,0.24403912777461167,0.7559608722253883
+Manuel Fuster (1997),Las Palmas,ESP-La Liga,"FW,MF",28,Extremo / Creador,Organizador / Regista,0.7371705008357784,0.7558929697754172
+Alfon (1999),Celta Vigo,ESP-La Liga,"FW,MF",26,Segunda Punta / Delantero Móvil,Extremo / Creador,0.4762909346783081,0.7547520912752761
+Iliman Ndiaye (2000),Everton,ENG-Premier League,FW,25,Segunda Punta / Delantero Móvil,Extremo / Creador,0.5542465256133065,0.7516722930851795
+Yann Gboho (2001),Toulouse,FRA-Ligue 1,"MF,FW",24,Segunda Punta / Delantero Móvil,Extremo / Creador,0.6435853662174522,0.7515859781175863
+Mathias Pereira Lage (1996),Brest,FRA-Ligue 1,"FW,MF",29,Segunda Punta / Delantero Móvil,Extremo / Creador,0.6299406671316149,0.7498931232096492
+Fabiano Parisi (2000),Fiorentina,ITA-Serie A,"DF,MF",25,Extremo / Creador,Volante Recuperador,0.32177938931881334,0.7497059002171997
+Gaetano Oristanio (2002),Venezia,ITA-Serie A,"FW,MF",23,Segunda Punta / Delantero Móvil,Extremo / Creador,0.46941746457915373,0.7482584666445274
+Nick Woltemade (2002),Stuttgart,GER-Bundesliga,"FW,MF",23,Segunda Punta / Delantero Móvil,Delantero Finalizador (9),0.7248299598219738,0.7479203851150564
+Ezri Konsa (1997),Aston Villa,ENG-Premier League,DF,28,Volante Recuperador,Defensor Central,0.6693118638413696,0.7466983270528127
+Mathias Honsak (1996),Heidenheim,GER-Bundesliga,"FW,DF",29,Segunda Punta / Delantero Móvil,Extremo / Creador,0.4860379727622166,0.7454861294086803
+Andy Diouf (2003),Lens,FRA-Ligue 1,MF,22,Organizador / Regista,Extremo / Creador,0.5989654826552125,0.7435372193625962
+Frans Krätzig (2003),Heidenheim,GER-Bundesliga,"DF,MF",22,Lateral / Carrilero,Extremo / Creador,0.4422501246373668,0.7431439723368465
+Emre Can (1994),Dortmund,GER-Bundesliga,"DF,MF",31,Defensor Central,Volante Recuperador,0.6794370643140791,0.7431125736422542
+Ivan Ilić (2001),Torino,ITA-Serie A,MF,24,Extremo / Creador,Organizador / Regista,0.6993566480147145,0.7424170137333554
+Anuar (1995),Valladolid,ESP-La Liga,"MF,FW",30,Volante Recuperador,Extremo / Creador,0.4842142567251053,0.7414703360990829
+Patrick Ciurria (1995),Monza,ITA-Serie A,"MF,DF",30,Lateral / Carrilero,Extremo / Creador,0.5487370798918559,0.741075867703832
+Anthony Elanga (2002),Nott'ham Forest,ENG-Premier League,"FW,MF",23,Segunda Punta / Delantero Móvil,Extremo / Creador,0.6057114881065393,0.7407444524311443
+Enzo Millot (2002),Stuttgart,GER-Bundesliga,"MF,FW",23,Organizador / Regista,Extremo / Creador,0.6958419614156768,0.7400943141413479
+Albert Guðmundsson (1997),Fiorentina,ITA-Serie A,"FW,MF",28,Segunda Punta / Delantero Móvil,Extremo / Creador,0.5951820507696152,0.7399191034308431
+Raúl Moro (2002),Valladolid,ESP-La Liga,"MF,FW",23,Organizador / Regista,Extremo / Creador,0.6707131044875582,0.73827617622817
+Domingos André Ribeiro Almeida (2000),Valencia,ESP-La Liga,"MF,FW",25,Organizador / Regista,Extremo / Creador,0.6988682406040935,0.7370041290405198
+Ali Abdi (1993),Nice,FRA-Ligue 1,"DF,MF",32,Extremo / Creador,Extremo / Creador,0.26354242087811025,0.7364575791218897
+Marnon Busch (1994),Heidenheim,GER-Bundesliga,"DF,MF",31,Organizador / Regista,Lateral / Carrilero,0.6605717942475074,0.7359580358579219
+Boulaye Dia (1996),Lazio,ITA-Serie A,"MF,FW",29,Segunda Punta / Delantero Móvil,Delantero Finalizador (9),0.37363496555135767,0.735229411610318
+Alex Sola (1999),Getafe,ESP-La Liga,"MF,FW",26,Segunda Punta / Delantero Móvil,Delantero Finalizador (9),0.43180120436827657,0.7330171775005051
+Yankuba Minteh (2004),Brighton,ENG-Premier League,"FW,MF",21,Segunda Punta / Delantero Móvil,Extremo / Creador,0.6515783849960194,0.7328629005148417
+Marcel Sabitzer (1994),Dortmund,GER-Bundesliga,MF,31,Volante Recuperador,Extremo / Creador,0.46583833911393197,0.7302396450609532
+Alexander Bernhardsson (1998),Holstein Kiel,GER-Bundesliga,"FW,MF",27,Segunda Punta / Delantero Móvil,Extremo / Creador,0.6229413939966758,0.7289231200251669
+Marcus Tavernier (1999),Bournemouth,ENG-Premier League,"FW,MF",26,Organizador / Regista,Extremo / Creador,0.6814934209150364,0.7288130154351662
+Javi Rodríguez (2003),Celta Vigo,ESP-La Liga,DF,22,Defensor Central,Volante Recuperador,0.6457768963148706,0.7270561779627498
+Takefusa Kubo (2001),Real Sociedad,ESP-La Liga,"MF,FW",24,Segunda Punta / Delantero Móvil,Extremo / Creador,0.6631633071195148,0.7264807847293617
+Fabio Miretti (2003),Genoa,ITA-Serie A,"MF,FW",22,Segunda Punta / Delantero Móvil,Extremo / Creador,0.6082891376599071,0.725418639505178
+Kamaldeen Sulemana (2002),Southampton,ENG-Premier League,"FW,MF",23,Segunda Punta / Delantero Móvil,Extremo / Creador,0.5352649344574206,0.724875657821926
+Lee Jae-sung (1992),Mainz 05,GER-Bundesliga,MF,33,Segunda Punta / Delantero Móvil,Extremo / Creador,0.5066564847446751,0.7244533968083959
+Unai Gómez (2003),Athletic Club,ESP-La Liga,"MF,FW",22,Segunda Punta / Delantero Móvil,Delantero Finalizador (9),0.3995592567112068,0.724427338540622
+Matt O'Riley (2000),Brighton,ENG-Premier League,MF,25,Organizador / Regista,Extremo / Creador,0.6288867726232827,0.7232285714287301
+Georginio Rutter (2002),Brighton,ENG-Premier League,"MF,FW",23,Segunda Punta / Delantero Móvil,Delantero Finalizador (9),0.49761981511621484,0.7219478253520286
+Patrick Dorgu (2004),Lecce,ITA-Serie A,"DF,FW",21,Organizador / Regista,Extremo / Creador,0.4953774607976919,0.7217250895144324
+Xavi Simons (2003),RB Leipzig,GER-Bundesliga,MF,22,Organizador / Regista,Extremo / Creador,0.6563766471544658,0.7210019426990195
+Aimen Moueffek (2001),Saint-Étienne,FRA-Ligue 1,MF,24,Segunda Punta / Delantero Móvil,Extremo / Creador,0.3282615020180202,0.7201514952805748
+Matheus Cunha (1999),Wolves,ENG-Premier League,"MF,FW",26,Segunda Punta / Delantero Móvil,Extremo / Creador,0.5626333492961929,0.7198690695520328
+Fares Chaïbi (2002),Eint Frankfurt,GER-Bundesliga,"MF,FW",23,Organizador / Regista,Extremo / Creador,0.6260988754476733,0.7180874245862268
+Morgan Rogers (2002),Aston Villa,ENG-Premier League,"FW,MF",23,Segunda Punta / Delantero Móvil,Extremo / Creador,0.6083647415540218,0.7174686004871806
+Raúl Jiménez (1991),Fulham,ENG-Premier League,FW,34,Segunda Punta / Delantero Móvil,Delantero Finalizador (9),0.7005205562979829,0.7152835412426495
+Diego Moreira (2004),Strasbourg,FRA-Ligue 1,"DF,MF",21,Extremo / Creador,Organizador / Regista,0.3934180468052563,0.7146877470486737
+Ainsley Maitland-Niles (1997),Lyon,FRA-Ligue 1,DF,28,Organizador / Regista,Lateral / Carrilero,0.5548896730441614,0.7140929517892076
+Marc Casado (2003),Barcelona,ESP-La Liga,MF,22,Organizador / Regista,Volante Recuperador,0.6595526422443764,0.7131390323562583
+Emil Holm (2000),Bologna,ITA-Serie A,DF,25,Organizador / Regista,Lateral / Carrilero,0.6036634394876876,0.7099473803436899
+Benjamin Pavard (1996),Inter,ITA-Serie A,DF,29,Volante Recuperador,Defensor Central,0.6910200492869273,0.7093012289001335
+Jarrod Bowen (1996),West Ham,ENG-Premier League,"FW,MF",29,Segunda Punta / Delantero Móvil,Extremo / Creador,0.6364959309340985,0.70925276308012
+Thomas Müller (1989),Bayern Munich,GER-Bundesliga,"MF,FW",36,Segunda Punta / Delantero Móvil,Extremo / Creador,0.4728706330532051,0.7088732752914518
+Tanguy Coulibaly (2001),Montpellier,FRA-Ligue 1,"FW,MF",24,Segunda Punta / Delantero Móvil,Extremo / Creador,0.37125362221789227,0.7083056353844832
+Pape Gueye (1999),Villarreal,ESP-La Liga,MF,26,Organizador / Regista,Volante Recuperador,0.4227919629198476,0.7071555595697753
+Weston McKennie (1998),Juventus,ITA-Serie A,"MF,DF",27,Extremo / Creador,Extremo / Creador,0.29323158751874423,0.7067684124812558
+Alexander Prass (2001),Hoffenheim,GER-Bundesliga,DF,24,Organizador / Regista,Lateral / Carrilero,0.5670788683708685,0.7062511757890123
+Irvin Cardona (1997),Saint-Étienne,FRA-Ligue 1,FW,28,Segunda Punta / Delantero Móvil,Delantero Finalizador (9),0.419261794381346,0.702427018607683
+Warren Kamanzi (2000),Toulouse,FRA-Ligue 1,"DF,MF",25,Extremo / Creador,Lateral / Carrilero,0.34193891517291886,0.7023872012958213
+Jim Allevinah (1995),Angers,FRA-Ligue 1,FW,30,Delantero Finalizador (9),Extremo / Creador,0.38664617528477246,0.7020570071917083
+Timo Becker (1997),Holstein Kiel,GER-Bundesliga,DF,28,Volante Recuperador,Lateral / Carrilero,0.35454531135707645,0.7011083047281741
+Guela Doué (2002),Strasbourg,FRA-Ligue 1,DF,23,Volante Recuperador,Lateral / Carrilero,0.4669302414934244,0.6982183998886817
+Rolando Mandragora (1997),Fiorentina,ITA-Serie A,MF,28,Organizador / Regista,Volante Recuperador,0.47756455199143544,0.6974319280873941
+Mats Hummels (1988),Roma,ITA-Serie A,DF,37,Volante Recuperador,Defensor Central,0.6690836539721304,0.6971879289165781
+Khalil Fayad (2004),Montpellier,FRA-Ligue 1,"MF,FW",21,Organizador / Regista,Extremo / Creador,0.3420332254922485,0.6950252565368207
+Sofiane Diop (2000),Nice,FRA-Ligue 1,"MF,FW",25,Organizador / Regista,Extremo / Creador,0.6364040735211461,0.692153910404983
+Lasse Rosenboom (2002),Holstein Kiel,GER-Bundesliga,DF,23,Volante Recuperador,Lateral / Carrilero,0.5581720921012053,0.6912345231919503
+Harry Kane (1993),Bayern Munich,GER-Bundesliga,FW,32,Segunda Punta / Delantero Móvil,Delantero Finalizador (9),0.5701021547536169,0.6901743740094515
+Davide Frattesi (1999),Inter,ITA-Serie A,MF,26,Segunda Punta / Delantero Móvil,Extremo / Creador,0.36832497549230037,0.687226467570669
+Kévin Danois (2004),Auxerre,FRA-Ligue 1,MF,21,Volante Recuperador,Extremo / Creador,0.3283162093549455,0.6868699579172324
+Facundo Buonanotte (2004),Leicester City,ENG-Premier League,"FW,MF",21,Segunda Punta / Delantero Móvil,Extremo / Creador,0.6039459342094036,0.6865517419614153
+Pau Navarro (2005),Villarreal,ESP-La Liga,DF,20,Lateral / Carrilero,Defensor Central,0.4367224229606086,0.6864266923499822
+Gianluca Mancini (1996),Roma,ITA-Serie A,DF,29,Volante Recuperador,Defensor Central,0.6409417816799711,0.6860026251843336
+Hugo Álvarez (2003),Celta Vigo,ESP-La Liga,"MF,DF",22,Organizador / Regista,Extremo / Creador,0.47551946024982256,0.685972930613
+Gerrit Holtmann (1995),Bochum,GER-Bundesliga,"DF,FW",30,Organizador / Regista,Extremo / Creador,0.5755376681272398,0.6846731086218586
+Romano Schmid (2000),Werder Bremen,GER-Bundesliga,MF,25,Organizador / Regista,Extremo / Creador,0.6632518333982383,0.683941451802873
+Shuto Machino (1999),Holstein Kiel,GER-Bundesliga,"FW,MF",26,Segunda Punta / Delantero Móvil,Extremo / Creador,0.4824961040433704,0.6833738611280299
+Joshua Zirkzee (2001),Manchester Utd,ENG-Premier League,"FW,MF",24,Segunda Punta / Delantero Móvil,Delantero Finalizador (9),0.45551165641552444,0.6815570940018605
+Aleksandr Golovin (1996),Monaco,FRA-Ligue 1,"MF,FW",29,Extremo / Creador,Organizador / Regista,0.61070919005799,0.6809640580154261
+Liam Henderson (1996),Empoli,ITA-Serie A,MF,29,Extremo / Creador,Extremo / Creador,0.3204648467283259,0.679535153271674
+Jens Odgaard (1999),Bologna,ITA-Serie A,"MF,FW",26,Segunda Punta / Delantero Móvil,Delantero Finalizador (9),0.34668973132423814,0.6785397544059872
+Leandro Trossard (1994),Arsenal,ENG-Premier League,FW,31,Segunda Punta / Delantero Móvil,Extremo / Creador,0.628712624799243,0.6779623542017014
+Hans Hateboer (1994),Rennes,FRA-Ligue 1,DF,31,Lateral / Carrilero,Defensor Central,0.4281899583588281,0.67708510067073
+Stanley N'Soki (1999),Hoffenheim,GER-Bundesliga,DF,26,Defensor Central,Volante Recuperador,0.616672617334918,0.6770104025802075
+Carlo Boukhalfa (1999),St. Pauli,GER-Bundesliga,MF,26,Volante Recuperador,Extremo / Creador,0.5183741340692108,0.6768986160210189
+Benedikt Gimber (1997),Heidenheim,GER-Bundesliga,DF,28,Volante Recuperador,Defensor Central,0.6662029777028344,0.6753977877192902
+Casemiro (1992),Manchester Utd,ENG-Premier League,MF,33,Organizador / Regista,Volante Recuperador,0.6080214624688732,0.6752729831059996
+Rémy Cabella (1990),Lille,FRA-Ligue 1,"FW,MF",35,Extremo / Creador,Organizador / Regista,0.662771346061808,0.6746334405202246
+Jérémy Jacquet (2005),Rennes,FRA-Ligue 1,DF,20,Volante Recuperador,Defensor Central,0.6658154970216393,0.6744437349106884
+Paul Joly (2000),Auxerre,FRA-Ligue 1,DF,25,Organizador / Regista,Lateral / Carrilero,0.6248279684284337,0.6731402348736495
+James Maddison (1996),Tottenham,ENG-Premier League,MF,29,Organizador / Regista,Extremo / Creador,0.635044163050981,0.671253762797807
+Benedict Hollerbach (2001),Union Berlin,GER-Bundesliga,"FW,MF",24,Segunda Punta / Delantero Móvil,Extremo / Creador,0.37793754720637696,0.6704723505669978
+Christian Pulisic (1998),Milan,ITA-Serie A,"FW,MF",27,Segunda Punta / Delantero Móvil,Extremo / Creador,0.6055075357465709,0.6701833159430057
+Matteo Politano (1993),Napoli,ITA-Serie A,"FW,MF",32,Organizador / Regista,Extremo / Creador,0.6138072263892348,0.6690644957665017
+Louis Mouton (2002),Saint-Étienne,FRA-Ligue 1,MF,23,Extremo / Creador,Organizador / Regista,0.43458123825820233,0.6665367502914764
+Jaydee Canvot (2006),Toulouse,FRA-Ligue 1,"DF,MF",19,Volante Recuperador,Defensor Central,0.6407288976286372,0.6658080223333647
+Tim Kleindienst (1995),Gladbach,GER-Bundesliga,FW,30,Segunda Punta / Delantero Móvil,Delantero Finalizador (9),0.6541830311259101,0.6655555723198426
+Daichi Kamada (1996),Crystal Palace,ENG-Premier League,MF,29,Volante Recuperador,Extremo / Creador,0.4869240038433892,0.6644378406699292
+Yangel Herrera (1998),Girona,ESP-La Liga,MF,27,Volante Recuperador,Extremo / Creador,0.35797587803014,0.6643679656744359
+Javier Muñoz (1995),Las Palmas,ESP-La Liga,"MF,DF",30,Organizador / Regista,Organizador / Regista,0.336749188644347,0.663250811355653
+Charalampos Lykogiannis (1993),Bologna,ITA-Serie A,DF,32,Organizador / Regista,Lateral / Carrilero,0.6234112667465451,0.6621650518896209
+Ryan Christie (1995),Bournemouth,ENG-Premier League,MF,30,Organizador / Regista,Volante Recuperador,0.3477842785407744,0.660923436232149
+Michael Olise (2001),Bayern Munich,GER-Bundesliga,"FW,MF",24,Organizador / Regista,Extremo / Creador,0.6412938486619564,0.6530028401227292
+Oussama Targhalline (2002),Le Havre,FRA-Ligue 1,MF,23,Organizador / Regista,Organizador / Regista,0.34722940598008156,0.6527705940199184
+Anthony Jung (1991),Werder Bremen,GER-Bundesliga,DF,34,Volante Recuperador,Defensor Central,0.5543951330193299,0.6525518211613288
+Mitchel Bakker (2000),Lille,FRA-Ligue 1,"FW,DF",25,Extremo / Creador,Organizador / Regista,0.5047720150235159,0.6511715605716804
+Daley Blind (1990),Girona,ESP-La Liga,DF,35,Volante Recuperador,Organizador / Regista,0.5336265500929905,0.6498232435012284
+Javi Puado (1998),Espanyol,ESP-La Liga,"FW,MF",27,Delantero Finalizador (9),Extremo / Creador,0.3718210901103569,0.6494861232605076
+Saúl Ñíguez (1994),Sevilla,ESP-La Liga,MF,31,Extremo / Creador,Extremo / Creador,0.3505898637649285,0.6494101362350715
+Matteo Ruggeri (2002),Atalanta,ITA-Serie A,DF,23,Organizador / Regista,Lateral / Carrilero,0.5917359293030172,0.647984350820044
+Sorba Thomas (1999),Nantes,FRA-Ligue 1,"FW,MF",26,Lateral / Carrilero,Extremo / Creador,0.42655394701949717,0.6468178486189535
+Ernest Nuamah (2003),Lyon,FRA-Ligue 1,"FW,MF",22,Segunda Punta / Delantero Móvil,Extremo / Creador,0.4732662541359686,0.6467187004818378
+Mathías Olivera (1997),Napoli,ITA-Serie A,DF,28,Lateral / Carrilero,Volante Recuperador,0.5093671222637636,0.6466934295953731
+Matúš Bero (1995),Bochum,GER-Bundesliga,MF,30,Organizador / Regista,Extremo / Creador,0.5855989285165301,0.6466462781293185
+Daniel Maldini (2001),Monza,ITA-Serie A,"MF,FW",24,Segunda Punta / Delantero Móvil,Extremo / Creador,0.40835132090053977,0.6460764381748461
+Curtis Jones (2001),Liverpool,ENG-Premier League,"MF,DF",24,Organizador / Regista,Extremo / Creador,0.395038810042595,0.6452181481087438
+Marc Cucurella (1998),Chelsea,ENG-Premier League,DF,27,Volante Recuperador,Lateral / Carrilero,0.5467084753092889,0.6437438558912332
+Lucas Höler (1994),Freiburg,GER-Bundesliga,"FW,MF",31,Segunda Punta / Delantero Móvil,Delantero Finalizador (9),0.5566943598336281,0.6435576778266587
+Edmond Tapsoba (1999),Leverkusen,GER-Bundesliga,DF,26,Defensor Central,Volante Recuperador,0.5582382943748241,0.6414164514634205
+Brennan Johnson (2001),Tottenham,ENG-Premier League,FW,24,Segunda Punta / Delantero Móvil,Extremo / Creador,0.5480794940836731,0.6406204442642538
+Jon Guridi (1995),Alavés,ESP-La Liga,"MF,FW",30,Segunda Punta / Delantero Móvil,Extremo / Creador,0.40158472241477206,0.6403813363136931
+Jack Clarke (2000),Ipswich Town,ENG-Premier League,"FW,MF",25,Segunda Punta / Delantero Móvil,Extremo / Creador,0.5181073387364994,0.6385539719785363
+Jonathan Clauss (1992),Nice,FRA-Ligue 1,"DF,MF",33,Organizador / Regista,Lateral / Carrilero,0.5284610121157788,0.6371955353843721
+Justin Njinmah (2000),Werder Bremen,GER-Bundesliga,"FW,MF",25,Segunda Punta / Delantero Móvil,Segunda Punta / Delantero Móvil,0.363594630763493,0.636405369236507
+Simon Sohm (2001),Parma,ITA-Serie A,MF,24,Extremo / Creador,Extremo / Creador,0.36438079322288575,0.6356192067771143
+Johann Lepenant (2002),Nantes,FRA-Ligue 1,MF,23,Volante Recuperador,Extremo / Creador,0.5025830592757944,0.633574049964575
+Harvey Barnes (1997),Newcastle Utd,ENG-Premier League,FW,28,Segunda Punta / Delantero Móvil,Extremo / Creador,0.5529682162842319,0.630097487842431
+Corentin Tolisso (1994),Lyon,FRA-Ligue 1,MF,31,Segunda Punta / Delantero Móvil,Segunda Punta / Delantero Móvil,0.37040284840627746,0.6295971515937225
+Jeremie Boga (1997),Nice,FRA-Ligue 1,"MF,FW",28,Segunda Punta / Delantero Móvil,Extremo / Creador,0.5223272812944818,0.627732463854894
+Youssouf Fofana (1999),Milan,ITA-Serie A,MF,26,Organizador / Regista,Volante Recuperador,0.4316376967374132,0.627062880365729
+Carlos Soler (1997),West Ham,ENG-Premier League,"MF,FW",28,Volante Recuperador,Extremo / Creador,0.4241666809681589,0.6268260475991907
+Maximilian Beier (2002),Dortmund,GER-Bundesliga,"FW,MF",23,Segunda Punta / Delantero Móvil,Segunda Punta / Delantero Móvil,0.37414983322261974,0.6258501667773803
+Luis Henrique (2001),Marseille,FRA-Ligue 1,"DF,FW",24,Extremo / Creador,Extremo / Creador,0.3742044289892715,0.6257955710107286
+Benjamin Bouchouari (2001),Saint-Étienne,FRA-Ligue 1,MF,24,Organizador / Regista,Extremo / Creador,0.4300020264705416,0.6251435483246193
+Ferland Mendy (1995),Real Madrid,ESP-La Liga,DF,30,Lateral / Carrilero,Volante Recuperador,0.42615309020754516,0.624376165483254
+Maxence Caqueret (2000),Como,ITA-Serie A,MF,25,Organizador / Regista,Extremo / Creador,0.5801383361708441,0.6243327739398538
+Cucho (1999),Betis,ESP-La Liga,FW,26,Delantero Finalizador (9),Segunda Punta / Delantero Móvil,0.5247806679548233,0.623005422032075
+Rabby Nzingoula (2005),Montpellier,FRA-Ligue 1,MF,20,Extremo / Creador,Volante Recuperador,0.4304593132182173,0.6203050342335998
+Sammie Szmodics (1995),Ipswich Town,ENG-Premier League,"FW,MF",30,Segunda Punta / Delantero Móvil,Segunda Punta / Delantero Móvil,0.3799151465772335,0.6200848534227665
+Ruben Loftus-Cheek (1996),Milan,ITA-Serie A,MF,29,Extremo / Creador,Extremo / Creador,0.3861162622200694,0.6138837377799307
+Djené (1991),Getafe,ESP-La Liga,"DF,MF",34,Volante Recuperador,Volante Recuperador,0.3876782281233655,0.6123217718766345
+Davide Zappacosta (1992),Atalanta,ITA-Serie A,DF,33,Organizador / Regista,Lateral / Carrilero,0.47732990997017816,0.6111660345500995
+Khéphren Thuram (2001),Juventus,ITA-Serie A,MF,24,Organizador / Regista,Organizador / Regista,0.3890827677437674,0.6109172322562326
+Cody Gakpo (1999),Liverpool,ENG-Premier League,FW,26,Segunda Punta / Delantero Móvil,Extremo / Creador,0.5229078226043693,0.61056967120998
+Yuri Berchiche (1990),Athletic Club,ESP-La Liga,DF,35,Organizador / Regista,Lateral / Carrilero,0.39341594589103385,0.6092239122210241
+Jurgen Ekkelenkamp (2000),Udinese,ITA-Serie A,MF,25,Extremo / Creador,Extremo / Creador,0.3932231041788976,0.6067768958211024
+Beñat Turrientes (2002),Real Sociedad,ESP-La Liga,MF,23,Volante Recuperador,Volante Recuperador,0.3934489152865825,0.6065510847134175
+Pablo Durán (2001),Celta Vigo,ESP-La Liga,"FW,MF",24,Delantero Finalizador (9),Delantero Finalizador (9),0.39408919046709534,0.6059108095329047
+Tomáš Souček (1995),West Ham,ENG-Premier League,MF,30,Segunda Punta / Delantero Móvil,Segunda Punta / Delantero Móvil,0.3951600778507514,0.6048399221492486
+Juan Cruz Armada (1992),Osasuna,ESP-La Liga,DF,33,Defensor Central,Lateral / Carrilero,0.46250040961210304,0.6047945140979456
+Dodi Lukebakio (1997),Sevilla,ESP-La Liga,FW,28,Segunda Punta / Delantero Móvil,Segunda Punta / Delantero Móvil,0.3960961134714315,0.6039038865285685
+Suat Serdar (1997),Hellas Verona,ITA-Serie A,MF,28,Extremo / Creador,Volante Recuperador,0.39888373338632793,0.6036106526685112
+Arnau Martinez (2003),Girona,ESP-La Liga,"DF,MF",22,Volante Recuperador,Volante Recuperador,0.39845880963332414,0.6015411903666759
+Jack Hinshelwood (2005),Brighton,ENG-Premier League,"MF,DF",20,Volante Recuperador,Volante Recuperador,0.3988008172204361,0.601199182779564
+Vinicius Júnior (2000),Real Madrid,ESP-La Liga,FW,25,Segunda Punta / Delantero Móvil,Extremo / Creador,0.5211401312648931,0.600772044039151
+Arda Güler (2005),Real Madrid,ESP-La Liga,"MF,FW",20,Extremo / Creador,Organizador / Regista,0.5619880233724334,0.6003501385732766
+Lucas Beltrán (2001),Fiorentina,ITA-Serie A,"FW,MF",24,Delantero Finalizador (9),Delantero Finalizador (9),0.40062132208089446,0.5993786779191055
+Sandi Lovrić (1998),Udinese,ITA-Serie A,MF,27,Organizador / Regista,Extremo / Creador,0.5508821468795488,0.5988518347980238
+Myles Lewis-Skelly (2006),Arsenal,ENG-Premier League,DF,19,Volante Recuperador,Volante Recuperador,0.4017297853958668,0.5982702146041332
+Jon Moncayola (1998),Osasuna,ESP-La Liga,MF,27,Organizador / Regista,Extremo / Creador,0.4196521216051689,0.5981613881367314
+Nathaniel Brown (2003),Eint Frankfurt,GER-Bundesliga,"DF,MF",22,Lateral / Carrilero,Lateral / Carrilero,0.4021756411763213,0.5978243588236787
+Iñigo Martínez (1991),Barcelona,ESP-La Liga,DF,34,Volante Recuperador,Defensor Central,0.5381344112096365,0.5976666247360082
+Jean-Daniel Akpa-Akpro (1992),Monza,ITA-Serie A,MF,33,Volante Recuperador,Volante Recuperador,0.4061757302703048,0.5938242697296952
+Anthony Caci (1997),Mainz 05,GER-Bundesliga,DF,28,Organizador / Regista,Organizador / Regista,0.4082254498845934,0.5917745501154066
+Lorenzo Colombo (2002),Empoli,ITA-Serie A,"FW,MF",23,Segunda Punta / Delantero Móvil,Segunda Punta / Delantero Móvil,0.40830107021987,0.5916989297801301
+Giovani Lo Celso (1996),Betis,ESP-La Liga,"MF,FW",29,Organizador / Regista,Extremo / Creador,0.5790361190099632,0.5914991514610752
+Lucas Paquetá (1997),West Ham,ENG-Premier League,"MF,FW",28,Organizador / Regista,Organizador / Regista,0.4090166275349726,0.5909833724650274
+Adrien Rabiot (1995),Marseille,FRA-Ligue 1,MF,30,Extremo / Creador,Segunda Punta / Delantero Móvil,0.43097422343387154,0.5902169106166733
+Adam Hložek (2002),Hoffenheim,GER-Bundesliga,"FW,MF",23,Delantero Finalizador (9),Segunda Punta / Delantero Móvil,0.41945625901675604,0.5900190572551911
+Assane Diao (2005),Como,ITA-Serie A,"FW,MF",20,Extremo / Creador,Extremo / Creador,0.4101587765289859,0.5898412234710141
+Mohammed Kudus (2000),West Ham,ENG-Premier League,"FW,MF",25,Segunda Punta / Delantero Móvil,Segunda Punta / Delantero Móvil,0.4113102173188118,0.5886897826811882
+Miguel Gutiérrez (2001),Girona,ESP-La Liga,"DF,MF",24,Lateral / Carrilero,Organizador / Regista,0.45922981751897635,0.5882291174487217
+Rubén García (1993),Osasuna,ESP-La Liga,"FW,MF",32,Organizador / Regista,Extremo / Creador,0.5168868277832579,0.587767298391827
+Bruno Guimarães (1997),Newcastle Utd,ENG-Premier League,MF,28,Organizador / Regista,Extremo / Creador,0.4386426322315615,0.5868272906322893
+Marco Grüll (1998),Werder Bremen,GER-Bundesliga,"FW,MF",27,Delantero Finalizador (9),Delantero Finalizador (9),0.41695458074751157,0.5830454192524884
+Amad Diallo (2002),Manchester Utd,ENG-Premier League,"MF,FW",23,Segunda Punta / Delantero Móvil,Extremo / Creador,0.47312687235498846,0.5816868003085598
+Marco Komenda (1996),Holstein Kiel,GER-Bundesliga,DF,29,Volante Recuperador,Volante Recuperador,0.4192262065201572,0.5807737934798428
+Manu Koné (2001),Roma,ITA-Serie A,MF,24,Extremo / Creador,Extremo / Creador,0.4221704398082824,0.5778295601917176
+Cedric Zesiger (1998),Augsburg,GER-Bundesliga,DF,27,Volante Recuperador,Defensor Central,0.547918608015818,0.5771590283813558
+Morten Thorsby (1996),Genoa,ITA-Serie A,"MF,FW",29,Segunda Punta / Delantero Móvil,Delantero Finalizador (9),0.5374998210968407,0.5751464616447532
+Andreas Pereira (1996),Fulham,ENG-Premier League,MF,29,Organizador / Regista,Extremo / Creador,0.5563045280366584,0.5750399658099419
+Matteo Cancellieri (2002),Parma,ITA-Serie A,"FW,MF",23,Extremo / Creador,Extremo / Creador,0.42623143937590807,0.5737685606240919
+Reinildo Mandava (1994),Atlético Madrid,ESP-La Liga,DF,31,Volante Recuperador,Lateral / Carrilero,0.447261116867269,0.573763077101539
+Iván Sánchez (1992),Valladolid,ESP-La Liga,"MF,FW",33,Organizador / Regista,Extremo / Creador,0.5530194661827672,0.5729673510075637
+Brais Méndez (1997),Real Sociedad,ESP-La Liga,MF,28,Segunda Punta / Delantero Móvil,Extremo / Creador,0.44084167046968264,0.5712125102506951
+Dany Mota (1998),Monza,ITA-Serie A,"FW,MF",27,Segunda Punta / Delantero Móvil,Delantero Finalizador (9),0.4596490822104345,0.5707817345718835
+Yasin Ayari (2003),Brighton,ENG-Premier League,MF,22,Extremo / Creador,Extremo / Creador,0.4311215868689304,0.5688784131310696
+Jordan James (2004),Rennes,FRA-Ligue 1,MF,21,Organizador / Regista,Organizador / Regista,0.43133366395033046,0.5686663360496695
+Jordan Ayew (1991),Leicester City,ENG-Premier League,"FW,MF",34,Segunda Punta / Delantero Móvil,Segunda Punta / Delantero Móvil,0.431431298576592,0.568568701423408
+Julián Álvarez (2000),Atlético Madrid,ESP-La Liga,FW,25,Segunda Punta / Delantero Móvil,Extremo / Creador,0.4616303542698197,0.5683344170811601
+Kevin Schade (2001),Brentford,ENG-Premier League,FW,24,Segunda Punta / Delantero Móvil,Delantero Finalizador (9),0.5416902792365426,0.5673690377843192
+Alex Iwobi (1996),Fulham,ENG-Premier League,"FW,MF",29,Extremo / Creador,Organizador / Regista,0.4782784860045497,0.5656614685838854
+Darwin Núñez (1999),Liverpool,ENG-Premier League,FW,26,Segunda Punta / Delantero Móvil,Delantero Finalizador (9),0.5051425461016589,0.5652477029342748
+Alejandro Garnacho (2004),Manchester Utd,ENG-Premier League,"MF,FW",21,Segunda Punta / Delantero Móvil,Extremo / Creador,0.4929234713624869,0.5652318824882601
+Mikael Ellertsson (2002),Venezia,ITA-Serie A,"DF,MF",23,Lateral / Carrilero,Lateral / Carrilero,0.436102156713264,0.563897843286736
+Javier Guerra (2003),Valencia,ESP-La Liga,MF,22,Organizador / Regista,Organizador / Regista,0.4379289299292561,0.5620710700707439
+Ferrán Torres (2000),Barcelona,ESP-La Liga,"FW,MF",25,Delantero Finalizador (9),Delantero Finalizador (9),0.4383783168572478,0.5616216831427522
+Lewis Ferguson (1999),Bologna,ITA-Serie A,MF,26,Volante Recuperador,Volante Recuperador,0.4398888030409748,0.5601111969590252
+Nadir Zortea (1999),Cagliari,ITA-Serie A,"DF,MF",26,Lateral / Carrilero,Lateral / Carrilero,0.4402410973206428,0.5597589026793572
+Sergio Gómez (2000),Real Sociedad,ESP-La Liga,"MF,DF",25,Organizador / Regista,Extremo / Creador,0.45957823627944716,0.5592758089045724
+Alex Baena (2001),Villarreal,ESP-La Liga,"MF,FW",24,Organizador / Regista,Extremo / Creador,0.5358844638807074,0.5561449239616778
+Chidera Ejuke (1998),Sevilla,ESP-La Liga,FW,27,Extremo / Creador,Extremo / Creador,0.44588388346090596,0.554116116539094
+Conor Gallagher (2000),Atlético Madrid,ESP-La Liga,MF,25,Extremo / Creador,Extremo / Creador,0.44632151013019167,0.5536784898698084
+Strahinja Pavlović (2001),Milan,ITA-Serie A,DF,24,Volante Recuperador,Volante Recuperador,0.4468098504842194,0.5531901495157806
+Vincent Sierro (1995),Toulouse,FRA-Ligue 1,MF,30,Volante Recuperador,Volante Recuperador,0.44702460813498285,0.5529753918650171
+Archie Gray (2006),Tottenham,ENG-Premier League,"DF,MF",19,Volante Recuperador,Defensor Central,0.4966761738966048,0.5522346000807405
+Marco Brescianini (2000),Atalanta,ITA-Serie A,MF,25,Extremo / Creador,Segunda Punta / Delantero Móvil,0.46555118605429474,0.5506233268910673
+Álex Jiménez (2005),Milan,ITA-Serie A,"DF,FW",20,Extremo / Creador,Extremo / Creador,0.45094570884224,0.54905429115776
+Wesley Saïd (1995),Lens,FRA-Ligue 1,FW,30,Delantero Finalizador (9),Delantero Finalizador (9),0.451439539779339,0.5485604602206611
+Julian Ryerson (1997),Dortmund,GER-Bundesliga,DF,28,Lateral / Carrilero,Lateral / Carrilero,0.4519221924550868,0.5480778075449132
+João Gomes (2001),Wolves,ENG-Premier League,MF,24,Volante Recuperador,Volante Recuperador,0.45230085634077827,0.5476991436592218
+Lewis Cook (1997),Bournemouth,ENG-Premier League,"MF,DF",28,Lateral / Carrilero,Lateral / Carrilero,0.45241590741031673,0.5475840925896833
+Gianluca Busio (2002),Venezia,ITA-Serie A,MF,23,Extremo / Creador,Extremo / Creador,0.45365586652853773,0.5463441334714623
+Kevin Kampl (1990),RB Leipzig,GER-Bundesliga,MF,35,Volante Recuperador,Volante Recuperador,0.4541897994635637,0.5458102005364363
+Finn Porath (1997),Holstein Kiel,GER-Bundesliga,"DF,MF",28,Lateral / Carrilero,Lateral / Carrilero,0.4546064951462669,0.5453935048537331
+Pablo Barrios (2003),Atlético Madrid,ESP-La Liga,MF,22,Organizador / Regista,Organizador / Regista,0.4558056498661736,0.5441943501338264
+Manolis Saliakas (1996),St. Pauli,GER-Bundesliga,"MF,DF",29,Lateral / Carrilero,Lateral / Carrilero,0.4561668270986236,0.5438331729013763
+Jordan Veretout (1993),Lyon,FRA-Ligue 1,MF,32,Volante Recuperador,Volante Recuperador,0.4565987261126095,0.5434012738873906
+Dominik Szoboszlai (2000),Liverpool,ENG-Premier League,MF,25,Organizador / Regista,Organizador / Regista,0.4566061822567328,0.5433938177432672
+Eddie Nketiah (1999),Crystal Palace,ENG-Premier League,"FW,MF",26,Segunda Punta / Delantero Móvil,Segunda Punta / Delantero Móvil,0.4576573264264753,0.5423426735735247
+Morgan Gibbs-White (2000),Nott'ham Forest,ENG-Premier League,MF,25,Extremo / Creador,Extremo / Creador,0.4578428758794579,0.5421571241205421
+Romain Del Castillo (1996),Brest,FRA-Ligue 1,FW,29,Extremo / Creador,Extremo / Creador,0.4581935763050297,0.5418064236949702
+Abde Ezzalzouli (2001),Betis,ESP-La Liga,"FW,MF",24,Extremo / Creador,Extremo / Creador,0.4585775275589746,0.5414224724410255
+Nnamdi Collins (2004),Eint Frankfurt,GER-Bundesliga,DF,21,Volante Recuperador,Volante Recuperador,0.45902236774813576,0.5409776322518642
+Sandro Tonali (2000),Newcastle Utd,ENG-Premier League,MF,25,Volante Recuperador,Volante Recuperador,0.4592923929473864,0.5407076070526136
+Gabriel Martinelli (2001),Arsenal,ENG-Premier League,"FW,MF",24,Segunda Punta / Delantero Móvil,Segunda Punta / Delantero Móvil,0.45991991648090996,0.54008008351909
+Yunus Musah (2002),Milan,ITA-Serie A,"MF,FW",23,Organizador / Regista,Organizador / Regista,0.45996837424920745,0.5400316257507926
+Diogo Leite (1999),Union Berlin,GER-Bundesliga,DF,26,Defensor Central,Defensor Central,0.46102570584884245,0.5389742941511575
+Kaoru Mitoma (1997),Brighton,ENG-Premier League,"FW,MF",28,Segunda Punta / Delantero Móvil,Segunda Punta / Delantero Móvil,0.4613946639743824,0.5386053360256176
+Ramon Hendriks (2001),Stuttgart,GER-Bundesliga,DF,24,Volante Recuperador,Volante Recuperador,0.46147645344226595,0.538523546557734
+Felix Passlack (1998),Bochum,GER-Bundesliga,"DF,MF",27,Lateral / Carrilero,Lateral / Carrilero,0.46421005591516457,0.5357899440848355
+Michael Amir Murillo (1996),Marseille,FRA-Ligue 1,DF,29,Lateral / Carrilero,Lateral / Carrilero,0.4650272535399863,0.5349727464600137
+Konrad Laimer (1997),Bayern Munich,GER-Bundesliga,DF,28,Organizador / Regista,Organizador / Regista,0.46524489399194174,0.5347551060080582
+Mario Pašalić (1995),Atalanta,ITA-Serie A,MF,30,Organizador / Regista,Organizador / Regista,0.4664133290681446,0.5335866709318554
+Ulisses Garcia (1996),Marseille,FRA-Ligue 1,DF,29,Lateral / Carrilero,Lateral / Carrilero,0.468077654230436,0.531922345769564
+Tom Krauß (2001),Bochum,GER-Bundesliga,MF,24,Volante Recuperador,Volante Recuperador,0.4698692076224747,0.5301307923775254
+Yannick Gerhardt (1994),Wolfsburg,GER-Bundesliga,"MF,DF",31,Lateral / Carrilero,Lateral / Carrilero,0.47062194285510345,0.5293780571448965
+Issa Soumaré (2000),Le Havre,FRA-Ligue 1,"FW,MF",25,Delantero Finalizador (9),Segunda Punta / Delantero Móvil,0.5136850507663177,0.5279619592898466
+Óscar Rodríguez Arnaiz (1998),Leganés,ESP-La Liga,"MF,FW",27,Extremo / Creador,Organizador / Regista,0.48915302721314974,0.5269746012122125
+Moussa Diarra (2000),Alavés,ESP-La Liga,DF,25,Volante Recuperador,Volante Recuperador,0.47374493032622855,0.5262550696737714
+Jude Bellingham (2003),Real Madrid,ESP-La Liga,MF,22,Segunda Punta / Delantero Móvil,Segunda Punta / Delantero Móvil,0.4751262090694128,0.5248737909305872
+Kylian Mbappé (1998),Real Madrid,ESP-La Liga,FW,27,Segunda Punta / Delantero Móvil,Segunda Punta / Delantero Móvil,0.4773507137066246,0.5226492862933754
+Nemanja Gudelj (1991),Sevilla,ESP-La Liga,"MF,DF",34,Volante Recuperador,Volante Recuperador,0.4776122988234669,0.5223877011765331
+Morgan Guilavogui (1998),St. Pauli,GER-Bundesliga,"FW,MF",27,Segunda Punta / Delantero Móvil,Segunda Punta / Delantero Móvil,0.477687826404128,0.522312173595872
+Geoffrey Kondogbia (1993),Marseille,FRA-Ligue 1,"DF,MF",32,Defensor Central,Defensor Central,0.4788136261081976,0.5211863738918023
+Lewis Holtby (1990),Holstein Kiel,GER-Bundesliga,MF,35,Organizador / Regista,Organizador / Regista,0.47908927532797274,0.5209107246720273
+Luis Díaz (1997),Liverpool,ENG-Premier League,FW,28,Extremo / Creador,Extremo / Creador,0.4792265740867978,0.5207734259132022
+Carlos Augusto (1999),Inter,ITA-Serie A,DF,26,Volante Recuperador,Volante Recuperador,0.4800037067115829,0.5199962932884171
+Ismaila Sarr (1998),Crystal Palace,ENG-Premier League,MF,27,Segunda Punta / Delantero Móvil,Segunda Punta / Delantero Móvil,0.48010273723989466,0.5198972627601053
+Dani Olmo (1998),Barcelona,ESP-La Liga,"MF,FW",27,Segunda Punta / Delantero Móvil,Segunda Punta / Delantero Móvil,0.48039183881019043,0.5196081611898096
+Deniz Undav (1996),Stuttgart,GER-Bundesliga,"FW,MF",29,Delantero Finalizador (9),Delantero Finalizador (9),0.4805694778048076,0.5194305221951925
+Ousmane Dembélé (1997),Paris S-G,FRA-Ligue 1,FW,28,Segunda Punta / Delantero Móvil,Segunda Punta / Delantero Móvil,0.48134081354218916,0.5186591864578108
+Christoph Baumgartner (1999),RB Leipzig,GER-Bundesliga,MF,26,Segunda Punta / Delantero Móvil,Segunda Punta / Delantero Móvil,0.48255958068031013,0.5174404193196899
+Alexis Mac Allister (1998),Liverpool,ENG-Premier League,MF,27,Extremo / Creador,Extremo / Creador,0.48354603214092506,0.5164539678590749
+Omar Mascarell (1993),Mallorca,ESP-La Liga,MF,32,Defensor Central,Volante Recuperador,0.5015776786767832,0.5147727911753174
+Christopher Nkunku (1997),Chelsea,ENG-Premier League,FW,28,Segunda Punta / Delantero Móvil,Segunda Punta / Delantero Móvil,0.48664534992211644,0.5133546500778836
+Vincenzo Grifo (1993),Freiburg,GER-Bundesliga,"FW,MF",32,Organizador / Regista,Extremo / Creador,0.5015400739643334,0.5125355966850935
+Mohamed Amoura (2000),Wolfsburg,GER-Bundesliga,FW,25,Extremo / Creador,Extremo / Creador,0.48798863685776933,0.5120113631422307
+Alex Král (1998),Espanyol,ESP-La Liga,MF,27,Volante Recuperador,Volante Recuperador,0.4881713560816563,0.5118286439183437
+Max Rosenfelder (2003),Freiburg,GER-Bundesliga,DF,22,Lateral / Carrilero,Lateral / Carrilero,0.4891090230186758,0.5108909769813241
+Keito Nakamura (2000),Reims,FRA-Ligue 1,"FW,MF",25,Extremo / Creador,Extremo / Creador,0.4894056400204183,0.5105943599795817
+Iñigo Ruiz de Galarreta (1993),Athletic Club,ESP-La Liga,MF,32,Organizador / Regista,Organizador / Regista,0.490549705718491,0.509450294281509
+Saba Goglichidze (2004),Empoli,ITA-Serie A,DF,21,Volante Recuperador,Volante Recuperador,0.49080959209742187,0.5091904079025782
+Maximilian Mittelstädt (1997),Stuttgart,GER-Bundesliga,DF,28,Lateral / Carrilero,Lateral / Carrilero,0.4912467562118405,0.5087532437881594
+Hamza Rafia (1999),Lecce,ITA-Serie A,MF,26,Organizador / Regista,Organizador / Regista,0.49182438694959907,0.5081756130504009
+Pape Matar Sarr (2002),Tottenham,ENG-Premier League,MF,23,Volante Recuperador,Volante Recuperador,0.4921080770160894,0.5078919229839106
+Kevin Akpoguma (1995),Hoffenheim,GER-Bundesliga,DF,30,Volante Recuperador,Volante Recuperador,0.4934773129858032,0.5065226870141968
+Danny da Costa (1993),Mainz 05,GER-Bundesliga,DF,32,Volante Recuperador,Volante Recuperador,0.49409947925402437,0.5059005207459757
+Pierre Højbjerg (1995),Marseille,FRA-Ligue 1,MF,30,Organizador / Regista,Organizador / Regista,0.4950682107651614,0.5049317892348386
+Takuma Asano (1994),Mallorca,ESP-La Liga,"FW,MF",31,Delantero Finalizador (9),Delantero Finalizador (9),0.4953970553651888,0.5046029446348113
+Iván Martín (1999),Girona,ESP-La Liga,MF,26,Organizador / Regista,Organizador / Regista,0.49843094515429537,0.5015690548457046
+Jamal Musiala (2003),Bayern Munich,GER-Bundesliga,MF,22,Segunda Punta / Delantero Móvil,Segunda Punta / Delantero Móvil,0.49880903896208806,0.5011909610379119
+Francesco Zampano (1993),Venezia,ITA-Serie A,DF,32,Lateral / Carrilero,Lateral / Carrilero,0.499107375586545,0.5008926244134551
+Gvidas Gineitis (2004),Torino,ITA-Serie A,MF,21,Extremo / Creador,Extremo / Creador,0.49940139793053473,0.5005986020694653
+Leonardo Bittencourt (1993),Werder Bremen,GER-Bundesliga,MF,32,Organizador / Regista,Organizador / Regista,0.5004993757901595,0.49950062420984054
+Arnaud Nordin (1998),Montpellier,FRA-Ligue 1,FW,27,Extremo / Creador,Extremo / Creador,0.5005246181036741,0.4994753818963259
+Maximilian Wittek (1995),Bochum,GER-Bundesliga,DF,30,Organizador / Regista,Organizador / Regista,0.5012026236847668,0.49879737631523324
+Josha Vagnoman (2000),Stuttgart,GER-Bundesliga,"DF,MF",25,Lateral / Carrilero,Lateral / Carrilero,0.501488175130935,0.498511824869065
+Edu Expósito (1996),Espanyol,ESP-La Liga,MF,29,Organizador / Regista,Organizador / Regista,0.5017900389689064,0.4982099610310936
+André Gomes (1993),Lille,FRA-Ligue 1,MF,32,Volante Recuperador,Volante Recuperador,0.5035158794373048,0.4964841205626952
+Damián Rodríguez (2003),Celta Vigo,ESP-La Liga,MF,22,Volante Recuperador,Volante Recuperador,0.5061410877661005,0.49385891223389955
+Félix Lemaréchal (2003),Strasbourg,FRA-Ligue 1,"MF,FW",22,Extremo / Creador,Extremo / Creador,0.5073146627301097,0.4926853372698903
+Cole Palmer (2002),Chelsea,ENG-Premier League,"MF,FW",23,Extremo / Creador,Extremo / Creador,0.5099266080771495,0.4900733919228505
+Abdoulaye Doucouré (1993),Everton,ENG-Premier League,MF,32,Extremo / Creador,Extremo / Creador,0.5118754400339658,0.4881245599660342
+Dan Ndoye (2000),Bologna,ITA-Serie A,FW,25,Extremo / Creador,Extremo / Creador,0.5120012816791192,0.4879987183208808
+Dodô (1998),Fiorentina,ITA-Serie A,DF,27,Lateral / Carrilero,Lateral / Carrilero,0.5123656205658786,0.48763437943412136
+Oihan Sancet (2000),Athletic Club,ESP-La Liga,MF,25,Segunda Punta / Delantero Móvil,Segunda Punta / Delantero Móvil,0.5129452416264815,0.4870547583735185
+Derrick Köhn (1999),Werder Bremen,GER-Bundesliga,"DF,FW",26,Lateral / Carrilero,Lateral / Carrilero,0.5166814142936283,0.48331858570637165
+Lassine Sinayoko (1999),Auxerre,FRA-Ligue 1,"FW,MF",26,Delantero Finalizador (9),Delantero Finalizador (9),0.5184297119983635,0.4815702880016365
+Éderson (1999),Atalanta,ITA-Serie A,MF,26,Volante Recuperador,Volante Recuperador,0.5223442055752258,0.47765579442477424
+Martin Ødegaard (1998),Arsenal,ENG-Premier League,MF,27,Extremo / Creador,Extremo / Creador,0.5226995531307979,0.47730044686920214
+Paulo Dybala (1993),Roma,ITA-Serie A,"FW,MF",32,Extremo / Creador,Extremo / Creador,0.5235322483532666,0.4764677516467334
+András Schäfer (1999),Union Berlin,GER-Bundesliga,MF,26,Volante Recuperador,Volante Recuperador,0.5240917306235415,0.47590826937645847
+Noni Madueke (2002),Chelsea,ENG-Premier League,FW,23,Segunda Punta / Delantero Móvil,Segunda Punta / Delantero Móvil,0.5242344840533112,0.4757655159466888
+Pierre Kalulu (2000),Juventus,ITA-Serie A,DF,25,Volante Recuperador,Volante Recuperador,0.5259077660614363,0.4740922339385637
+Harry Winks (1996),Leicester City,ENG-Premier League,MF,29,Volante Recuperador,Volante Recuperador,0.5261200113389551,0.47387998866104486
+Daniel Parejo (1989),Villarreal,ESP-La Liga,MF,36,Organizador / Regista,Organizador / Regista,0.5272983268732313,0.4727016731267687
+Samuel Lino (1999),Atlético Madrid,ESP-La Liga,"MF,DF",26,Extremo / Creador,Extremo / Creador,0.5273324791651018,0.47266752083489816
+Clinton Mata (1992),Lyon,FRA-Ligue 1,DF,33,Volante Recuperador,Volante Recuperador,0.5281503160956228,0.4718496839043772
+Daniel Vivian (1999),Athletic Club,ESP-La Liga,DF,26,Defensor Central,Defensor Central,0.5301802792485292,0.4698197207514708
+Takumi Minamino (1995),Monaco,FRA-Ligue 1,"MF,FW",30,Extremo / Creador,Extremo / Creador,0.531094658923288,0.468905341076712
+Anass Zaroury (2000),Lens,FRA-Ligue 1,"FW,MF",25,Extremo / Creador,Extremo / Creador,0.5317330180471952,0.4682669819528048
+Eric Smith (1997),St. Pauli,GER-Bundesliga,"DF,MF",28,Volante Recuperador,Volante Recuperador,0.5351645215560457,0.46483547844395434
+Andre-Frank Zambo Anguissa (1995),Napoli,ITA-Serie A,MF,30,Volante Recuperador,Volante Recuperador,0.5358617160568009,0.4641382839431991
+Angelo Fulgini (1996),Lens,FRA-Ligue 1,"MF,FW",29,Extremo / Creador,Extremo / Creador,0.53643644902118,0.46356355097881996
+Antonio Sánchez (1997),Mallorca,ESP-La Liga,"MF,DF",28,Lateral / Carrilero,Lateral / Carrilero,0.5375274456122678,0.46247255438773216
+Bernardo Silva (1994),Manchester City,ENG-Premier League,"MF,FW",31,Organizador / Regista,Organizador / Regista,0.5396279849065553,0.4603720150934447
+Matteo Darmian (1989),Inter,ITA-Serie A,DF,36,Lateral / Carrilero,Lateral / Carrilero,0.5406771692527679,0.4593228307472321
+Armin Gigovic (2002),Holstein Kiel,GER-Bundesliga,MF,23,Extremo / Creador,Extremo / Creador,0.5411556270648433,0.4588443729351567
+Fermin López (2003),Barcelona,ESP-La Liga,"MF,FW",22,Extremo / Creador,Extremo / Creador,0.5418728066062679,0.4581271933937321
+Calvin Bassey (1999),Fulham,ENG-Premier League,DF,26,Defensor Central,Defensor Central,0.542899424952893,0.457100575047107
+Moritz Broschinski (2000),Bochum,GER-Bundesliga,"FW,MF",25,Delantero Finalizador (9),Delantero Finalizador (9),0.5435942800213319,0.4564057199786681
+Mikkel Damsgaard (2000),Brentford,ENG-Premier League,"MF,FW",25,Organizador / Regista,Organizador / Regista,0.5438576035044482,0.45614239649555177
+Peque (2002),Sevilla,ESP-La Liga,"MF,FW",23,Extremo / Creador,Extremo / Creador,0.5444703864045496,0.4555296135954504
+Warren Bondo (2003),Monza,ITA-Serie A,MF,22,Volante Recuperador,Volante Recuperador,0.5455616466726075,0.45443835332739246
+Niccolò Pisilli (2004),Roma,ITA-Serie A,MF,21,Extremo / Creador,Extremo / Creador,0.5459692965810402,0.4540307034189598
+Donny van de Beek (1997),Girona,ESP-La Liga,MF,28,Extremo / Creador,Extremo / Creador,0.5491809937252567,0.45081900627474325
+Alejandro Francés (2002),Girona,ESP-La Liga,DF,23,Volante Recuperador,Volante Recuperador,0.5515641077930953,0.4484358922069047
+Bukayo Saka (2001),Arsenal,ENG-Premier League,"FW,MF",24,Extremo / Creador,Extremo / Creador,0.552246457310113,0.447753542689887
+Koke (1992),Atlético Madrid,ESP-La Liga,MF,33,Volante Recuperador,Volante Recuperador,0.5524450014896523,0.44755499851034775
+Ismaël Doukouré (2003),Strasbourg,FRA-Ligue 1,"DF,MF",22,Defensor Central,Defensor Central,0.5525549010358121,0.44744509896418794
+Tom Rothe (2004),Union Berlin,GER-Bundesliga,"DF,MF",21,Lateral / Carrilero,Lateral / Carrilero,0.5526461556073393,0.4473538443926607
+Andrei Ratiu (1998),Rayo Vallecano,ESP-La Liga,DF,27,Lateral / Carrilero,Lateral / Carrilero,0.5534155401869246,0.4465844598130754
+Marcos Alonso (1990),Celta Vigo,ESP-La Liga,DF,35,Volante Recuperador,Volante Recuperador,0.5537463461876063,0.4462536538123937
+Hamed Junior Traorè (2000),Auxerre,FRA-Ligue 1,MF,25,Extremo / Creador,Extremo / Creador,0.5547741610686572,0.4452258389313428
+Ado Onaiwu (1995),Auxerre,FRA-Ligue 1,"MF,FW",30,Delantero Finalizador (9),Delantero Finalizador (9),0.5549066441916366,0.4450933558083634
+Mahdi Camara (1998),Brest,FRA-Ligue 1,"MF,FW",27,Extremo / Creador,Extremo / Creador,0.5550671997594037,0.44493280024059634
+Flavius Daniliuc (2001),Hellas Verona,ITA-Serie A,DF,24,Lateral / Carrilero,Lateral / Carrilero,0.5559777078652381,0.44402229213476185
+Hans Nicolussi Caviglia (2000),Venezia,ITA-Serie A,MF,25,Volante Recuperador,Volante Recuperador,0.5561294982925017,0.4438705017074983
+Diogo Jota (1996),Liverpool,ENG-Premier League,FW,29,Segunda Punta / Delantero Móvil,Segunda Punta / Delantero Móvil,0.5584589926797865,0.4415410073202135
+Unai López (1995),Rayo Vallecano,ESP-La Liga,MF,30,Volante Recuperador,Volante Recuperador,0.5589475362035579,0.44105246379644214
+Giovanni Fabbian (2003),Bologna,ITA-Serie A,MF,22,Delantero Finalizador (9),Delantero Finalizador (9),0.5590600538551861,0.4409399461448139
+Exequiel Palacios (1998),Leverkusen,GER-Bundesliga,MF,27,Organizador / Regista,Organizador / Regista,0.5596598322171275,0.44034016778287255
+Álvaro Tejero (1996),Espanyol,ESP-La Liga,"MF,DF",29,Organizador / Regista,Organizador / Regista,0.560843466192927,0.439156533807073
+Seydouba Cissé (2001),Leganés,ESP-La Liga,MF,24,Volante Recuperador,Volante Recuperador,0.5627497178139003,0.43725028218609974
+Adam Armstrong (1997),Southampton,ENG-Premier League,"FW,MF",28,Delantero Finalizador (9),Delantero Finalizador (9),0.5639202497165858,0.43607975028341417
+Valentino Lazaro (1996),Torino,ITA-Serie A,"DF,FW",29,Lateral / Carrilero,Lateral / Carrilero,0.5646429188523863,0.43535708114761373
+Charles De Ketelaere (2001),Atalanta,ITA-Serie A,"MF,FW",24,Segunda Punta / Delantero Móvil,Segunda Punta / Delantero Móvil,0.5648380127939191,0.4351619872060809
+Falaye Sacko (1995),Montpellier,FRA-Ligue 1,DF,30,Lateral / Carrilero,Lateral / Carrilero,0.5656070053563547,0.43439299464364534
+Aurélien Tchouaméni (2000),Real Madrid,ESP-La Liga,"DF,MF",25,Defensor Central,Defensor Central,0.5669228544835238,0.43307714551647625
+Odilon Kossounou (2001),Atalanta,ITA-Serie A,DF,24,Volante Recuperador,Volante Recuperador,0.567528764650806,0.43247123534919396
+Samuel Chukwueze (1999),Milan,ITA-Serie A,"FW,MF",26,Extremo / Creador,Extremo / Creador,0.5685176868204618,0.4314823131795382
+Bilal El Khannouss (2004),Leicester City,ENG-Premier League,"MF,FW",21,Organizador / Regista,Organizador / Regista,0.5686183853636491,0.43138161463635094
+Patrick Osterhage (2000),Freiburg,GER-Bundesliga,MF,25,Volante Recuperador,Volante Recuperador,0.5686886963727716,0.43131130362722836
+Mattéo Guendouzi (1999),Lazio,ITA-Serie A,MF,26,Volante Recuperador,Volante Recuperador,0.5687997381171049,0.43120026188289506
+Nicolás González (1998),Juventus,ITA-Serie A,"FW,MF",27,Segunda Punta / Delantero Móvil,Segunda Punta / Delantero Móvil,0.5694357819576926,0.4305642180423074
+Ayyoub Bouaddi (2007),Lille,FRA-Ligue 1,MF,18,Volante Recuperador,Volante Recuperador,0.569598402683241,0.430401597316759
+Bryan Mbeumo (1999),Brentford,ENG-Premier League,FW,26,Extremo / Creador,Extremo / Creador,0.5706321527123146,0.4293678472876854
+Pedro Díaz (1998),Rayo Vallecano,ESP-La Liga,MF,27,Organizador / Regista,Organizador / Regista,0.5717438260420552,0.4282561739579448
+Valentin Atangana Edoa (2005),Reims,FRA-Ligue 1,MF,20,Volante Recuperador,Volante Recuperador,0.5732366076834541,0.4267633923165459
+Darko Lazović (1990),Hellas Verona,ITA-Serie A,"DF,MF",35,Extremo / Creador,Extremo / Creador,0.5747599944216277,0.42524000557837227
+Matìas Soulé (2003),Roma,ITA-Serie A,"MF,DF",22,Extremo / Creador,Extremo / Creador,0.5753528426435068,0.42464715735649317
+Axel Tuanzebe (1997),Ipswich Town,ENG-Premier League,DF,28,Lateral / Carrilero,Lateral / Carrilero,0.5771298124361481,0.42287018756385186
+Joelinton (1996),Newcastle Utd,ENG-Premier League,"MF,FW",29,Segunda Punta / Delantero Móvil,Segunda Punta / Delantero Móvil,0.5772510200842428,0.4227489799157572
+Niklas Dorsch (1998),Heidenheim,GER-Bundesliga,MF,27,Organizador / Regista,Organizador / Regista,0.5775151968095429,0.4224848031904571
+Pablo Ibáñez (1998),Osasuna,ESP-La Liga,MF,27,Volante Recuperador,Volante Recuperador,0.5777575498119867,0.4222424501880133
+Florian Sotoca (1990),Lens,FRA-Ligue 1,"FW,MF",35,Segunda Punta / Delantero Móvil,Segunda Punta / Delantero Móvil,0.5781717371545004,0.42182826284549957
+Dwight McNeil (1999),Everton,ENG-Premier League,"MF,FW",26,Organizador / Regista,Organizador / Regista,0.5790155842818877,0.4209844157181123
+Elias Saad (1999),St. Pauli,GER-Bundesliga,"FW,MF",26,Extremo / Creador,Extremo / Creador,0.5803368124040824,0.4196631875959176
+Pablo Marín (2003),Real Sociedad,ESP-La Liga,MF,22,Extremo / Creador,Extremo / Creador,0.5805694657454005,0.41943053425459953
+Himad Abdelli (1999),Angers,FRA-Ligue 1,"MF,FW",26,Organizador / Regista,Organizador / Regista,0.5809554101611181,0.41904458983888193
+Hugo Ekitike (2002),Eint Frankfurt,GER-Bundesliga,FW,23,Delantero Finalizador (9),Delantero Finalizador (9),0.5815130386279223,0.41848696137207775
+Tanguy Ndombele (1996),Nice,FRA-Ligue 1,MF,29,Extremo / Creador,Extremo / Creador,0.5818586747010376,0.4181413252989624
+Gavi (2004),Barcelona,ESP-La Liga,"MF,FW",21,Volante Recuperador,Volante Recuperador,0.5820514775631582,0.4179485224368418
+Malo Gusto (2003),Chelsea,ENG-Premier League,DF,22,Organizador / Regista,Organizador / Regista,0.5830535031901829,0.4169464968098171
+Joško Gvardiol (2002),Manchester City,ENG-Premier League,DF,23,Volante Recuperador,Volante Recuperador,0.5847770383173312,0.4152229616826688
+Cristian Cásseres Jr. (2000),Toulouse,FRA-Ligue 1,MF,25,Volante Recuperador,Volante Recuperador,0.5858777745232121,0.4141222254767879
+Castello Lukeba (2002),RB Leipzig,GER-Bundesliga,DF,23,Volante Recuperador,Volante Recuperador,0.5865381792272902,0.41346182077270976
+Nicolás Paz (2004),Como,ITA-Serie A,"MF,FW",21,Extremo / Creador,Extremo / Creador,0.5876526344551166,0.4123473655448834
+Raphinha (1996),Barcelona,ESP-La Liga,"FW,MF",29,Extremo / Creador,Extremo / Creador,0.5876921946100115,0.41230780538998846
+Rayan Cherki (2003),Lyon,FRA-Ligue 1,"FW,MF",22,Extremo / Creador,Extremo / Creador,0.5880057363928324,0.4119942636071676
+Callum Hudson-Odoi (2000),Nott'ham Forest,ENG-Premier League,"FW,MF",25,Extremo / Creador,Extremo / Creador,0.5890072043038843,0.4109927956961157
+Lautaro Martínez (1997),Inter,ITA-Serie A,FW,28,Delantero Finalizador (9),Delantero Finalizador (9),0.5917888649787492,0.40821113502125084
+Scott McTominay (1996),Napoli,ITA-Serie A,MF,29,Segunda Punta / Delantero Móvil,Segunda Punta / Delantero Móvil,0.5936927122914835,0.40630728770851654
+Sergi Darder (1993),Mallorca,ESP-La Liga,"MF,FW",32,Organizador / Regista,Organizador / Regista,0.5936997906823772,0.4063002093176228
+Giovanni Di Lorenzo (1993),Napoli,ITA-Serie A,DF,32,Lateral / Carrilero,Lateral / Carrilero,0.5941359105111567,0.40586408948884334
+Florian Tardieu (1992),Saint-Étienne,FRA-Ligue 1,MF,33,Organizador / Regista,Organizador / Regista,0.5944370433139808,0.40556295668601916
+Ben White (1997),Arsenal,ENG-Premier League,DF,28,Lateral / Carrilero,Lateral / Carrilero,0.5955273089981089,0.4044726910018911
+Tim Oermann (2003),Bochum,GER-Bundesliga,DF,22,Volante Recuperador,Volante Recuperador,0.5966492376470521,0.40335076235294787
+Frank Onyeka (1998),Augsburg,GER-Bundesliga,MF,27,Volante Recuperador,Volante Recuperador,0.5970292616496743,0.4029707383503257
+Ridgeciano Haps (1993),Venezia,ITA-Serie A,DF,32,Lateral / Carrilero,Lateral / Carrilero,0.5987478001529789,0.4012521998470211
+Santi Comesaña (1996),Villarreal,ESP-La Liga,MF,29,Volante Recuperador,Volante Recuperador,0.5990956082786215,0.4009043917213785
+Sebastiano Esposito (2002),Empoli,ITA-Serie A,"FW,MF",23,Extremo / Creador,Extremo / Creador,0.5992311902342615,0.4007688097657385
+Manuel Locatelli (1998),Juventus,ITA-Serie A,MF,27,Volante Recuperador,Volante Recuperador,0.5996423926341353,0.4003576073658647
+Iago Aspas (1987),Celta Vigo,ESP-La Liga,"FW,MF",38,Extremo / Creador,Extremo / Creador,0.6006594105608248,0.39934058943917516
+Mohamed Salah (1992),Liverpool,ENG-Premier League,FW,33,Segunda Punta / Delantero Móvil,Segunda Punta / Delantero Móvil,0.6010617453424477,0.3989382546575523
+Arthur Melo (1996),Girona,ESP-La Liga,MF,29,Volante Recuperador,Volante Recuperador,0.60106699613703,0.39893300386297004
+Angeliño (1997),Roma,ITA-Serie A,DF,28,Lateral / Carrilero,Lateral / Carrilero,0.6012553053781007,0.3987446946218993
+Mikel Jauregizar (2003),Athletic Club,ESP-La Liga,MF,22,Volante Recuperador,Volante Recuperador,0.6045335333586728,0.39546646664132723
+Désiré Doué (2005),Paris S-G,FRA-Ligue 1,"FW,MF",20,Extremo / Creador,Extremo / Creador,0.6050611731114377,0.3949388268885623
+Przemysław Frankowski (1995),Lens,FRA-Ligue 1,DF,30,Organizador / Regista,Organizador / Regista,0.606969780287957,0.393030219712043
+Wesley Fofana (2000),Chelsea,ENG-Premier League,DF,25,Volante Recuperador,Volante Recuperador,0.6081080255637579,0.39189197443624213
+Nicolás Tagliafico (1992),Lyon,FRA-Ligue 1,DF,33,Volante Recuperador,Volante Recuperador,0.6082881840412703,0.3917118159587297
+Hákon Arnar Haraldsson (2003),Lille,FRA-Ligue 1,"MF,FW",22,Extremo / Creador,Extremo / Creador,0.6083682826780356,0.39163171732196445
+Santiago Mouriño (2002),Alavés,ESP-La Liga,DF,23,Defensor Central,Defensor Central,0.608802208466352,0.391197791533648
+Răzvan Marin (1996),Cagliari,ITA-Serie A,MF,29,Organizador / Regista,Organizador / Regista,0.6116523300662199,0.3883476699337801
+Marcos Senesi (1997),Bournemouth,ENG-Premier League,DF,28,Volante Recuperador,Volante Recuperador,0.6121245373345716,0.3878754626654284
+Sebastian Walukiewicz (2000),Torino,ITA-Serie A,DF,25,Lateral / Carrilero,Lateral / Carrilero,0.6122669369591122,0.38773306304088784
+Justin Kluivert (1999),Bournemouth,ENG-Premier League,MF,26,Extremo / Creador,Extremo / Creador,0.6125802234206129,0.3874197765793871
+Mohamed Ali Cho (2004),Nice,FRA-Ligue 1,"FW,MF",21,Extremo / Creador,Extremo / Creador,0.612790332546391,0.38720966745360896
+Ben Johnson (2000),Ipswich Town,ENG-Premier League,"DF,FW",25,Lateral / Carrilero,Lateral / Carrilero,0.612819464941995,0.387180535058005
+Mateus Fernandes (2004),Southampton,ENG-Premier League,MF,21,Organizador / Regista,Organizador / Regista,0.613947245842029,0.386052754157971
+Lucas Bergvall (2006),Tottenham,ENG-Premier League,MF,19,Organizador / Regista,Organizador / Regista,0.6153587060407469,0.38464129395925306
+Noussair Mazraoui (1997),Manchester Utd,ENG-Premier League,DF,28,Lateral / Carrilero,Lateral / Carrilero,0.6157370656497537,0.3842629343502463
+Rico Lewis (2004),Manchester City,ENG-Premier League,"DF,MF",21,Volante Recuperador,Volante Recuperador,0.6161213001595541,0.38387869984044587
+Yann Aurel Bisseck (2000),Inter,ITA-Serie A,DF,25,Volante Recuperador,Volante Recuperador,0.6176155659626379,0.3823844340373621
+Antoine Joujou (2003),Le Havre,FRA-Ligue 1,"MF,FW",22,Extremo / Creador,Extremo / Creador,0.6176538192643148,0.38234618073568516
+Ian Maatsen (2002),Aston Villa,ENG-Premier League,DF,23,Organizador / Regista,Organizador / Regista,0.6192883265823439,0.3807116734176561
+Tom Bischof (2005),Hoffenheim,GER-Bundesliga,"MF,FW",20,Organizador / Regista,Organizador / Regista,0.6204742580588953,0.37952574194110467
+Casper Tengstedt (2000),Hellas Verona,ITA-Serie A,FW,25,Delantero Finalizador (9),Delantero Finalizador (9),0.6206619733945267,0.37933802660547333
+Nicolas Pépé (1995),Villarreal,ESP-La Liga,"FW,MF",30,Extremo / Creador,Extremo / Creador,0.6207406691117983,0.37925933088820174
+Lisandro Martínez (1998),Manchester Utd,ENG-Premier League,DF,27,Volante Recuperador,Volante Recuperador,0.6207443656204464,0.37925563437955356
+James Garner (2001),Everton,ENG-Premier League,"MF,DF",24,Lateral / Carrilero,Lateral / Carrilero,0.6209640416445567,0.37903595835544335
+Roberto Navarro (2002),Mallorca,ESP-La Liga,"MF,FW",23,Extremo / Creador,Extremo / Creador,0.6212532601474723,0.3787467398525277
+Lorenz Assignon (2000),Rennes,FRA-Ligue 1,"DF,MF",25,Lateral / Carrilero,Lateral / Carrilero,0.6232657435155287,0.37673425648447134
+Henrikh Mkhitaryan (1989),Inter,ITA-Serie A,MF,36,Organizador / Regista,Organizador / Regista,0.62357789996842,0.37642210003158005
+Lucas Torró (1994),Osasuna,ESP-La Liga,MF,31,Volante Recuperador,Volante Recuperador,0.6244451682239748,0.3755548317760252
+Santiago Pierotti (2001),Lecce,ITA-Serie A,FW,24,Segunda Punta / Delantero Móvil,Segunda Punta / Delantero Móvil,0.6246632234320584,0.3753367765679416
+Ademola Lookman (1997),Atalanta,ITA-Serie A,"MF,FW",28,Segunda Punta / Delantero Móvil,Segunda Punta / Delantero Móvil,0.6264028328580674,0.3735971671419326
+Manuel Akanji (1995),Manchester City,ENG-Premier League,DF,30,Volante Recuperador,Volante Recuperador,0.6265908582972174,0.3734091417027826
+Carlos Martín (2002),Alavés,ESP-La Liga,"FW,MF",23,Extremo / Creador,Extremo / Creador,0.627962767508638,0.372037232491362
+Iñaki Williams (1994),Athletic Club,ESP-La Liga,FW,31,Extremo / Creador,Extremo / Creador,0.6286037021661149,0.37139629783388506
+Andrea Carboni (2001),Monza,ITA-Serie A,DF,24,Defensor Central,Defensor Central,0.6300367644936055,0.36996323550639454
+Reece James (1999),Chelsea,ENG-Premier League,"DF,MF",26,Volante Recuperador,Volante Recuperador,0.6308173434431215,0.36918265655687854
+Giacomo Raspadori (2000),Napoli,ITA-Serie A,"FW,MF",25,Extremo / Creador,Extremo / Creador,0.6314336720365588,0.36856632796344124
+Darko Brašanac (1992),Leganés,ESP-La Liga,MF,33,Volante Recuperador,Volante Recuperador,0.6331199431932026,0.36688005680679736
+Arthur Theate (2000),Eint Frankfurt,GER-Bundesliga,DF,25,Volante Recuperador,Volante Recuperador,0.6336462890309067,0.3663537109690933
+Gianluca Gaetano (2000),Cagliari,ITA-Serie A,"MF,FW",25,Extremo / Creador,Extremo / Creador,0.634027770494575,0.36597222950542496
+Rafael Leão (1999),Milan,ITA-Serie A,FW,26,Extremo / Creador,Extremo / Creador,0.6341796883409169,0.36582031165908313
+Federico Dimarco (1997),Inter,ITA-Serie A,"DF,FW",28,Organizador / Regista,Organizador / Regista,0.634483340049428,0.36551665995057203
+Gabriel Suazo (1997),Toulouse,FRA-Ligue 1,DF,28,Lateral / Carrilero,Lateral / Carrilero,0.6348643738630926,0.3651356261369074
+Sergio Camello (2001),Rayo Vallecano,ESP-La Liga,FW,24,Delantero Finalizador (9),Delantero Finalizador (9),0.635069196105872,0.364930803894128
+Vanderson (2001),Monaco,FRA-Ligue 1,DF,24,Lateral / Carrilero,Lateral / Carrilero,0.6356223512811102,0.3643776487188898
+Liberato Cacace (2000),Empoli,ITA-Serie A,"MF,DF",25,Lateral / Carrilero,Lateral / Carrilero,0.6373797071809713,0.36262029281902874
+Billy Gilmour (2001),Napoli,ITA-Serie A,MF,24,Organizador / Regista,Organizador / Regista,0.6385063903108711,0.3614936096891289
+Jackson Irvine (1993),St. Pauli,GER-Bundesliga,MF,32,Volante Recuperador,Volante Recuperador,0.6394360986809223,0.3605639013190777
+Adrian Beck (1997),Heidenheim,GER-Bundesliga,"MF,FW",28,Extremo / Creador,Extremo / Creador,0.639732922800941,0.36026707719905904
+Benjamín Domínguez (2003),Bologna,ITA-Serie A,FW,22,Extremo / Creador,Extremo / Creador,0.6402223254014838,0.3597776745985162
+Robin Hack (1998),Gladbach,GER-Bundesliga,"FW,MF",27,Extremo / Creador,Extremo / Creador,0.642014562346165,0.35798543765383495
+Jacopo Fazzini (2003),Empoli,ITA-Serie A,MF,22,Extremo / Creador,Extremo / Creador,0.6423886694272929,0.3576113305727071
+Lutsharel Geertruida (2000),RB Leipzig,GER-Bundesliga,DF,25,Volante Recuperador,Volante Recuperador,0.6434770600669755,0.35652293993302453
+Enrico Del Prato (1999),Parma,ITA-Serie A,DF,26,Defensor Central,Defensor Central,0.6447821184226967,0.3552178815773033
+Florian Thauvin (1993),Udinese,ITA-Serie A,"FW,MF",32,Extremo / Creador,Extremo / Creador,0.6449636154856009,0.3550363845143991
+Juan Cruz (2000),Leganés,ESP-La Liga,"FW,MF",25,Extremo / Creador,Extremo / Creador,0.6467592620390269,0.3532407379609731
+Pablo Fornals (1996),Betis,ESP-La Liga,"MF,FW",29,Organizador / Regista,Organizador / Regista,0.6477888096884352,0.3522111903115648
+Thomas Partey (1993),Arsenal,ENG-Premier League,"MF,DF",32,Volante Recuperador,Volante Recuperador,0.6493277527576241,0.3506722472423759
+Jonathan David (2000),Lille,FRA-Ligue 1,FW,25,Delantero Finalizador (9),Delantero Finalizador (9),0.6496654014512536,0.3503345985487464
+Djaoui Cissé (2004),Rennes,FRA-Ligue 1,MF,21,Volante Recuperador,Volante Recuperador,0.6497748790123172,0.35022512098768277
+Jonathan Burkardt (2000),Mainz 05,GER-Bundesliga,FW,25,Delantero Finalizador (9),Delantero Finalizador (9),0.6506312874594403,0.3493687125405597
+Dayot Upamecano (1998),Bayern Munich,GER-Bundesliga,DF,27,Defensor Central,Defensor Central,0.6509758151345938,0.3490241848654062
+Bradley Barcola (2002),Paris S-G,FRA-Ligue 1,FW,23,Extremo / Creador,Extremo / Creador,0.6521722338555402,0.34782776614445976
+Rayan Aït-Nouri (2001),Wolves,ENG-Premier League,DF,24,Lateral / Carrilero,Lateral / Carrilero,0.6541190313915259,0.34588096860847406
+Max Geschwill (2001),Holstein Kiel,GER-Bundesliga,DF,24,Volante Recuperador,Volante Recuperador,0.6542443773691965,0.3457556226308035
+Pontus Almqvist (1999),Parma,ITA-Serie A,"FW,MF",26,Extremo / Creador,Extremo / Creador,0.6545475567824328,0.3454524432175672
+Urko González (2001),Espanyol,ESP-La Liga,MF,24,Volante Recuperador,Volante Recuperador,0.6545542663303159,0.3454457336696841
+Martín Payero (1998),Udinese,ITA-Serie A,MF,27,Extremo / Creador,Extremo / Creador,0.6546338785781876,0.34536612142181244
+Hernani (1994),Parma,ITA-Serie A,MF,31,Organizador / Regista,Organizador / Regista,0.6548656013181748,0.34513439868182516
+Youssef Maleh (1998),Empoli,ITA-Serie A,MF,27,Volante Recuperador,Volante Recuperador,0.6554789990870036,0.3445210009129964
+Berat Djimsiti (1993),Atalanta,ITA-Serie A,DF,32,Defensor Central,Defensor Central,0.6565465059341176,0.34345349406588244
+Omar Traoré (1998),Heidenheim,GER-Bundesliga,DF,27,Lateral / Carrilero,Lateral / Carrilero,0.6585550177669757,0.34144498223302433
+Denzel Dumfries (1996),Inter,ITA-Serie A,"DF,FW",29,Segunda Punta / Delantero Móvil,Segunda Punta / Delantero Móvil,0.6587726143088898,0.3412273856911102
+Joris Chotard (2001),Montpellier,FRA-Ligue 1,MF,24,Volante Recuperador,Volante Recuperador,0.6604923861196469,0.3395076138803531
+Kristoffer Ajer (1998),Brentford,ENG-Premier League,DF,27,Lateral / Carrilero,Lateral / Carrilero,0.6613173425365546,0.3386826574634454
+Jhon Lucumí (1998),Bologna,ITA-Serie A,DF,27,Defensor Central,Defensor Central,0.6621507284888436,0.3378492715111564
+Evann Guessand (2001),Nice,FRA-Ligue 1,"FW,MF",24,Delantero Finalizador (9),Delantero Finalizador (9),0.6626081452547821,0.33739185474521793
+Theo Hernández (1997),Milan,ITA-Serie A,DF,28,Organizador / Regista,Organizador / Regista,0.6627291558216928,0.3372708441783072
+Nicolò Rovella (2001),Lazio,ITA-Serie A,MF,24,Volante Recuperador,Volante Recuperador,0.6629744142950461,0.3370255857049539
+Tim Skarke (1996),Union Berlin,GER-Bundesliga,"FW,MF",29,Extremo / Creador,Extremo / Creador,0.6639920830973427,0.3360079169026573
+Carlos Vicente (1999),Alavés,ESP-La Liga,"FW,MF",26,Extremo / Creador,Extremo / Creador,0.6654246544342824,0.33457534556571755
+Rasmus Kristensen (1997),Eint Frankfurt,GER-Bundesliga,DF,28,Lateral / Carrilero,Lateral / Carrilero,0.6654883478485141,0.3345116521514859
+Luis Milla (1994),Getafe,ESP-La Liga,MF,31,Organizador / Regista,Organizador / Regista,0.6658351916436748,0.3341648083563252
+Maghnes Akliouche (2002),Monaco,FRA-Ligue 1,"FW,MF",23,Extremo / Creador,Extremo / Creador,0.6659057814833562,0.3340942185166438
+Eliesse Ben Seghir (2005),Monaco,FRA-Ligue 1,"MF,FW",20,Extremo / Creador,Extremo / Creador,0.6661630999063711,0.3338369000936289
+Marc Guéhi (2000),Crystal Palace,ENG-Premier League,DF,25,Defensor Central,Defensor Central,0.6663113728626467,0.33368862713735326
+Yeremi Pino (2002),Villarreal,ESP-La Liga,"MF,FW",23,Extremo / Creador,Extremo / Creador,0.6680190194261914,0.33198098057380865
+Declan Rice (1999),Arsenal,ENG-Premier League,MF,26,Organizador / Regista,Organizador / Regista,0.6685432431716317,0.3314567568283683
+João Pedro (2001),Brighton,ENG-Premier League,"FW,MF",24,Segunda Punta / Delantero Móvil,Segunda Punta / Delantero Móvil,0.6693481877516609,0.33065181224833906
+Dailon Livramento (2001),Hellas Verona,ITA-Serie A,"FW,MF",24,Delantero Finalizador (9),Delantero Finalizador (9),0.6698385424831553,0.33016145751684467
+Magnus Knudsen (2001),Holstein Kiel,GER-Bundesliga,MF,24,Volante Recuperador,Volante Recuperador,0.6700407445094646,0.3299592554905354
+Leroy Sané (1996),Bayern Munich,GER-Bundesliga,FW,29,Extremo / Creador,Extremo / Creador,0.6700459878387751,0.3299540121612249
+Arnaut Danjuma (1997),Girona,ESP-La Liga,"FW,MF",28,Extremo / Creador,Extremo / Creador,0.6704431769613265,0.3295568230386735
+Faustino Anjorin (2001),Empoli,ITA-Serie A,MF,24,Extremo / Creador,Extremo / Creador,0.670882161074035,0.329117838925965
+Stephan El Shaarawy (1992),Roma,ITA-Serie A,"DF,MF",33,Extremo / Creador,Extremo / Creador,0.6712306641379782,0.32876933586202184
+Nikola Vlašić (1997),Torino,ITA-Serie A,"MF,FW",28,Extremo / Creador,Extremo / Creador,0.6714438020909534,0.32855619790904655
+Deiver Machado (1993),Lens,FRA-Ligue 1,"DF,MF",32,Lateral / Carrilero,Lateral / Carrilero,0.6719322006187053,0.3280677993812947
+Nathan Tella (1999),Leverkusen,GER-Bundesliga,"MF,FW",26,Delantero Finalizador (9),Delantero Finalizador (9),0.673637574677132,0.32636242532286797
+Piero Hincapié (2002),Leverkusen,GER-Bundesliga,DF,23,Volante Recuperador,Volante Recuperador,0.6736666005169056,0.32633339948309437
+Michel Ndary Adopo (2000),Cagliari,ITA-Serie A,MF,25,Volante Recuperador,Volante Recuperador,0.6738358275673867,0.3261641724326133
+Matheus Nunes (1998),Manchester City,ENG-Premier League,"DF,MF",27,Organizador / Regista,Organizador / Regista,0.6744965401158047,0.32550345988419527
+Oliver Burke (1997),Werder Bremen,GER-Bundesliga,FW,28,Segunda Punta / Delantero Móvil,Segunda Punta / Delantero Móvil,0.6747564930576344,0.3252435069423656
+Leonardo Balerdi (1999),Marseille,FRA-Ligue 1,DF,26,Defensor Central,Defensor Central,0.6749895643500043,0.32501043564999565
+Carles Pérez (1998),Getafe,ESP-La Liga,"MF,FW",27,Extremo / Creador,Extremo / Creador,0.6752829059211373,0.32471709407886273
+Ramón Terrats (2000),Getafe,ESP-La Liga,"MF,FW",25,Extremo / Creador,Extremo / Creador,0.6758167234112015,0.32418327658879853
+Bence Dárdai (2006),Wolfsburg,GER-Bundesliga,MF,19,Volante Recuperador,Volante Recuperador,0.6772559211124994,0.32274407888750056
+Andrew Robertson (1994),Liverpool,ENG-Premier League,DF,31,Lateral / Carrilero,Lateral / Carrilero,0.6784461474108728,0.32155385258912716
+Jacob Murphy (1995),Newcastle Utd,ENG-Premier League,FW,30,Extremo / Creador,Extremo / Creador,0.6785762814682036,0.3214237185317964
+Jeffrey Gouweleeuw (1991),Augsburg,GER-Bundesliga,DF,34,Defensor Central,Defensor Central,0.6789184601110786,0.3210815398889214
+Kyle Walker (1990),Manchester City,ENG-Premier League,DF,35,Organizador / Regista,Organizador / Regista,0.6791130144348487,0.3208869855651513
+Gaëtan Laborde (1994),Nice,FRA-Ligue 1,FW,31,Delantero Finalizador (9),Delantero Finalizador (9),0.6799147412844826,0.3200852587155174
+Emerson (1999),Milan,ITA-Serie A,DF,26,Lateral / Carrilero,Lateral / Carrilero,0.6799316128934929,0.3200683871065071
+Yassin Belkhdim (2002),Angers,FRA-Ligue 1,MF,23,Volante Recuperador,Volante Recuperador,0.6801857174857133,0.3198142825142867
+Gabriel Magalhães (1997),Arsenal,ENG-Premier League,DF,28,Defensor Central,Defensor Central,0.6806475239541362,0.3193524760458638
+Georges Mikautadze (2000),Lyon,FRA-Ligue 1,FW,25,Delantero Finalizador (9),Delantero Finalizador (9),0.680794412423546,0.319205587576454
+Leon Bailey (1997),Aston Villa,ENG-Premier League,"FW,MF",28,Extremo / Creador,Extremo / Creador,0.6811979227280557,0.3188020772719443
+Dejan Kulusevski (2000),Tottenham,ENG-Premier League,"MF,FW",25,Extremo / Creador,Extremo / Creador,0.6825369465772065,0.31746305342279346
+Ryan Gravenberch (2002),Liverpool,ENG-Premier League,MF,23,Volante Recuperador,Volante Recuperador,0.6833046896976619,0.3166953103023381
+Igor (1998),Brighton,ENG-Premier League,DF,27,Defensor Central,Defensor Central,0.6834110563782947,0.3165889436217053
+Mërgim Vojvoda (1995),Torino,ITA-Serie A,DF,30,Organizador / Regista,Organizador / Regista,0.6836221878216334,0.3163778121783666
+Kyle Walker-Peters (1997),Southampton,ENG-Premier League,DF,28,Lateral / Carrilero,Lateral / Carrilero,0.683871158377182,0.31612884162281796
+Amin Sarr (2001),Hellas Verona,ITA-Serie A,FW,24,Delantero Finalizador (9),Delantero Finalizador (9),0.6842784750404707,0.3157215249595293
+Lilian Raolisoa (2000),Angers,FRA-Ligue 1,"DF,FW",25,Lateral / Carrilero,Lateral / Carrilero,0.6856442312340283,0.3143557687659717
+Joe Aribo (1996),Southampton,ENG-Premier League,"MF,DF",29,Volante Recuperador,Volante Recuperador,0.6864851127298531,0.31351488727014687
+Aimar Oroz (2001),Osasuna,ESP-La Liga,MF,24,Extremo / Creador,Extremo / Creador,0.6873923607431466,0.3126076392568534
+Amir Richardson (2002),Fiorentina,ITA-Serie A,MF,23,Volante Recuperador,Volante Recuperador,0.6885736866533623,0.31142631334663773
+Mats Wieffer (1999),Brighton,ENG-Premier League,"DF,MF",26,Volante Recuperador,Volante Recuperador,0.6890944720871035,0.3109055279128965
+Ayoze Pérez (1993),Villarreal,ESP-La Liga,FW,32,Delantero Finalizador (9),Delantero Finalizador (9),0.6904577021725515,0.30954229782744846
+Carmona (2002),Sevilla,ESP-La Liga,DF,23,Lateral / Carrilero,Lateral / Carrilero,0.6905336108445039,0.30946638915549607
+Lamine Yamal (2007),Barcelona,ESP-La Liga,FW,18,Extremo / Creador,Extremo / Creador,0.6905431444022345,0.3094568555977655
+Sergio Carreira (2000),Celta Vigo,ESP-La Liga,"MF,DF",25,Lateral / Carrilero,Lateral / Carrilero,0.6905693063119046,0.3094306936880954
+Joël Veltman (1992),Brighton,ENG-Premier League,DF,33,Lateral / Carrilero,Lateral / Carrilero,0.6931036624929094,0.30689633750709056
+Morato (2001),Nott'ham Forest,ENG-Premier League,DF,24,Defensor Central,Defensor Central,0.6938406639779484,0.3061593360220516
+Djibril Sow (1997),Sevilla,ESP-La Liga,MF,28,Volante Recuperador,Volante Recuperador,0.69435133887762,0.30564866112238
+Mikel Merino (1996),Arsenal,ENG-Premier League,"MF,FW",29,Segunda Punta / Delantero Móvil,Segunda Punta / Delantero Móvil,0.695926986941925,0.304073013058075
+Pedro Porro (1999),Tottenham,ENG-Premier League,DF,26,Organizador / Regista,Organizador / Regista,0.6963479761845573,0.30365202381544265
+Zito Luvumbo (2002),Cagliari,ITA-Serie A,"FW,MF",23,Extremo / Creador,Extremo / Creador,0.6966602042154636,0.3033397957845364
+Jonas Wind (1999),Wolfsburg,GER-Bundesliga,"FW,MF",26,Delantero Finalizador (9),Delantero Finalizador (9),0.6975471854486741,0.3024528145513259
+Fisayo Dele-Bashiru (2001),Lazio,ITA-Serie A,"MF,FW",24,Extremo / Creador,Extremo / Creador,0.6984889114363999,0.3015110885636001
+Youri Tielemans (1997),Aston Villa,ENG-Premier League,MF,28,Organizador / Regista,Organizador / Regista,0.6989161964766839,0.3010838035233161
+Dilane Bakwa (2002),Strasbourg,FRA-Ligue 1,"MF,DF",23,Extremo / Creador,Extremo / Creador,0.699788445008439,0.30021155499156105
+Lloyd Kelly (1998),Juventus,ITA-Serie A,DF,27,Defensor Central,Defensor Central,0.6999522089005515,0.30004779109944846
+Diego López (2002),Valencia,ESP-La Liga,"MF,FW",23,Extremo / Creador,Extremo / Creador,0.7015060311620904,0.2984939688379096
+Dennis Man (1998),Parma,ITA-Serie A,"FW,MF",27,Extremo / Creador,Extremo / Creador,0.7020977901210561,0.2979022098789439
+Lorenzo Pellegrini (1996),Roma,ITA-Serie A,MF,29,Extremo / Creador,Extremo / Creador,0.7038665959813866,0.29613340401861343
+John Yeboah (2000),Venezia,ITA-Serie A,"FW,MF",25,Extremo / Creador,Extremo / Creador,0.7040617108003051,0.2959382891996949
+Ange-Yoan Bonny (2003),Parma,ITA-Serie A,FW,22,Delantero Finalizador (9),Delantero Finalizador (9),0.7041059206181567,0.2958940793818433
+Lukas Klostermann (1996),RB Leipzig,GER-Bundesliga,DF,29,Defensor Central,Defensor Central,0.7041209708895989,0.2958790291104011
+Tanner Tessmann (2001),Lyon,FRA-Ligue 1,MF,24,Volante Recuperador,Volante Recuperador,0.70518296560113,0.29481703439886997
+Aron Dønnum (1998),Toulouse,FRA-Ligue 1,"DF,MF",27,Organizador / Regista,Organizador / Regista,0.7073475898653632,0.29265241013463683
+Coba da Costa (2002),Getafe,ESP-La Liga,"MF,FW",23,Extremo / Creador,Extremo / Creador,0.7075069811930474,0.29249301880695255
+Yann Karamoh (1998),Torino,ITA-Serie A,"MF,FW",27,Extremo / Creador,Extremo / Creador,0.7080596883193607,0.2919403116806393
+Diogo Dalot (1999),Manchester Utd,ENG-Premier League,DF,26,Lateral / Carrilero,Lateral / Carrilero,0.7080751645121843,0.29192483548781567
+Mattia Viti (2002),Empoli,ITA-Serie A,DF,23,Defensor Central,Defensor Central,0.7084443926213854,0.29155560737861463
+Riccardo Calafiori (2002),Arsenal,ENG-Premier League,DF,23,Lateral / Carrilero,Lateral / Carrilero,0.7086878374764606,0.2913121625235394
+Warren Zaïre-Emery (2006),Paris S-G,FRA-Ligue 1,"MF,DF",19,Organizador / Regista,Organizador / Regista,0.7100014497560106,0.28999855024398935
+Rodrygo (2001),Real Madrid,ESP-La Liga,"FW,MF",24,Extremo / Creador,Extremo / Creador,0.7104506624436393,0.2895493375563607
+Patrick Cutrone (1998),Como,ITA-Serie A,FW,27,Delantero Finalizador (9),Delantero Finalizador (9),0.7112592656634332,0.2887407343365668
+Fali Candé (1998),Venezia,ITA-Serie A,DF,27,Defensor Central,Defensor Central,0.7116071363209551,0.28839286367904493
+Johannes Eggestein (1998),St. Pauli,GER-Bundesliga,FW,27,Delantero Finalizador (9),Delantero Finalizador (9),0.7118877547170297,0.2881122452829703
+Jofre (2001),Espanyol,ESP-La Liga,"MF,FW",24,Extremo / Creador,Extremo / Creador,0.7119339809698826,0.2880660190301174
+Federico Gatti (1998),Juventus,ITA-Serie A,DF,27,Defensor Central,Defensor Central,0.7130104409788303,0.28698955902116974
+Kenny Tete (1995),Fulham,ENG-Premier League,DF,30,Lateral / Carrilero,Lateral / Carrilero,0.7130703382586661,0.28692966174133394
+Andrea Colpani (1999),Fiorentina,ITA-Serie A,"FW,MF",26,Extremo / Creador,Extremo / Creador,0.7157001391320486,0.28429986086795145
+Hugo Magnetti (1998),Brest,FRA-Ligue 1,MF,27,Volante Recuperador,Volante Recuperador,0.7158513506964889,0.28414864930351114
+Mario Götze (1992),Eint Frankfurt,GER-Bundesliga,"MF,FW",33,Extremo / Creador,Extremo / Creador,0.7161057101585664,0.2838942898414336
+Ruben Aguilar (1993),Lens,FRA-Ligue 1,"DF,MF",32,Lateral / Carrilero,Lateral / Carrilero,0.7161107837045471,0.28388921629545294
+Kevin De Bruyne (1991),Manchester City,ENG-Premier League,"MF,FW",34,Organizador / Regista,Organizador / Regista,0.7165152446821883,0.2834847553178117
+Alberto Moleiro (2003),Las Palmas,ESP-La Liga,"FW,MF",22,Extremo / Creador,Extremo / Creador,0.7169123402124538,0.28308765978754624
+Phillipp Mwene (1994),Mainz 05,GER-Bundesliga,DF,31,Lateral / Carrilero,Lateral / Carrilero,0.7171603087660205,0.28283969123397945
+Jeremy Doku (2002),Manchester City,ENG-Premier League,"FW,MF",23,Extremo / Creador,Extremo / Creador,0.7179032397638583,0.2820967602361417
+Adam Obert (2002),Cagliari,ITA-Serie A,DF,23,Volante Recuperador,Volante Recuperador,0.7186912815707418,0.2813087184292582
+Jordan Ferri (1992),Montpellier,FRA-Ligue 1,MF,33,Volante Recuperador,Volante Recuperador,0.7188296096759457,0.28117039032405433
+Maximilian Arnold (1994),Wolfsburg,GER-Bundesliga,MF,31,Organizador / Regista,Organizador / Regista,0.7190144453247997,0.28098555467520026
+Chris Führich (1998),Stuttgart,GER-Bundesliga,"MF,FW",27,Extremo / Creador,Extremo / Creador,0.719715352297662,0.28028464770233796
+Cesare Casadei (2003),Torino,ITA-Serie A,MF,22,Segunda Punta / Delantero Móvil,Segunda Punta / Delantero Móvil,0.7201937848261897,0.2798062151738103
+Joe Scally (2002),Gladbach,GER-Bundesliga,DF,23,Lateral / Carrilero,Lateral / Carrilero,0.7207559026370562,0.27924409736294376
+Keinan Davis (1998),Udinese,ITA-Serie A,FW,27,Delantero Finalizador (9),Delantero Finalizador (9),0.7209117960590133,0.27908820394098666
+Marin Šverko (1998),Venezia,ITA-Serie A,DF,27,Defensor Central,Defensor Central,0.7209151276434029,0.27908487235659707
+Zuriko Davitashvili (2001),Saint-Étienne,FRA-Ligue 1,"FW,MF",24,Extremo / Creador,Extremo / Creador,0.7211224612972712,0.2788775387027288
+Alessandro Buongiorno (1999),Napoli,ITA-Serie A,DF,26,Defensor Central,Defensor Central,0.7226147606023368,0.27738523939766324
+Tuta (1999),Eint Frankfurt,GER-Bundesliga,"DF,MF",26,Defensor Central,Defensor Central,0.7235978934192207,0.27640210658077935
+Jan Paul van Hecke (2000),Brighton,ENG-Premier League,DF,25,Defensor Central,Defensor Central,0.7253660352026124,0.27463396479738755
+Malick Fofana (2005),Lyon,FRA-Ligue 1,FW,20,Extremo / Creador,Extremo / Creador,0.7263958893053282,0.27360411069467183
+Arne Maier (1999),Augsburg,GER-Bundesliga,MF,26,Organizador / Regista,Organizador / Regista,0.726546880241777,0.27345311975822295
+Abdallah Sima (2001),Brest,FRA-Ligue 1,"FW,MF",24,Delantero Finalizador (9),Delantero Finalizador (9),0.7266940743952115,0.2733059256047885
+David Nemeth (2001),St. Pauli,GER-Bundesliga,DF,24,Defensor Central,Defensor Central,0.7283368628851551,0.2716631371148449
+Oladapo Afolayan (1998),St. Pauli,GER-Bundesliga,"FW,MF",27,Extremo / Creador,Extremo / Creador,0.7316703920626478,0.26832960793735217
+Riccardo Orsolini (1997),Bologna,ITA-Serie A,FW,28,Segunda Punta / Delantero Móvil,Segunda Punta / Delantero Móvil,0.7331452575522404,0.26685474244775964
+Luca Ranieri (1999),Fiorentina,ITA-Serie A,DF,26,Defensor Central,Defensor Central,0.7333077183066389,0.2666922816933611
+Micky van de Ven (2001),Tottenham,ENG-Premier League,DF,24,Defensor Central,Defensor Central,0.7337624421128566,0.26623755788714343
+Yehor Yarmoliuk (2004),Brentford,ENG-Premier League,MF,21,Volante Recuperador,Volante Recuperador,0.7356011892155181,0.2643988107844819
+Adam Wharton (2004),Crystal Palace,ENG-Premier League,MF,21,Organizador / Regista,Organizador / Regista,0.7360130493871175,0.26398695061288246
+Arthur Chaves (2001),Hoffenheim,GER-Bundesliga,DF,24,Defensor Central,Defensor Central,0.736071580571643,0.263928419428357
+Antoine Semenyo (2000),Bournemouth,ENG-Premier League,FW,25,Segunda Punta / Delantero Móvil,Segunda Punta / Delantero Móvil,0.7366844006805825,0.2633155993194175
+Son Heung-min (1992),Tottenham,ENG-Premier League,FW,33,Extremo / Creador,Extremo / Creador,0.7375713151347173,0.2624286848652827
+Sheraldo Becker (1995),Real Sociedad,ESP-La Liga,"FW,MF",30,Extremo / Creador,Extremo / Creador,0.7379177688181032,0.2620822311818968
+Léo Pétrot (1997),Saint-Étienne,FRA-Ligue 1,DF,28,Lateral / Carrilero,Lateral / Carrilero,0.737935038107261,0.262064961892739
+Philipp Hofmann (1993),Bochum,GER-Bundesliga,FW,32,Delantero Finalizador (9),Delantero Finalizador (9),0.7380649976427625,0.26193500235723755
+Janik Haberer (1994),Union Berlin,GER-Bundesliga,"MF,DF",31,Volante Recuperador,Volante Recuperador,0.7382460758250817,0.2617539241749183
+Omari Hutchinson (2003),Ipswich Town,ENG-Premier League,"MF,FW",22,Extremo / Creador,Extremo / Creador,0.7383994218087535,0.2616005781912465
+Nikola Moro (1998),Bologna,ITA-Serie A,MF,27,Organizador / Regista,Organizador / Regista,0.7390293619271232,0.2609706380728768
+Carlos Baleba (2004),Brighton,ENG-Premier League,MF,21,Volante Recuperador,Volante Recuperador,0.7390982703049238,0.2609017296950762
+Paul Wanner (2005),Heidenheim,GER-Bundesliga,"MF,FW",20,Extremo / Creador,Extremo / Creador,0.7392016754374044,0.26079832456259555
+Niklas Süle (1995),Dortmund,GER-Bundesliga,DF,30,Defensor Central,Defensor Central,0.7399410198105791,0.26005898018942086
+Tyler Dibling (2006),Southampton,ENG-Premier League,"FW,MF",19,Extremo / Creador,Extremo / Creador,0.7406068012277524,0.25939319877224765
+Guido Rodríguez (1994),West Ham,ENG-Premier League,MF,31,Volante Recuperador,Volante Recuperador,0.7407088669393298,0.2592911330606702
+Nicolai Remberg (2000),Holstein Kiel,GER-Bundesliga,MF,25,Volante Recuperador,Volante Recuperador,0.7408855021869062,0.2591144978130938
+Wilfred Ndidi (1996),Leicester City,ENG-Premier League,MF,29,Volante Recuperador,Volante Recuperador,0.7412521330082094,0.25874786699179064
+Daniele Ghilardi (2003),Hellas Verona,ITA-Serie A,DF,22,Defensor Central,Defensor Central,0.7416814804369619,0.2583185195630381
+Jules Koundé (1998),Barcelona,ESP-La Liga,DF,27,Lateral / Carrilero,Lateral / Carrilero,0.742555353435634,0.25744464656436605
+Gorka Guruzeta (1996),Athletic Club,ESP-La Liga,FW,29,Delantero Finalizador (9),Delantero Finalizador (9),0.7426649308521629,0.2573350691478371
+Jan Schöppner (1999),Heidenheim,GER-Bundesliga,MF,26,Volante Recuperador,Volante Recuperador,0.7431342927350172,0.2568657072649828
+Alessandro Zanoli (2000),Genoa,ITA-Serie A,"FW,DF",25,Lateral / Carrilero,Lateral / Carrilero,0.743179496044379,0.25682050395562095
+Aitor Ruibal (1996),Betis,ESP-La Liga,"DF,FW",29,Lateral / Carrilero,Lateral / Carrilero,0.7440432688280648,0.2559567311719352
+Gerard Martín (2002),Barcelona,ESP-La Liga,DF,23,Lateral / Carrilero,Lateral / Carrilero,0.7441967535158536,0.25580324648414643
+Denis Zakaria (1996),Monaco,FRA-Ligue 1,MF,29,Volante Recuperador,Volante Recuperador,0.7442620304960156,0.2557379695039844
+Kingsley Coman (1996),Bayern Munich,GER-Bundesliga,FW,29,Extremo / Creador,Extremo / Creador,0.7455566091484599,0.2544433908515401
+Ludovic Blas (1997),Rennes,FRA-Ligue 1,"MF,FW",28,Extremo / Creador,Extremo / Creador,0.7458193928092762,0.2541806071907238
+Armando Izzo (1992),Monza,ITA-Serie A,DF,33,Defensor Central,Defensor Central,0.7463519937368951,0.2536480062631049
+Danilho Doekhi (1998),Union Berlin,GER-Bundesliga,DF,27,Defensor Central,Defensor Central,0.746449814132613,0.253550185867387
+Adrien Truffert (2001),Rennes,FRA-Ligue 1,"DF,MF",24,Lateral / Carrilero,Lateral / Carrilero,0.7470711061011738,0.2529288938988262
+Tiago Tomás (2002),Wolfsburg,GER-Bundesliga,"FW,MF",23,Extremo / Creador,Extremo / Creador,0.7471472820267002,0.2528527179732998
+Nico Schlotterbeck (1999),Dortmund,GER-Bundesliga,DF,26,Volante Recuperador,Volante Recuperador,0.747608419743106,0.252391580256894
+Enzo Boyomo (2001),Osasuna,ESP-La Liga,DF,24,Defensor Central,Defensor Central,0.7498336261713178,0.25016637382868223
+Alphonso Davies (2000),Bayern Munich,GER-Bundesliga,DF,25,Organizador / Regista,Organizador / Regista,0.7501109448470064,0.24988905515299364
+Leon Goretzka (1995),Bayern Munich,GER-Bundesliga,"MF,DF",30,Volante Recuperador,Volante Recuperador,0.7505474922122353,0.24945250778776473
+Aarón Martín (1997),Genoa,ITA-Serie A,DF,28,Lateral / Carrilero,Lateral / Carrilero,0.7508857509166342,0.24911424908336577
+Alexander Isak (1999),Newcastle Utd,ENG-Premier League,FW,26,Delantero Finalizador (9),Delantero Finalizador (9),0.7512512417733298,0.2487487582266702
+Mickael Nade (1999),Saint-Étienne,FRA-Ligue 1,DF,26,Defensor Central,Defensor Central,0.7523240190665467,0.24767598093345333
+Mateo Retegui (1999),Atalanta,ITA-Serie A,FW,26,Delantero Finalizador (9),Delantero Finalizador (9),0.7525942143608445,0.2474057856391555
+Destiny Udogie (2002),Tottenham,ENG-Premier League,DF,23,Lateral / Carrilero,Lateral / Carrilero,0.7527344981849384,0.24726550181506157
+Samuele Ricci (2001),Torino,ITA-Serie A,MF,24,Volante Recuperador,Volante Recuperador,0.7529409202030168,0.24705907979698316
+Aleksandar Pavlovic (2004),Bayern Munich,GER-Bundesliga,MF,21,Organizador / Regista,Organizador / Regista,0.7532151920341422,0.24678480796585778
+Ansgar Knauff (2002),Eint Frankfurt,GER-Bundesliga,"MF,DF",23,Extremo / Creador,Extremo / Creador,0.7535556479818519,0.24644435201814807
+Keane Lewis-Potter (2001),Brentford,ENG-Premier League,"DF,FW",24,Lateral / Carrilero,Lateral / Carrilero,0.7538773004506648,0.2461226995493352
+Dominik Kohr (1994),Mainz 05,GER-Bundesliga,"DF,MF",31,Volante Recuperador,Volante Recuperador,0.7540432205615183,0.2459567794384817
+Ondrej Duda (1994),Hellas Verona,ITA-Serie A,MF,31,Organizador / Regista,Organizador / Regista,0.75422339734508,0.24577660265491996
+Sam Beukema (1998),Bologna,ITA-Serie A,DF,27,Defensor Central,Defensor Central,0.754894388408755,0.245105611591245
+Luca Netz (2003),Gladbach,GER-Bundesliga,DF,22,Lateral / Carrilero,Lateral / Carrilero,0.7551652634508006,0.2448347365491994
+Stanko Jurić (1996),Valladolid,ESP-La Liga,MF,29,Volante Recuperador,Volante Recuperador,0.7584394599255573,0.24156054007444272
+Yarek Gasiorowski (2005),Valencia,ESP-La Liga,DF,20,Defensor Central,Defensor Central,0.7587836428534811,0.2412163571465189
+Isco (1992),Betis,ESP-La Liga,MF,33,Organizador / Regista,Organizador / Regista,0.7589726471990748,0.24102735280092524
+Abdel Abqar (1999),Alavés,ESP-La Liga,DF,26,Defensor Central,Defensor Central,0.7602801191811742,0.23971988081882578
+Enzo Fernández (2001),Chelsea,ENG-Premier League,MF,24,Organizador / Regista,Organizador / Regista,0.7614043228227856,0.23859567717721442
+Mario Gila (2000),Lazio,ITA-Serie A,DF,25,Defensor Central,Defensor Central,0.761811428996501,0.238188571003499
+Sead Kolašinac (1993),Atalanta,ITA-Serie A,DF,32,Volante Recuperador,Volante Recuperador,0.7626222799009049,0.23737772009909508
+Neal Maupay (1996),Marseille,FRA-Ligue 1,FW,29,Delantero Finalizador (9),Delantero Finalizador (9),0.762833591563322,0.23716640843667802
+Marcos Llorente (1995),Atlético Madrid,ESP-La Liga,"DF,MF",30,Lateral / Carrilero,Lateral / Carrilero,0.7631100082745577,0.23688999172544234
+Marius Wolf (1995),Augsburg,GER-Bundesliga,DF,30,Lateral / Carrilero,Lateral / Carrilero,0.7634437556330957,0.23655624436690426
+Carles Aleñá (1998),Alavés,ESP-La Liga,"MF,FW",27,Extremo / Creador,Extremo / Creador,0.7637732104177586,0.23622678958224141
+Facundo Medina (1999),Lens,FRA-Ligue 1,DF,26,Volante Recuperador,Volante Recuperador,0.763985253192689,0.23601474680731105
+Gabriel Gudmundsson (1999),Lille,FRA-Ligue 1,DF,26,Lateral / Carrilero,Lateral / Carrilero,0.7642182648364086,0.23578173516359135
+Kenny Lala (1991),Brest,FRA-Ligue 1,DF,34,Organizador / Regista,Organizador / Regista,0.7642206651263599,0.2357793348736401
+Karol Linetty (1995),Torino,ITA-Serie A,MF,30,Volante Recuperador,Volante Recuperador,0.765665299107898,0.23433470089210195
+Nicolò Savona (2003),Juventus,ITA-Serie A,DF,22,Lateral / Carrilero,Lateral / Carrilero,0.7657177081946206,0.2342822918053794
+Lucas Stassin (2004),Saint-Étienne,FRA-Ligue 1,FW,21,Delantero Finalizador (9),Delantero Finalizador (9),0.7659164194374417,0.2340835805625583
+Javi Galán (1994),Atlético Madrid,ESP-La Liga,DF,31,Lateral / Carrilero,Lateral / Carrilero,0.7667149220539707,0.23328507794602926
+Murillo (2002),Nott'ham Forest,ENG-Premier League,DF,23,Defensor Central,Defensor Central,0.7674177225244043,0.23258227747559568
+David Neres (1997),Napoli,ITA-Serie A,FW,28,Extremo / Creador,Extremo / Creador,0.7677043216697531,0.2322956783302469
+Gabriel Strefezza (1997),Como,ITA-Serie A,"FW,MF",28,Extremo / Creador,Extremo / Creador,0.7678084228367663,0.2321915771632337
+Alberto Moreno (1992),Como,ITA-Serie A,DF,33,Lateral / Carrilero,Lateral / Carrilero,0.7684003355029134,0.23159966449708658
+James Bree (1997),Southampton,ENG-Premier League,DF,28,Lateral / Carrilero,Lateral / Carrilero,0.7685648047221044,0.23143519527789558
+Álvaro Morata (1992),Milan,ITA-Serie A,"FW,MF",33,Delantero Finalizador (9),Delantero Finalizador (9),0.7687877954460446,0.2312122045539554
+Yvan Neyou (1997),Leganés,ESP-La Liga,MF,28,Volante Recuperador,Volante Recuperador,0.7693059436889514,0.23069405631104856
+Jens Cajuste (1999),Ipswich Town,ENG-Premier League,MF,26,Volante Recuperador,Volante Recuperador,0.7704123611014548,0.22958763889854517
+Anthony Losilla (1986),Bochum,GER-Bundesliga,MF,39,Volante Recuperador,Volante Recuperador,0.7705899860800121,0.22941001391998794
+Leonardo Spinazzola (1993),Napoli,ITA-Serie A,"DF,FW",32,Organizador / Regista,Organizador / Regista,0.7706971845498609,0.22930281545013909
+Cristian Romero (1998),Tottenham,ENG-Premier League,DF,27,Defensor Central,Defensor Central,0.7718870804723882,0.2281129195276118
+Johan Vásquez (1998),Genoa,ITA-Serie A,DF,27,Defensor Central,Defensor Central,0.7719307810732732,0.22806921892672682
+Lukas Kübler (1992),Freiburg,GER-Bundesliga,DF,33,Volante Recuperador,Volante Recuperador,0.7731668753334818,0.22683312466651817
+Marcus Thuram (1997),Inter,ITA-Serie A,FW,28,Delantero Finalizador (9),Delantero Finalizador (9),0.7733180988356568,0.22668190116434317
+Youssouf Ndayishimiye (1998),Nice,FRA-Ligue 1,DF,27,Defensor Central,Defensor Central,0.7734775097327081,0.22652249026729188
+Álex Valle (2004),Como,ITA-Serie A,DF,21,Lateral / Carrilero,Lateral / Carrilero,0.7740179630428896,0.2259820369571104
+Marcus Coco (1996),Nantes,FRA-Ligue 1,DF,29,Lateral / Carrilero,Lateral / Carrilero,0.7745108778462859,0.22548912215371408
+Eray Cömert (1998),Valladolid,ESP-La Liga,"DF,MF",27,Defensor Central,Defensor Central,0.7755564495387178,0.22444355046128217
+Santiago Castro (2004),Bologna,ITA-Serie A,FW,21,Delantero Finalizador (9),Delantero Finalizador (9),0.775646505364896,0.224353494635104
+Marvin Pieringer (1999),Heidenheim,GER-Bundesliga,"FW,MF",26,Delantero Finalizador (9),Delantero Finalizador (9),0.775986877399697,0.22401312260030304
+Lamine Camara (2004),Monaco,FRA-Ligue 1,MF,21,Organizador / Regista,Organizador / Regista,0.7769238527895223,0.22307614721047775
+Bryan Cristante (1995),Roma,ITA-Serie A,MF,30,Volante Recuperador,Volante Recuperador,0.7788519528784676,0.22114804712153235
+Manu Morlanes (1999),Mallorca,ESP-La Liga,MF,26,Volante Recuperador,Volante Recuperador,0.7794635104778218,0.2205364895221782
+Mario Martín (2004),Valladolid,ESP-La Liga,MF,21,Volante Recuperador,Volante Recuperador,0.7799811832476544,0.22001881675234558
+Rúben Dias (1997),Manchester City,ENG-Premier League,DF,28,Defensor Central,Defensor Central,0.7800521891553779,0.21994781084462212
+Lee Kang-in (2001),Paris S-G,FRA-Ligue 1,"FW,MF",24,Organizador / Regista,Organizador / Regista,0.7808620154103356,0.21913798458966438
+Thomas Meunier (1991),Lille,FRA-Ligue 1,DF,34,Lateral / Carrilero,Lateral / Carrilero,0.7810029081583406,0.21899709184165939
+Rani Khedira (1994),Union Berlin,GER-Bundesliga,MF,31,Volante Recuperador,Volante Recuperador,0.7832624300934614,0.21673756990653859
+Joakim Mæhle (1997),Wolfsburg,GER-Bundesliga,DF,28,Lateral / Carrilero,Lateral / Carrilero,0.7836756707173071,0.21632432928269285
+Ngal'Ayel Mukau (2004),Lille,FRA-Ligue 1,MF,21,Volante Recuperador,Volante Recuperador,0.7840296254817103,0.2159703745182897
+Nico Williams (2002),Athletic Club,ESP-La Liga,FW,23,Extremo / Creador,Extremo / Creador,0.7840704897847196,0.2159295102152804
+Albert Sambi Lokonga (1999),Sevilla,ESP-La Liga,MF,26,Volante Recuperador,Volante Recuperador,0.785299111742246,0.21470088825775402
+Budu Zivzivadze (1994),Heidenheim,GER-Bundesliga,FW,31,Delantero Finalizador (9),Delantero Finalizador (9),0.7854327217987824,0.21456727820121757
+Aïssa Mandi (1991),Lille,FRA-Ligue 1,DF,34,Defensor Central,Defensor Central,0.7861646384837481,0.21383536151625193
+Maximilian Eggestein (1996),Freiburg,GER-Bundesliga,MF,29,Volante Recuperador,Volante Recuperador,0.7871662163799259,0.2128337836200741
+Aritz Elustondo (1994),Real Sociedad,ESP-La Liga,DF,31,Defensor Central,Defensor Central,0.7876906539133177,0.21230934608668228
+Sinaly Diomande (2001),Auxerre,FRA-Ligue 1,DF,24,Defensor Central,Defensor Central,0.78781341205517,0.21218658794483003
+Jack Stephens (1994),Southampton,ENG-Premier League,DF,31,Defensor Central,Defensor Central,0.788088439512491,0.21191156048750903
+Kristijan Jakić (1997),Augsburg,GER-Bundesliga,MF,28,Volante Recuperador,Volante Recuperador,0.7890002195732699,0.21099978042673007
+Leny Yoro (2005),Manchester Utd,ENG-Premier League,DF,20,Defensor Central,Defensor Central,0.7890743292186562,0.21092567078134383
+Sebastiano Luperto (1996),Cagliari,ITA-Serie A,DF,29,Defensor Central,Defensor Central,0.7898085916269176,0.21019140837308237
+Lazar Samardzic (2002),Atalanta,ITA-Serie A,MF,23,Organizador / Regista,Organizador / Regista,0.790479319841072,0.209520680158928
+Matthis Abline (2003),Nantes,FRA-Ligue 1,FW,22,Delantero Finalizador (9),Delantero Finalizador (9),0.7911475948257035,0.20885240517429648
+Kaishu Sano (2000),Mainz 05,GER-Bundesliga,MF,25,Volante Recuperador,Volante Recuperador,0.7917058627708012,0.20829413722919876
+Pol Lozano (1999),Espanyol,ESP-La Liga,MF,26,Volante Recuperador,Volante Recuperador,0.7921677787973431,0.20783222120265687
+João Neves (2004),Paris S-G,FRA-Ligue 1,"MF,DF",21,Organizador / Regista,Organizador / Regista,0.793134980016012,0.20686501998398799
+Mateo Kovačić (1994),Manchester City,ENG-Premier League,MF,31,Organizador / Regista,Organizador / Regista,0.7936676395814166,0.20633236041858338
+Dean Huijsen (2005),Bournemouth,ENG-Premier League,DF,20,Defensor Central,Defensor Central,0.7938755500405098,0.2061244499594902
+Mario Lemina (1993),Wolves,ENG-Premier League,"MF,DF",32,Volante Recuperador,Volante Recuperador,0.794155169772061,0.20584483022793898
+Mads Roerslev (1999),Brentford,ENG-Premier League,DF,26,Lateral / Carrilero,Lateral / Carrilero,0.7943735459490597,0.20562645405094027
+Felix Agu (1999),Werder Bremen,GER-Bundesliga,DF,26,Lateral / Carrilero,Lateral / Carrilero,0.7947501324016227,0.20524986759837727
+Ryan Yates (1997),Nott'ham Forest,ENG-Premier League,MF,28,Volante Recuperador,Volante Recuperador,0.7948178866598923,0.20518211334010772
+Nikola Krstović (2000),Lecce,ITA-Serie A,FW,25,Delantero Finalizador (9),Delantero Finalizador (9),0.7952913351710846,0.20470866482891537
+Han-Noah Massengo (2001),Auxerre,FRA-Ligue 1,MF,24,Volante Recuperador,Volante Recuperador,0.7953434003157597,0.20465659968424033
+Keven Schlotterbeck (1997),Augsburg,GER-Bundesliga,DF,28,Defensor Central,Defensor Central,0.7953778327548511,0.20462216724514892
+Waldemar Anton (1996),Dortmund,GER-Bundesliga,DF,29,Volante Recuperador,Volante Recuperador,0.7961741348796976,0.20382586512030243
+Badredine Bouanani (2004),Nice,FRA-Ligue 1,"MF,FW",21,Extremo / Creador,Extremo / Creador,0.7961994397829659,0.20380056021703408
+Gideon Mensah (1998),Auxerre,FRA-Ligue 1,DF,27,Lateral / Carrilero,Lateral / Carrilero,0.7979462674210794,0.20205373257892056
+Antonio Sanabria (1996),Torino,ITA-Serie A,FW,29,Delantero Finalizador (9),Delantero Finalizador (9),0.7982867550763876,0.20171324492361242
+Pedro Chirivella (1997),Nantes,FRA-Ligue 1,MF,28,Volante Recuperador,Volante Recuperador,0.7988154712959868,0.20118452870401315
+Angelo Stiller (2001),Stuttgart,GER-Bundesliga,MF,24,Organizador / Regista,Organizador / Regista,0.7995533481752356,0.2004466518247644
+Joseph Okumu (1997),Reims,FRA-Ligue 1,DF,28,Defensor Central,Defensor Central,0.7996481778876816,0.2003518221123184
+Dani Rodríguez (1988),Mallorca,ESP-La Liga,"MF,FW",37,Extremo / Creador,Extremo / Creador,0.8003372423096062,0.19966275769039377
+Abner (2000),Lyon,FRA-Ligue 1,DF,25,Lateral / Carrilero,Lateral / Carrilero,0.800530386154676,0.19946961384532402
+Edimilson Fernandes (1996),Brest,FRA-Ligue 1,"MF,DF",29,Volante Recuperador,Volante Recuperador,0.800754408501057,0.19924559149894305
+Granit Xhaka (1992),Leverkusen,GER-Bundesliga,MF,33,Organizador / Regista,Organizador / Regista,0.8009447780588562,0.19905522194114378
+Martin Valjent (1995),Mallorca,ESP-La Liga,DF,30,Defensor Central,Defensor Central,0.8013119046653414,0.1986880953346586
+Pablo Rosario (1997),Nice,FRA-Ligue 1,"MF,DF",28,Volante Recuperador,Volante Recuperador,0.8020896694201262,0.19791033057987384
+Lesley Ugochukwu (2004),Southampton,ENG-Premier League,MF,21,Volante Recuperador,Volante Recuperador,0.8021587428956699,0.1978412571043301
+Ryan Manning (1996),Southampton,ENG-Premier League,"DF,MF",29,Lateral / Carrilero,Lateral / Carrilero,0.8027890065279673,0.19721099347203275
+Jeong Woo-yeong (1999),Union Berlin,GER-Bundesliga,"MF,FW",26,Extremo / Creador,Extremo / Creador,0.8028061898310022,0.19719381016899784
+Nuno Tavares (2000),Lazio,ITA-Serie A,DF,25,Organizador / Regista,Organizador / Regista,0.8031072416767843,0.19689275832321573
+Nicolas Viola (1989),Cagliari,ITA-Serie A,"FW,MF",36,Extremo / Creador,Extremo / Creador,0.8031709514808055,0.19682904851919447
+Sebastian Nanasi (2002),Strasbourg,FRA-Ligue 1,"MF,FW",23,Extremo / Creador,Extremo / Creador,0.8040053936171058,0.19599460638289423
+Álex Berenguer (1995),Athletic Club,ESP-La Liga,"FW,MF",30,Extremo / Creador,Extremo / Creador,0.8045727402148339,0.19542725978516606
+Cristhian Mosquera (2004),Valencia,ESP-La Liga,DF,21,Defensor Central,Defensor Central,0.8045907536701674,0.1954092463298326
+Jakub Kiwior (2000),Arsenal,ENG-Premier League,DF,25,Defensor Central,Defensor Central,0.8051298722682747,0.1948701277317253
+Idrissa Gana Gueye (1989),Everton,ENG-Premier League,MF,36,Volante Recuperador,Volante Recuperador,0.8051718182951006,0.19482818170489935
+Pierre Lees-Melou (1993),Brest,FRA-Ligue 1,MF,32,Organizador / Regista,Organizador / Regista,0.80529612570159,0.19470387429840996
+Arnaud Kalimuendo (2002),Rennes,FRA-Ligue 1,"FW,MF",23,Delantero Finalizador (9),Delantero Finalizador (9),0.8062194907033547,0.19378050929664525
+Luca Marianucci (2004),Empoli,ITA-Serie A,DF,21,Defensor Central,Defensor Central,0.8068773483477669,0.19312265165223308
+Nemanja Matić (1988),Lyon,FRA-Ligue 1,MF,37,Volante Recuperador,Volante Recuperador,0.8069892545930937,0.19301074540690633
+Jesper Karlström (1995),Udinese,ITA-Serie A,MF,30,Volante Recuperador,Volante Recuperador,0.8070104327113972,0.19298956728860284
+Marten de Roon (1991),Atalanta,ITA-Serie A,"MF,DF",34,Volante Recuperador,Volante Recuperador,0.8074254595972953,0.19257454040270472
+Felix Nmecha (2000),Dortmund,GER-Bundesliga,MF,25,Volante Recuperador,Volante Recuperador,0.8076616313538729,0.19233836864612708
+Joshua King (1992),Toulouse,FRA-Ligue 1,"FW,MF",33,Delantero Finalizador (9),Delantero Finalizador (9),0.8078063398587721,0.19219366014122785
+Marin Pongračić (1997),Fiorentina,ITA-Serie A,DF,28,Defensor Central,Defensor Central,0.8081185138549569,0.19188148614504308
+Wahbi Khazri (1991),Montpellier,FRA-Ligue 1,"FW,MF",34,Extremo / Creador,Extremo / Creador,0.8082645794864032,0.19173542051359682
+Edson Álvarez (1997),West Ham,ENG-Premier League,MF,28,Volante Recuperador,Volante Recuperador,0.8092135184501353,0.19078648154986466
+Bryan Zaragoza (2001),Osasuna,ESP-La Liga,"FW,MF",24,Extremo / Creador,Extremo / Creador,0.8096421614326154,0.19035783856738464
+Beñat Prados (2001),Athletic Club,ESP-La Liga,MF,24,Volante Recuperador,Volante Recuperador,0.8102989353298117,0.18970106467018832
+İlkay Gündoğan (1990),Manchester City,ENG-Premier League,MF,35,Organizador / Regista,Organizador / Regista,0.8106621718703868,0.1893378281296132
+Orel Mangala (1998),Everton,ENG-Premier League,MF,27,Volante Recuperador,Volante Recuperador,0.8107966168571219,0.1892033831428781
+Michael Svoboda (1998),Venezia,ITA-Serie A,DF,27,Defensor Central,Defensor Central,0.8109332189234555,0.1890667810765445
+Cristiano Biraghi (1992),Torino,ITA-Serie A,DF,33,Lateral / Carrilero,Lateral / Carrilero,0.8120109800267812,0.18798901997321882
+Mory Gbane (2000),Reims,FRA-Ligue 1,"DF,MF",25,Defensor Central,Defensor Central,0.8125969797936321,0.1874030202063679
+Christopher Operi (1997),Le Havre,FRA-Ligue 1,"DF,FW",28,Lateral / Carrilero,Lateral / Carrilero,0.8136201611152614,0.18637983888473864
+Moses Simon (1995),Nantes,FRA-Ligue 1,"FW,MF",30,Extremo / Creador,Extremo / Creador,0.8141781698073106,0.18582183019268939
+Pervis Estupiñán (1998),Brighton,ENG-Premier League,DF,27,Lateral / Carrilero,Lateral / Carrilero,0.8144669136845599,0.18553308631544008
+Victor Boniface (2000),Leverkusen,GER-Bundesliga,FW,25,Delantero Finalizador (9),Delantero Finalizador (9),0.8157313030198284,0.18426869698017156
+Piotr Zieliński (1994),Inter,ITA-Serie A,MF,31,Organizador / Regista,Organizador / Regista,0.8170414905745226,0.18295850942547742
+Cameron Archer (2001),Southampton,ENG-Premier League,FW,24,Delantero Finalizador (9),Delantero Finalizador (9),0.8172172246997165,0.18278277530028353
+Hugo Larsson (2004),Eint Frankfurt,GER-Bundesliga,MF,21,Volante Recuperador,Volante Recuperador,0.8172920793715981,0.1827079206284019
+Eldor Shomurodov (1995),Roma,ITA-Serie A,"FW,MF",30,Delantero Finalizador (9),Delantero Finalizador (9),0.8173432886197741,0.18265671138022588
+Ritsu Doan (1998),Freiburg,GER-Bundesliga,"FW,MF",27,Extremo / Creador,Extremo / Creador,0.8175577120741859,0.18244228792581407
+Lucas Da Cunha (2001),Como,ITA-Serie A,MF,24,Organizador / Regista,Organizador / Regista,0.8185616376992534,0.18143836230074661
+Lilian Brassier (1999),Rennes,FRA-Ligue 1,DF,26,Defensor Central,Defensor Central,0.8185757694844402,0.18142423051555978
+Moisés Caicedo (2001),Chelsea,ENG-Premier League,"MF,DF",24,Volante Recuperador,Volante Recuperador,0.818855719737899,0.18114428026210105
+Ismaily (1990),Lille,FRA-Ligue 1,DF,35,Lateral / Carrilero,Lateral / Carrilero,0.8192028697632636,0.18079713023673638
+Andrey Santos (2004),Strasbourg,FRA-Ligue 1,MF,21,Volante Recuperador,Volante Recuperador,0.8192308487658431,0.18076915123415693
+Alieu Fadera (2001),Como,ITA-Serie A,"FW,DF",24,Extremo / Creador,Extremo / Creador,0.8200455984442564,0.1799544015557436
+William Saliba (2001),Arsenal,ENG-Premier League,DF,24,Defensor Central,Defensor Central,0.8201687553603922,0.17983124463960776
+Tim Siersleben (2000),Heidenheim,GER-Bundesliga,DF,25,Defensor Central,Defensor Central,0.8201897153757896,0.17981028462421045
+Kai Havertz (1999),Arsenal,ENG-Premier League,"FW,MF",26,Delantero Finalizador (9),Delantero Finalizador (9),0.8203184108700374,0.17968158912996257
+Antonio Nusa (2005),RB Leipzig,GER-Bundesliga,"MF,DF",20,Extremo / Creador,Extremo / Creador,0.8204383839208619,0.17956161607913812
+Matt Doherty (1992),Wolves,ENG-Premier League,DF,33,Defensor Central,Defensor Central,0.8205219479472917,0.17947805205270828
+Fran Beltrán (1999),Celta Vigo,ESP-La Liga,MF,26,Volante Recuperador,Volante Recuperador,0.8212573376353633,0.17874266236463665
+Manuel Lazzari (1993),Lazio,ITA-Serie A,DF,32,Lateral / Carrilero,Lateral / Carrilero,0.8216349582469438,0.17836504175305623
+Daniel Mosquera (1999),Hellas Verona,ITA-Serie A,FW,26,Delantero Finalizador (9),Delantero Finalizador (9),0.8219017198044329,0.17809828019556706
+Robin Gosens (1994),Fiorentina,ITA-Serie A,DF,31,Lateral / Carrilero,Lateral / Carrilero,0.821959057521058,0.17804094247894198
+Ibrahima Sissoko (1997),Bochum,GER-Bundesliga,MF,28,Volante Recuperador,Volante Recuperador,0.8225571598710527,0.1774428401289473
+Álex Grimaldo (1995),Leverkusen,GER-Bundesliga,DF,30,Organizador / Regista,Organizador / Regista,0.8226715164242003,0.17732848357579967
+Julian Weigl (1995),Gladbach,GER-Bundesliga,MF,30,Volante Recuperador,Volante Recuperador,0.8230361808211393,0.17696381917886073
+Mama Samba Baldé (1995),Brest,FRA-Ligue 1,FW,30,Delantero Finalizador (9),Delantero Finalizador (9),0.8231282605408153,0.17687173945918466
+José Campaña (1993),Las Palmas,ESP-La Liga,MF,32,Organizador / Regista,Organizador / Regista,0.8233891831708071,0.17661081682919288
+Steven Skrzybski (1992),Holstein Kiel,GER-Bundesliga,"MF,FW",33,Extremo / Creador,Extremo / Creador,0.8235866596635162,0.17641334033648381
+Raphaël Guerreiro (1993),Bayern Munich,GER-Bundesliga,"DF,MF",32,Organizador / Regista,Organizador / Regista,0.823971122363915,0.176028877636085
+Boubakary Soumaré (1999),Leicester City,ENG-Premier League,MF,26,Volante Recuperador,Volante Recuperador,0.8240626977917724,0.17593730220822756
+Kim Min-jae (1996),Bayern Munich,GER-Bundesliga,DF,29,Defensor Central,Defensor Central,0.8243825021036781,0.17561749789632186
+Karim Adeyemi (2002),Dortmund,GER-Bundesliga,"FW,MF",23,Extremo / Creador,Extremo / Creador,0.8244216444539216,0.17557835554607837
+Philipp Treu (2000),St. Pauli,GER-Bundesliga,"MF,DF",25,Lateral / Carrilero,Lateral / Carrilero,0.8246007788402051,0.1753992211597949
+Pascal Groß (1991),Dortmund,GER-Bundesliga,"MF,DF",34,Organizador / Regista,Organizador / Regista,0.8249690018190388,0.17503099818096124
+Javi Hernández (1998),Leganés,ESP-La Liga,DF,27,Lateral / Carrilero,Lateral / Carrilero,0.8250019367236149,0.17499806327638512
+Abel Ruiz (2000),Girona,ESP-La Liga,FW,25,Delantero Finalizador (9),Delantero Finalizador (9),0.8251505493267619,0.1748494506732381
+Aljoscha Kemlein (2004),Union Berlin,GER-Bundesliga,MF,21,Volante Recuperador,Volante Recuperador,0.8254041270211838,0.17459587297881618
+Hauke Wahl (1994),St. Pauli,GER-Bundesliga,DF,31,Defensor Central,Defensor Central,0.8255575850716212,0.17444241492837875
+Johan Mojica (1992),Mallorca,ESP-La Liga,DF,33,Lateral / Carrilero,Lateral / Carrilero,0.8258451435110761,0.17415485648892393
+Djibril Sidibé (1992),Toulouse,FRA-Ligue 1,DF,33,Lateral / Carrilero,Lateral / Carrilero,0.8267572492366562,0.17324275076334383
+Copete (1999),Mallorca,ESP-La Liga,DF,26,Defensor Central,Defensor Central,0.8285380287086579,0.1714619712913421
+Thiago Almada (2001),Lyon,FRA-Ligue 1,"MF,FW",24,Organizador / Regista,Organizador / Regista,0.8300566110506127,0.16994338894938732
+Taylor Harwood-Bellis (2002),Southampton,ENG-Premier League,DF,23,Defensor Central,Defensor Central,0.8308871417756154,0.1691128582243846
+Esteban Lepaul (2000),Angers,FRA-Ligue 1,FW,25,Delantero Finalizador (9),Delantero Finalizador (9),0.8310236845304072,0.1689763154695928
+Dango Ouattara (2002),Bournemouth,ENG-Premier League,FW,23,Segunda Punta / Delantero Móvil,Segunda Punta / Delantero Móvil,0.8311595978743043,0.16884040212569573
+Antoine Makoumbou (1998),Cagliari,ITA-Serie A,MF,27,Volante Recuperador,Volante Recuperador,0.8312477296402394,0.1687522703597606
+Marc Bartra (1991),Betis,ESP-La Liga,DF,34,Defensor Central,Defensor Central,0.8315553570283915,0.16844464297160855
+Juan Jesus (1991),Napoli,ITA-Serie A,DF,34,Defensor Central,Defensor Central,0.8328138731059431,0.16718612689405687
+Mika Biereth (2003),Monaco,FRA-Ligue 1,FW,22,Delantero Finalizador (9),Delantero Finalizador (9),0.8330105197116795,0.1669894802883205
+Mandela Keita (2002),Parma,ITA-Serie A,MF,23,Volante Recuperador,Volante Recuperador,0.83371807255767,0.16628192744232995
+Lorenzo De Silvestri (1988),Bologna,ITA-Serie A,DF,37,Lateral / Carrilero,Lateral / Carrilero,0.834137869349488,0.16586213065051203
+Eren Dinkçi (2001),Freiburg,GER-Bundesliga,"MF,FW",24,Extremo / Creador,Extremo / Creador,0.834766228849643,0.16523377115035698
+Christian Kabasele (1991),Udinese,ITA-Serie A,DF,34,Defensor Central,Defensor Central,0.8355714172273515,0.1644285827726485
+Ricardo Rodríguez (1992),Betis,ESP-La Liga,DF,33,Lateral / Carrilero,Lateral / Carrilero,0.8359358410836881,0.16406415891631188
+Hassane Kamara (1994),Udinese,ITA-Serie A,DF,31,Lateral / Carrilero,Lateral / Carrilero,0.8359488436326304,0.16405115636736955
+Ander Guevara (1997),Alavés,ESP-La Liga,MF,28,Volante Recuperador,Volante Recuperador,0.8363086142116801,0.16369138578831988
+Antonio Rüdiger (1993),Real Madrid,ESP-La Liga,DF,32,Defensor Central,Defensor Central,0.8368728738453423,0.16312712615465774
+Oumar Diakité (2003),Reims,FRA-Ligue 1,FW,22,Delantero Finalizador (9),Delantero Finalizador (9),0.8378944950535123,0.16210550494648768
+Francisco Conceição (2002),Juventus,ITA-Serie A,"FW,MF",23,Extremo / Creador,Extremo / Creador,0.8381966302450083,0.16180336975499165
+Ashley Young (1985),Everton,ENG-Premier League,DF,40,Lateral / Carrilero,Lateral / Carrilero,0.8382776548292878,0.16172234517071216
+Alessandro Deiola (1995),Cagliari,ITA-Serie A,MF,30,Volante Recuperador,Volante Recuperador,0.8386658572356145,0.1613341427643855
+Omar Alderete (1996),Getafe,ESP-La Liga,DF,29,Defensor Central,Defensor Central,0.8388920289068947,0.16110797109310526
+Amadou Onana (2001),Aston Villa,ENG-Premier League,MF,24,Volante Recuperador,Volante Recuperador,0.8389310407579631,0.1610689592420369
+Lewis Hall (2004),Newcastle Utd,ENG-Premier League,DF,21,Lateral / Carrilero,Lateral / Carrilero,0.8389808478915752,0.16101915210842477
+Josip Juranović (1995),Union Berlin,GER-Bundesliga,"DF,MF",30,Lateral / Carrilero,Lateral / Carrilero,0.839153625709442,0.16084637429055804
+Malang Sarr (1999),Lens,FRA-Ligue 1,DF,26,Defensor Central,Defensor Central,0.8391791844760443,0.16082081552395566
+Adama Boiro (2002),Athletic Club,ESP-La Liga,"DF,FW",23,Lateral / Carrilero,Lateral / Carrilero,0.8394369363702322,0.1605630636297678
+Chrislain Matsima (2002),Augsburg,GER-Bundesliga,DF,23,Defensor Central,Defensor Central,0.839541460885289,0.16045853911471097
+Danel Sinani (1997),St. Pauli,GER-Bundesliga,"FW,MF",28,Extremo / Creador,Extremo / Creador,0.8412439335161715,0.15875606648382845
+Alberto Grassi (1995),Empoli,ITA-Serie A,MF,30,Volante Recuperador,Volante Recuperador,0.8417448639775276,0.15825513602247243
+Adam Marušić (1992),Lazio,ITA-Serie A,DF,33,Lateral / Carrilero,Lateral / Carrilero,0.8418666791280524,0.15813332087194765
+Maxence Lacroix (2000),Crystal Palace,ENG-Premier League,DF,25,Defensor Central,Defensor Central,0.8422416827178115,0.15775831728218848
+Loïs Openda (2000),RB Leipzig,GER-Bundesliga,"FW,MF",25,Delantero Finalizador (9),Delantero Finalizador (9),0.8422597184023195,0.1577402815976805
+Marc Roca (1996),Betis,ESP-La Liga,MF,29,Volante Recuperador,Volante Recuperador,0.8432286939108852,0.15677130608911483
+Sam Morsy (1991),Ipswich Town,ENG-Premier League,MF,34,Volante Recuperador,Volante Recuperador,0.8435218988320189,0.1564781011679811
+Che Adams (1996),Torino,ITA-Serie A,FW,29,Delantero Finalizador (9),Delantero Finalizador (9),0.8449519982297317,0.15504800177026834
+Adrià Altimira (2001),Leganés,ESP-La Liga,"DF,FW",24,Lateral / Carrilero,Lateral / Carrilero,0.8453764695840547,0.15462353041594534
+Danilo Cataldi (1994),Fiorentina,ITA-Serie A,MF,31,Volante Recuperador,Volante Recuperador,0.8456128675452875,0.15438713245471247
+Marcos André (1996),Valladolid,ESP-La Liga,FW,29,Delantero Finalizador (9),Delantero Finalizador (9),0.8459619488822582,0.15403805111774183
+Federico Valverde (1998),Real Madrid,ESP-La Liga,"MF,DF",27,Organizador / Regista,Organizador / Regista,0.8472067217353069,0.15279327826469313
+Yerry Mina (1994),Cagliari,ITA-Serie A,DF,31,Defensor Central,Defensor Central,0.8474651027483862,0.15253489725161384
+Lars Ritzka (1998),St. Pauli,GER-Bundesliga,"DF,MF",27,Lateral / Carrilero,Lateral / Carrilero,0.847496962277092,0.15250303772290796
+Ladislav Krejčí (1999),Girona,ESP-La Liga,DF,26,Defensor Central,Defensor Central,0.8481107199530661,0.15188928004693392
+Lassana Coulibaly (1996),Lecce,ITA-Serie A,MF,29,Volante Recuperador,Volante Recuperador,0.8486347824537483,0.15136521754625165
+Randal Kolo Muani (1998),Juventus,ITA-Serie A,FW,27,Delantero Finalizador (9),Delantero Finalizador (9),0.8492141339299916,0.15078586607000843
+Eric García (2001),Barcelona,ESP-La Liga,"DF,MF",24,Volante Recuperador,Volante Recuperador,0.8495418373287172,0.15045816267128276
+Fran Garcia (1999),Real Madrid,ESP-La Liga,DF,26,Lateral / Carrilero,Lateral / Carrilero,0.8499595121923849,0.15004048780761514
+Wilfried Singo (2000),Monaco,FRA-Ligue 1,DF,25,Defensor Central,Defensor Central,0.8500324629697134,0.14996753703028665
+Jesus Rodríguez (2005),Betis,ESP-La Liga,FW,20,Extremo / Creador,Extremo / Creador,0.8506103674719158,0.14938963252808424
+Ignace Van Der Brempt (2002),Como,ITA-Serie A,DF,23,Lateral / Carrilero,Lateral / Carrilero,0.8509209429429585,0.1490790570570415
+Pietro Comuzzo (2005),Fiorentina,ITA-Serie A,DF,20,Defensor Central,Defensor Central,0.8513990747849757,0.14860092521502433
+Stefan Bajcetic (2004),Las Palmas,ESP-La Liga,"MF,DF",21,Volante Recuperador,Volante Recuperador,0.8514788498722512,0.1485211501277488
+Nahuel Molina (1998),Atlético Madrid,ESP-La Liga,DF,27,Lateral / Carrilero,Lateral / Carrilero,0.8517314541463425,0.14826854585365745
+Nicolò Fagioli (2001),Fiorentina,ITA-Serie A,MF,24,Organizador / Regista,Organizador / Regista,0.8519106666757307,0.14808933332426932
+Nadiem Amiri (1996),Mainz 05,GER-Bundesliga,MF,29,Organizador / Regista,Organizador / Regista,0.8521428917808941,0.14785710821910591
+Jordan Pefok (1996),Union Berlin,GER-Bundesliga,FW,29,Delantero Finalizador (9),Delantero Finalizador (9),0.8523503553457314,0.14764964465426855
+Philipp Sander (1998),Gladbach,GER-Bundesliga,MF,27,Volante Recuperador,Volante Recuperador,0.852358894294193,0.14764110570580702
+Manuel Ugarte (2001),Manchester Utd,ENG-Premier League,MF,24,Volante Recuperador,Volante Recuperador,0.8526504252993639,0.14734957470063614
+Mikel Oyarzabal (1997),Real Sociedad,ESP-La Liga,FW,28,Delantero Finalizador (9),Delantero Finalizador (9),0.8528011009141844,0.14719889908581563
+Remo Freuler (1992),Bologna,ITA-Serie A,MF,33,Volante Recuperador,Volante Recuperador,0.853370574757299,0.14662942524270095
+Cédric Kipré (1996),Reims,FRA-Ligue 1,DF,29,Defensor Central,Defensor Central,0.8543558279609715,0.14564417203902846
+Kevin Vogt (1991),Union Berlin,GER-Bundesliga,DF,34,Defensor Central,Defensor Central,0.8545925651448497,0.14540743485515029
+Sael Kumbedi (2005),Lyon,FRA-Ligue 1,DF,20,Lateral / Carrilero,Lateral / Carrilero,0.8548197634922499,0.14518023650775014
+Fabián Ruiz Peña (1996),Paris S-G,FRA-Ligue 1,MF,29,Organizador / Regista,Organizador / Regista,0.8549534813313321,0.1450465186686679
+Carlos Romero (2001),Espanyol,ESP-La Liga,DF,24,Lateral / Carrilero,Lateral / Carrilero,0.855216593682831,0.14478340631716902
+Jean-Eudes Aholou (1994),Angers,FRA-Ligue 1,MF,31,Volante Recuperador,Volante Recuperador,0.8553597627950905,0.14464023720490948
+Christantus Uche (2003),Getafe,ESP-La Liga,"FW,MF",22,Delantero Finalizador (9),Delantero Finalizador (9),0.8556547896870185,0.14434521031298153
+Caleb Okoli (2001),Leicester City,ENG-Premier League,DF,24,Defensor Central,Defensor Central,0.8557806124205053,0.1442193875794947
+Balthazar Pierret (2000),Lecce,ITA-Serie A,MF,25,Volante Recuperador,Volante Recuperador,0.8566819264576622,0.14331807354233783
+Ludovic Ajorque (1994),Brest,FRA-Ligue 1,FW,31,Delantero Finalizador (9),Delantero Finalizador (9),0.8569062770376128,0.1430937229623872
+Benjamin Šeško (2003),RB Leipzig,GER-Bundesliga,"FW,MF",22,Delantero Finalizador (9),Delantero Finalizador (9),0.8572197946764346,0.1427802053235654
+Luca Pellegrini (1999),Lazio,ITA-Serie A,DF,26,Organizador / Regista,Organizador / Regista,0.857226409978918,0.14277359002108203
+Issiaga Sylla (1994),Montpellier,FRA-Ligue 1,DF,31,Lateral / Carrilero,Lateral / Carrilero,0.8572428440729546,0.1427571559270454
+Eduardo Camavinga (2002),Real Madrid,ESP-La Liga,"MF,DF",23,Volante Recuperador,Volante Recuperador,0.8573578368027616,0.14264216319723844
+Jonas Föhrenbach (1996),Heidenheim,GER-Bundesliga,DF,29,Lateral / Carrilero,Lateral / Carrilero,0.8574713735746576,0.14252862642534236
+Melvin Bard (2000),Nice,FRA-Ligue 1,"DF,MF",25,Lateral / Carrilero,Lateral / Carrilero,0.8574958554522425,0.1425041445477575
+Becir Omeragic (2002),Montpellier,FRA-Ligue 1,DF,23,Defensor Central,Defensor Central,0.8575202098800124,0.14247979011998757
+Boubacar Kamara (1999),Aston Villa,ENG-Premier League,MF,26,Volante Recuperador,Volante Recuperador,0.8585658368377576,0.14143416316224244
+Borja Mayoral (1997),Getafe,ESP-La Liga,FW,28,Delantero Finalizador (9),Delantero Finalizador (9),0.8585990884403538,0.14140091155964618
+Yves Bissouma (1996),Tottenham,ENG-Premier League,MF,29,Volante Recuperador,Volante Recuperador,0.8599676632940245,0.14003233670597548
+Oliver Skipp (2000),Leicester City,ENG-Premier League,MF,25,Volante Recuperador,Volante Recuperador,0.860577423976445,0.139422576023555
+Théo Sainte-Luce (1998),Montpellier,FRA-Ligue 1,DF,27,Lateral / Carrilero,Lateral / Carrilero,0.8609026439241649,0.13909735607583507
+Alessandro Bianco (2002),Monza,ITA-Serie A,MF,23,Volante Recuperador,Volante Recuperador,0.8610254987720886,0.13897450122791144
+Dante (1983),Nice,FRA-Ligue 1,DF,42,Defensor Central,Defensor Central,0.8613843284555189,0.13861567154448107
+Illia Zabarnyi (2002),Bournemouth,ENG-Premier League,DF,23,Defensor Central,Defensor Central,0.8615286141354782,0.1384713858645218
+Yannik Engelhardt (2001),Como,ITA-Serie A,"MF,DF",24,Volante Recuperador,Volante Recuperador,0.8623340515548611,0.1376659484451389
+Borja Iglesias (1993),Celta Vigo,ESP-La Liga,FW,32,Delantero Finalizador (9),Delantero Finalizador (9),0.8625804957163437,0.13741950428365635
+Mikel Vesga (1993),Athletic Club,ESP-La Liga,MF,32,Volante Recuperador,Volante Recuperador,0.8626594357230146,0.13734056427698538
+Fabian Schär (1991),Newcastle Utd,ENG-Premier League,DF,34,Defensor Central,Defensor Central,0.8634280727161672,0.13657192728383283
+Éder Militão (1998),Real Madrid,ESP-La Liga,DF,27,Defensor Central,Defensor Central,0.8644393360598562,0.13556066394014377
+El Chadaille Bitshiabu (2005),RB Leipzig,GER-Bundesliga,DF,20,Defensor Central,Defensor Central,0.8646389633812591,0.13536103661874088
+Edoardo Goldaniga (1993),Como,ITA-Serie A,DF,32,Defensor Central,Defensor Central,0.8647540782422011,0.13524592175779893
+Ki-Jana Hoever (2002),Auxerre,FRA-Ligue 1,DF,23,Lateral / Carrilero,Lateral / Carrilero,0.8647824502577739,0.1352175497422261
+Valentin Mihaila (2000),Parma,ITA-Serie A,"FW,MF",25,Extremo / Creador,Extremo / Creador,0.8649580042758578,0.13504199572414222
+James Justin (1998),Leicester City,ENG-Premier League,DF,27,Lateral / Carrilero,Lateral / Carrilero,0.8651977463887167,0.13480225361128328
+Jay Idzes (2000),Venezia,ITA-Serie A,DF,25,Defensor Central,Defensor Central,0.8656738792584513,0.1343261207415487
+Zeki Çelik (1997),Roma,ITA-Serie A,DF,28,Lateral / Carrilero,Lateral / Carrilero,0.8659161261016934,0.13408387389830656
+Omar El Hilali (2003),Espanyol,ESP-La Liga,DF,22,Lateral / Carrilero,Lateral / Carrilero,0.866149999391176,0.13385000060882402
+Mostafa Mohamed (1997),Nantes,FRA-Ligue 1,FW,28,Delantero Finalizador (9),Delantero Finalizador (9),0.8664793041323566,0.13352069586764337
+Valentino Livramento (2002),Newcastle Utd,ENG-Premier League,DF,23,Lateral / Carrilero,Lateral / Carrilero,0.8665384200548557,0.1334615799451443
+Alexandre Lacazette (1991),Lyon,FRA-Ligue 1,FW,34,Delantero Finalizador (9),Delantero Finalizador (9),0.8676524604185141,0.13234753958148593
+Jean-Philippe Mateta (1997),Crystal Palace,ENG-Premier League,FW,28,Delantero Finalizador (9),Delantero Finalizador (9),0.8677295836368454,0.13227041636315462
+Clément Lenglet (1995),Atlético Madrid,ESP-La Liga,DF,30,Defensor Central,Defensor Central,0.8685649765050742,0.13143502349492575
+Nélson Semedo (1993),Wolves,ENG-Premier League,DF,32,Lateral / Carrilero,Lateral / Carrilero,0.8686479956326302,0.13135200436736982
+Zakaria Aboukhlal (2000),Toulouse,FRA-Ligue 1,"MF,FW",25,Delantero Finalizador (9),Delantero Finalizador (9),0.8688256779125837,0.1311743220874163
+Oumar Solet (2000),Udinese,ITA-Serie A,DF,25,Volante Recuperador,Volante Recuperador,0.8692580305839535,0.13074196941604654
+Pau Torres (1997),Aston Villa,ENG-Premier League,DF,28,Defensor Central,Defensor Central,0.869479670803635,0.13052032919636503
+Martín Zubimendi (1999),Real Sociedad,ESP-La Liga,MF,26,Volante Recuperador,Volante Recuperador,0.869773586817998,0.130226413182002
+Lukas Ullrich (2004),Gladbach,GER-Bundesliga,DF,21,Lateral / Carrilero,Lateral / Carrilero,0.87016468849015,0.12983531150984995
+Joel Pohjanpalo (1994),Venezia,ITA-Serie A,FW,31,Delantero Finalizador (9),Delantero Finalizador (9),0.8704485637927758,0.1295514362072242
+Lucien Agoume (2002),Sevilla,ESP-La Liga,MF,23,Volante Recuperador,Volante Recuperador,0.8710887857425623,0.12891121425743768
+Aurélio Buta (1997),Reims,FRA-Ligue 1,DF,28,Lateral / Carrilero,Lateral / Carrilero,0.8712941434852648,0.1287058565147352
+Yeray Álvarez (1995),Athletic Club,ESP-La Liga,DF,30,Defensor Central,Defensor Central,0.8713966958054146,0.12860330419458543
+Emerson Palmieri (1994),West Ham,ENG-Premier League,DF,31,Lateral / Carrilero,Lateral / Carrilero,0.8715786395514499,0.12842136044855013
+Sander Berge (1998),Fulham,ENG-Premier League,MF,27,Volante Recuperador,Volante Recuperador,0.8717142372872462,0.12828576271275383
+Nicolás Domínguez (1998),Nott'ham Forest,ENG-Premier League,"MF,FW",27,Volante Recuperador,Volante Recuperador,0.8720375610945506,0.12796243890544945
+Adrià Pedrosa (1998),Sevilla,ESP-La Liga,DF,27,Lateral / Carrilero,Lateral / Carrilero,0.8734416647016583,0.1265583352983417
+Lautaro Valenti (1999),Parma,ITA-Serie A,DF,26,Defensor Central,Defensor Central,0.8739654235397812,0.12603457646021876
+Edon Zhegrova (1999),Lille,FRA-Ligue 1,"FW,MF",26,Extremo / Creador,Extremo / Creador,0.8744810735643774,0.12551892643562257
+Stefano Sabelli (1993),Genoa,ITA-Serie A,DF,32,Lateral / Carrilero,Lateral / Carrilero,0.8759479703734094,0.12405202962659057
+Frenkie de Jong (1997),Barcelona,ESP-La Liga,MF,28,Organizador / Regista,Organizador / Regista,0.876181466644704,0.12381853335529602
+Elisha Owusu (1997),Auxerre,FRA-Ligue 1,MF,28,Volante Recuperador,Volante Recuperador,0.8767556217161734,0.12324437828382662
+Ellyes Skhiri (1995),Eint Frankfurt,GER-Bundesliga,MF,30,Volante Recuperador,Volante Recuperador,0.876997312873741,0.12300268712625895
+Mika Mármol (2001),Las Palmas,ESP-La Liga,DF,24,Lateral / Carrilero,Lateral / Carrilero,0.8772210493773203,0.12277895062267974
+Niklas Stark (1995),Werder Bremen,GER-Bundesliga,DF,30,Defensor Central,Defensor Central,0.8774177552256203,0.12258224477437973
+Daniel Muñoz (1996),Crystal Palace,ENG-Premier League,DF,29,Lateral / Carrilero,Lateral / Carrilero,0.8778179004192566,0.12218209958074344
+Pierre Ekwah Elimby (2002),Saint-Étienne,FRA-Ligue 1,MF,23,Volante Recuperador,Volante Recuperador,0.8784993731595012,0.12150062684049878
+Adam Masina (1994),Torino,ITA-Serie A,DF,31,Defensor Central,Defensor Central,0.8787081035621354,0.12129189643786464
+Baptiste Santamaria (1995),Nice,FRA-Ligue 1,MF,30,Volante Recuperador,Volante Recuperador,0.8792390619483592,0.12076093805164079
+Djed Spence (2000),Tottenham,ENG-Premier League,DF,25,Lateral / Carrilero,Lateral / Carrilero,0.8793282654366338,0.12067173456336622
+Yanis Zouaoui (1994),Le Havre,FRA-Ligue 1,"DF,FW",31,Lateral / Carrilero,Lateral / Carrilero,0.8793827055211004,0.12061729447889957
+Álex Suárez (1993),Las Palmas,ESP-La Liga,DF,32,Defensor Central,Defensor Central,0.8798224153989492,0.12017758460105077
+Sergi Altimira (2001),Betis,ESP-La Liga,MF,24,Volante Recuperador,Volante Recuperador,0.8799627084940082,0.12003729150599185
+James Ward-Prowse (1994),West Ham,ENG-Premier League,MF,31,Organizador / Regista,Organizador / Regista,0.8805460769592797,0.11945392304072033
+Lucas Oliveira Rosa (2000),Valladolid,ESP-La Liga,DF,25,Lateral / Carrilero,Lateral / Carrilero,0.882339703760368,0.11766029623963203
+Jamie Gittens (2004),Dortmund,GER-Bundesliga,"FW,MF",21,Extremo / Creador,Extremo / Creador,0.8825506544892038,0.11744934551079622
+Youssouf Sabaly (1993),Betis,ESP-La Liga,DF,32,Lateral / Carrilero,Lateral / Carrilero,0.8827310699161791,0.11726893008382089
+Antoine Hainaut (2002),Parma,ITA-Serie A,"DF,FW",23,Lateral / Carrilero,Lateral / Carrilero,0.8840039873619684,0.11599601263803161
+Raúl Asencio (2003),Real Madrid,ESP-La Liga,DF,22,Defensor Central,Defensor Central,0.8845752328251779,0.11542476717482208
+Emanuele Valeri (1998),Parma,ITA-Serie A,DF,27,Lateral / Carrilero,Lateral / Carrilero,0.8847367703816575,0.11526322961834246
+Isaac Romero (2000),Sevilla,ESP-La Liga,FW,25,Delantero Finalizador (9),Delantero Finalizador (9),0.8849080081816044,0.11509199181839558
+Marco Friedl (1998),Werder Bremen,GER-Bundesliga,DF,27,Defensor Central,Defensor Central,0.8850984190369467,0.11490158096305325
+Robert Andrich (1994),Leverkusen,GER-Bundesliga,"MF,DF",31,Volante Recuperador,Volante Recuperador,0.8852203490112255,0.11477965098877452
+Nicolò Barella (1997),Inter,ITA-Serie A,MF,28,Organizador / Regista,Organizador / Regista,0.8852807946853293,0.11471920531467072
+Douglas (1997),Nantes,FRA-Ligue 1,MF,28,Volante Recuperador,Volante Recuperador,0.8858279422382033,0.11417205776179673
+Nicolas Jackson (2001),Chelsea,ENG-Premier League,FW,24,Delantero Finalizador (9),Delantero Finalizador (9),0.886144043311222,0.11385595668877802
+Antonio Blanco (2000),Alavés,ESP-La Liga,MF,25,Volante Recuperador,Volante Recuperador,0.8872134903100171,0.11278650968998294
+Renato Tapia (1995),Leganés,ESP-La Liga,"MF,DF",30,Volante Recuperador,Volante Recuperador,0.8873553576077163,0.11264464239228367
+Yael Mouanga (2005),Montpellier,FRA-Ligue 1,DF,20,Defensor Central,Defensor Central,0.8880032394055117,0.11199676059448826
+Isak Hien (1999),Atalanta,ITA-Serie A,DF,26,Defensor Central,Defensor Central,0.8884616101937233,0.11153838980627673
+Christopher Trimmel (1987),Union Berlin,GER-Bundesliga,"DF,MF",38,Lateral / Carrilero,Lateral / Carrilero,0.8887053024295272,0.11129469757047283
+Abdul Mumin (1998),Rayo Vallecano,ESP-La Liga,DF,27,Defensor Central,Defensor Central,0.8889484420082755,0.1110515579917245
+Kevin Stöger (1993),Gladbach,GER-Bundesliga,MF,32,Organizador / Regista,Organizador / Regista,0.888960570285183,0.11103942971481695
+Enzo Barrenechea (2001),Valencia,ESP-La Liga,MF,24,Volante Recuperador,Volante Recuperador,0.8896560611275873,0.11034393887241267
+Adam Smith (1991),Bournemouth,ENG-Premier League,DF,34,Lateral / Carrilero,Lateral / Carrilero,0.8915852028783973,0.10841479712160274
+Jean-Clair Todibo (1999),West Ham,ENG-Premier League,DF,26,Defensor Central,Defensor Central,0.8917090687576105,0.10829093124238953
+José Luis García Vayá (1998),Valencia,ESP-La Liga,MF,27,Organizador / Regista,Organizador / Regista,0.891767075995901,0.10823292400409901
+Carlens Arcus (1996),Angers,FRA-Ligue 1,DF,29,Lateral / Carrilero,Lateral / Carrilero,0.8925748362506818,0.10742516374931821
+Kiko Femenía (1991),Villarreal,ESP-La Liga,DF,34,Lateral / Carrilero,Lateral / Carrilero,0.8927790522885426,0.1072209477114574
+Dimitris Giannoulis (1995),Augsburg,GER-Bundesliga,DF,30,Lateral / Carrilero,Lateral / Carrilero,0.8928310586738946,0.10716894132610544
+Tyrone Mings (1993),Aston Villa,ENG-Premier League,DF,32,Defensor Central,Defensor Central,0.8930252866552686,0.10697471334473141
+José Luis Palomino (1990),Cagliari,ITA-Serie A,DF,35,Defensor Central,Defensor Central,0.8931158272459234,0.10688417275407658
+Christian Nørgaard (1994),Brentford,ENG-Premier League,MF,31,Volante Recuperador,Volante Recuperador,0.8932017900965776,0.10679820990342237
+Leif Davis (2000),Ipswich Town,ENG-Premier League,DF,25,Lateral / Carrilero,Lateral / Carrilero,0.8937287786669157,0.10627122133308431
+Christian Günter (1993),Freiburg,GER-Bundesliga,DF,32,Lateral / Carrilero,Lateral / Carrilero,0.8946839082013842,0.10531609179861579
+Tyrick Mitchell (1999),Crystal Palace,ENG-Premier League,DF,26,Lateral / Carrilero,Lateral / Carrilero,0.8947871818221718,0.10521281817782824
+Marko Ivezić (2001),Holstein Kiel,GER-Bundesliga,DF,24,Defensor Central,Defensor Central,0.8948617601878069,0.10513823981219306
+Milan Badelj (1989),Genoa,ITA-Serie A,MF,36,Volante Recuperador,Volante Recuperador,0.8955623376249565,0.10443766237504348
+Kalvin Phillips (1995),Ipswich Town,ENG-Premier League,MF,30,Volante Recuperador,Volante Recuperador,0.8964745014133895,0.10352549858661053
+Karol Mets (1993),St. Pauli,GER-Bundesliga,DF,32,Defensor Central,Defensor Central,0.896999105841497,0.103000894158503
+Joan Jordán (1994),Alavés,ESP-La Liga,MF,31,Organizador / Regista,Organizador / Regista,0.8972569471737699,0.10274305282623009
+Giangiacomo Magnani (1995),Hellas Verona,ITA-Serie A,DF,30,Defensor Central,Defensor Central,0.8976511987488843,0.10234880125111567
+Ylber Ramadani (1996),Lecce,ITA-Serie A,MF,29,Volante Recuperador,Volante Recuperador,0.8980212183819944,0.10197878161800555
+Pedro Pereira (1998),Monza,ITA-Serie A,DF,27,Lateral / Carrilero,Lateral / Carrilero,0.8993460549970242,0.10065394500297575
+Samu Costa (2000),Mallorca,ESP-La Liga,MF,25,Volante Recuperador,Volante Recuperador,0.8994466785588221,0.1005533214411779
+Andrea Cambiaso (2000),Juventus,ITA-Serie A,"DF,FW",25,Organizador / Regista,Organizador / Regista,0.8995919431722444,0.10040805682775555
+Bernardo (1995),Bochum,GER-Bundesliga,DF,30,Defensor Central,Defensor Central,0.8996311659171782,0.10036883408282182
+André (2001),Wolves,ENG-Premier League,MF,24,Volante Recuperador,Volante Recuperador,0.8996318247148655,0.10036817528513453
+Luke Thomas (2001),Leicester City,ENG-Premier League,DF,24,Lateral / Carrilero,Lateral / Carrilero,0.9002617328718499,0.09973826712815015
+Pau Cubarsí (2007),Barcelona,ESP-La Liga,DF,18,Defensor Central,Defensor Central,0.900490245002994,0.09950975499700598
+Lewis Dunk (1991),Brighton,ENG-Premier League,DF,34,Defensor Central,Defensor Central,0.900495959245701,0.09950404075429897
+Arouna Sangante (2002),Le Havre,FRA-Ligue 1,DF,23,Defensor Central,Defensor Central,0.9017714620111912,0.09822853798880882
+Jon Aramburu (2002),Real Sociedad,ESP-La Liga,DF,23,Lateral / Carrilero,Lateral / Carrilero,0.901798277849912,0.09820172215008804
+Bruno Fernandes (1994),Manchester Utd,ENG-Premier League,MF,31,Organizador / Regista,Organizador / Regista,0.9019749354443397,0.09802506455566029
+Valentin Gendrey (2000),Hoffenheim,GER-Bundesliga,DF,25,Lateral / Carrilero,Lateral / Carrilero,0.9025007475607194,0.09749925243928059
+Robert Lewandowski (1988),Barcelona,ESP-La Liga,FW,37,Delantero Finalizador (9),Delantero Finalizador (9),0.9043111194537692,0.09568888054623081
+Fábio Silva (2002),Las Palmas,ESP-La Liga,FW,23,Delantero Finalizador (9),Delantero Finalizador (9),0.904338400283017,0.09566159971698296
+Jonathan Gradit (1992),Lens,FRA-Ligue 1,DF,33,Defensor Central,Defensor Central,0.9048526584862299,0.09514734151377013
+Rocco Reitz (2002),Gladbach,GER-Bundesliga,MF,23,Volante Recuperador,Volante Recuperador,0.9049807126436112,0.09501928735638876
+Azor Matusiwa (1998),Rennes,FRA-Ligue 1,MF,27,Volante Recuperador,Volante Recuperador,0.9051252915983199,0.09487470840168011
+Jackson Tchatchoua (2001),Hellas Verona,ITA-Serie A,"DF,MF",24,Lateral / Carrilero,Lateral / Carrilero,0.9051729563170338,0.09482704368296624
+Giorgos Kyriakopoulos (1996),Monza,ITA-Serie A,DF,29,Lateral / Carrilero,Lateral / Carrilero,0.905210030380989,0.09478996961901098
+Kilian Fischer (2000),Wolfsburg,GER-Bundesliga,DF,25,Lateral / Carrilero,Lateral / Carrilero,0.9056505022267981,0.0943494977732019
+Lorenzo Lucca (2000),Udinese,ITA-Serie A,FW,25,Delantero Finalizador (9),Delantero Finalizador (9),0.9059205423570896,0.09407945764291037
+Florian Lejeune (1991),Rayo Vallecano,ESP-La Liga,DF,34,Defensor Central,Defensor Central,0.9060598378124646,0.09394016218753543
+Kieran Trippier (1990),Newcastle Utd,ENG-Premier League,DF,35,Organizador / Regista,Organizador / Regista,0.9065318809822981,0.09346811901770191
+Stanislav Lobotka (1994),Napoli,ITA-Serie A,MF,31,Volante Recuperador,Volante Recuperador,0.906756530971018,0.09324346902898195
+Domingos Duarte (1995),Getafe,ESP-La Liga,DF,30,Defensor Central,Defensor Central,0.9068812723735598,0.09311872762644025
+Myron Boadu (2001),Bochum,GER-Bundesliga,FW,24,Delantero Finalizador (9),Delantero Finalizador (9),0.9069910049940968,0.0930089950059032
+Roberto Férnandez (2002),Espanyol,ESP-La Liga,FW,23,Delantero Finalizador (9),Delantero Finalizador (9),0.9072103318246394,0.0927896681753606
+Nico Elvedi (1996),Gladbach,GER-Bundesliga,DF,29,Defensor Central,Defensor Central,0.90739607943873,0.09260392056126998
+Alexander Sørloth (1995),Atlético Madrid,ESP-La Liga,FW,30,Delantero Finalizador (9),Delantero Finalizador (9),0.9086908484824863,0.09130915151751373
+Óscar Mingueza (1999),Celta Vigo,ESP-La Liga,"MF,DF",26,Organizador / Regista,Organizador / Regista,0.9088639816722092,0.09113601832779084
+Flynn Downes (1999),Southampton,ENG-Premier League,MF,26,Volante Recuperador,Volante Recuperador,0.9089714851142201,0.0910285148857799
+Santiago Bueno (1998),Wolves,ENG-Premier League,DF,27,Defensor Central,Defensor Central,0.9089856740417297,0.0910143259582703
+Ibrahima Konaté (1999),Liverpool,ENG-Premier League,DF,26,Defensor Central,Defensor Central,0.9093612413550115,0.09063875864498849
+Moïse Bombito (2000),Nice,FRA-Ligue 1,DF,25,Defensor Central,Defensor Central,0.9096682537359666,0.0903317462640334
+Dimitri Foulquier (1993),Valencia,ESP-La Liga,DF,32,Lateral / Carrilero,Lateral / Carrilero,0.9100107142139412,0.0899892857860588
+Romain Perraud (1997),Betis,ESP-La Liga,DF,28,Lateral / Carrilero,Lateral / Carrilero,0.9103666653166151,0.08963333468338486
+Jefferson Lerma (1994),Crystal Palace,ENG-Premier League,"MF,DF",31,Volante Recuperador,Volante Recuperador,0.9103685204180728,0.08963147958192719
+Atakan Karazor (1996),Stuttgart,GER-Bundesliga,MF,29,Volante Recuperador,Volante Recuperador,0.9107494903923827,0.08925050960761727
+Ko Itakura (1997),Gladbach,GER-Bundesliga,DF,28,Defensor Central,Defensor Central,0.9113162119476015,0.08868378805239852
+Jordan Zemura (1999),Udinese,ITA-Serie A,DF,26,Lateral / Carrilero,Lateral / Carrilero,0.911421209169889,0.088578790830111
+Valentín Castellanos (1998),Lazio,ITA-Serie A,FW,27,Delantero Finalizador (9),Delantero Finalizador (9),0.9114653205098074,0.08853467949019256
+Alessandro Bastoni (1999),Inter,ITA-Serie A,DF,26,Organizador / Regista,Organizador / Regista,0.9115844656350554,0.08841553436494465
+Igor Zubeldia (1997),Real Sociedad,ESP-La Liga,DF,28,Defensor Central,Defensor Central,0.9116302704534192,0.08836972954658084
+Junior Adamu (2001),Freiburg,GER-Bundesliga,FW,24,Delantero Finalizador (9),Delantero Finalizador (9),0.9121747342880716,0.08782526571192839
+Toni Martínez (1997),Alavés,ESP-La Liga,FW,28,Delantero Finalizador (9),Delantero Finalizador (9),0.9125376881329519,0.08746231186704811
+Alexsandro Ribeiro (1999),Lille,FRA-Ligue 1,DF,26,Defensor Central,Defensor Central,0.9126020916106056,0.08739790838939443
+Obite N'Dicka (1999),Roma,ITA-Serie A,DF,26,Defensor Central,Defensor Central,0.912997272584811,0.087002727415189
+Derek Cornelius (1997),Marseille,FRA-Ligue 1,DF,28,Defensor Central,Defensor Central,0.9139499156662342,0.08605008433376582
+Jonathan Tah (1996),Leverkusen,GER-Bundesliga,DF,29,Defensor Central,Defensor Central,0.9144901577496531,0.08550984225034686
+Borna Sosa (1998),Torino,ITA-Serie A,DF,27,Lateral / Carrilero,Lateral / Carrilero,0.9151423397563274,0.08485766024367258
+Iván Balliu (1992),Rayo Vallecano,ESP-La Liga,DF,33,Lateral / Carrilero,Lateral / Carrilero,0.9155027023041784,0.0844972976958216
+Anton Stach (1998),Hoffenheim,GER-Bundesliga,"MF,DF",27,Volante Recuperador,Volante Recuperador,0.9161049748893649,0.08389502511063507
+Vitor Roque (2005),Betis,ESP-La Liga,FW,20,Delantero Finalizador (9),Delantero Finalizador (9),0.9161506848098339,0.08384931519016614
+Yukinari Sugawara (2000),Southampton,ENG-Premier League,"DF,MF",25,Lateral / Carrilero,Lateral / Carrilero,0.916199373325384,0.08380062667461596
+Phil Harres (2002),Holstein Kiel,GER-Bundesliga,FW,23,Delantero Finalizador (9),Delantero Finalizador (9),0.9162324068508321,0.08376759314916793
+Arthur Vermeeren (2005),RB Leipzig,GER-Bundesliga,MF,20,Volante Recuperador,Volante Recuperador,0.916296716278839,0.08370328372116098
+Matthias Ginter (1994),Freiburg,GER-Bundesliga,DF,31,Defensor Central,Defensor Central,0.9165147437735386,0.08348525622646141
+Evanilson (1999),Bournemouth,ENG-Premier League,FW,26,Delantero Finalizador (9),Delantero Finalizador (9),0.9172061914311219,0.08279380856887808
+Óscar Valentín (1994),Rayo Vallecano,ESP-La Liga,MF,31,Volante Recuperador,Volante Recuperador,0.9177574036644867,0.08224259633551334
+Nicolas Cozza (1999),Nantes,FRA-Ligue 1,"DF,MF",26,Lateral / Carrilero,Lateral / Carrilero,0.9179942239168939,0.08200577608310611
+Massadio Haïdara (1992),Brest,FRA-Ligue 1,DF,33,Lateral / Carrilero,Lateral / Carrilero,0.9180554423165841,0.08194455768341591
+Marash Kumbulla (2000),Espanyol,ESP-La Liga,DF,25,Defensor Central,Defensor Central,0.9184886877074847,0.08151131229251529
+Álex Muñoz (1994),Las Palmas,ESP-La Liga,DF,31,Lateral / Carrilero,Lateral / Carrilero,0.9186217590884609,0.08137824091153911
+Robin Le Normand (1996),Atlético Madrid,ESP-La Liga,DF,29,Defensor Central,Defensor Central,0.919172700349699,0.080827299650301
+Erling Haaland (2000),Manchester City,ENG-Premier League,FW,25,Delantero Finalizador (9),Delantero Finalizador (9),0.9192340539931247,0.08076594600687526
+Orri Steinn Óskarsson (2004),Real Sociedad,ESP-La Liga,FW,21,Delantero Finalizador (9),Delantero Finalizador (9),0.9193970716814646,0.08060292831853544
+Konstantinos Koulierakis (2003),Wolfsburg,GER-Bundesliga,DF,22,Defensor Central,Defensor Central,0.9204665104507224,0.07953348954927764
+Jørgen Strand Larsen (2000),Wolves,ENG-Premier League,FW,25,Delantero Finalizador (9),Delantero Finalizador (9),0.9204751476343862,0.0795248523656138
+Valentin Rongier (1994),Marseille,FRA-Ligue 1,"MF,DF",31,Volante Recuperador,Volante Recuperador,0.9205669522125792,0.07943304778742077
+Javi López (2002),Real Sociedad,ESP-La Liga,DF,23,Lateral / Carrilero,Lateral / Carrilero,0.9206414414675118,0.07935855853248819
+Nathan Collins (2001),Brentford,ENG-Premier League,DF,24,Defensor Central,Defensor Central,0.9211602990021196,0.0788397009978804
+Rasmus Højlund (2003),Manchester Utd,ENG-Premier League,FW,22,Delantero Finalizador (9),Delantero Finalizador (9),0.9214054694617703,0.07859453053822973
+David López (1989),Girona,ESP-La Liga,DF,36,Defensor Central,Defensor Central,0.9223309949173973,0.07766900508260266
+Saúl Coco (1999),Torino,ITA-Serie A,DF,26,Defensor Central,Defensor Central,0.9229182402274348,0.07708175977256515
+Oriol Romeu (1991),Girona,ESP-La Liga,MF,34,Volante Recuperador,Volante Recuperador,0.9241055504655384,0.07589444953446156
+Oliver McBurnie (1996),Las Palmas,ESP-La Liga,FW,29,Delantero Finalizador (9),Delantero Finalizador (9),0.9241568550656114,0.0758431449343886
+Timothee Pembele (2002),Le Havre,FRA-Ligue 1,DF,23,Lateral / Carrilero,Lateral / Carrilero,0.9244970276595365,0.07550297234046355
+Jorge Sáenz (1996),Leganés,ESP-La Liga,DF,29,Defensor Central,Defensor Central,0.9246955140281926,0.07530448597180739
+Pathé Ciss (1994),Rayo Vallecano,ESP-La Liga,"MF,DF",31,Volante Recuperador,Volante Recuperador,0.9255159907050975,0.07448400929490251
+Jean-Charles Castelletto (1995),Nantes,FRA-Ligue 1,"DF,MF",30,Defensor Central,Defensor Central,0.9257831524208446,0.07421684757915537
+Dani Ceballos (1996),Real Madrid,ESP-La Liga,MF,29,Organizador / Regista,Organizador / Regista,0.9274188950338098,0.07258110496619019
+Guillermo Maripán (1994),Torino,ITA-Serie A,DF,31,Defensor Central,Defensor Central,0.927903505275389,0.072096494724611
+Christopher Wooh (2001),Rennes,FRA-Ligue 1,DF,24,Defensor Central,Defensor Central,0.9279758641057486,0.07202413589425138
+Juan Miranda (2000),Bologna,ITA-Serie A,DF,25,Organizador / Regista,Organizador / Regista,0.9281362894704378,0.0718637105295622
+Levi Colwill (2003),Chelsea,ENG-Premier League,DF,22,Defensor Central,Defensor Central,0.9283399347065253,0.07166006529347468
+José Luis Gayà (1995),Valencia,ESP-La Liga,DF,30,Lateral / Carrilero,Lateral / Carrilero,0.9288296742684238,0.07117032573157622
+Jordan Lefort (1993),Angers,FRA-Ligue 1,DF,32,Defensor Central,Defensor Central,0.9288661467365668,0.07113385326343324
+Kiké (1989),Alavés,ESP-La Liga,FW,36,Delantero Finalizador (9),Delantero Finalizador (9),0.9290127906569452,0.0709872093430548
+Patrick Mainka (1994),Heidenheim,GER-Bundesliga,DF,31,Defensor Central,Defensor Central,0.9296119887629838,0.07038801123701621
+Aihen Muñoz (1997),Real Sociedad,ESP-La Liga,DF,28,Lateral / Carrilero,Lateral / Carrilero,0.9308709794228227,0.06912902057717729
+Dario Essugo (2005),Las Palmas,ESP-La Liga,MF,20,Volante Recuperador,Volante Recuperador,0.9310327486481691,0.0689672513518309
+Milan Đurić (1990),Monza,ITA-Serie A,FW,35,Delantero Finalizador (9),Delantero Finalizador (9),0.9319437987644812,0.06805620123551881
+Kingsley Ehizibue (1995),Udinese,ITA-Serie A,DF,30,Lateral / Carrilero,Lateral / Carrilero,0.9322696357271509,0.06773036427284906
+Iglesias (1998),Getafe,ESP-La Liga,DF,27,Lateral / Carrilero,Lateral / Carrilero,0.9324771737321896,0.06752282626781037
+Viti (1997),Las Palmas,ESP-La Liga,DF,28,Lateral / Carrilero,Lateral / Carrilero,0.9324957559730388,0.0675042440269612
+Sergio Akieme (1997),Reims,FRA-Ligue 1,DF,28,Lateral / Carrilero,Lateral / Carrilero,0.9325381514964493,0.06746184850355075
+Abdoulaye Bamba (1990),Angers,FRA-Ligue 1,DF,35,Defensor Central,Defensor Central,0.932693837696096,0.06730616230390396
+Sergi Cardona (1999),Villarreal,ESP-La Liga,DF,26,Lateral / Carrilero,Lateral / Carrilero,0.93275208710437,0.06724791289563004
+Randy Nteka (1997),Rayo Vallecano,ESP-La Liga,FW,28,Delantero Finalizador (9),Delantero Finalizador (9),0.9327782191595049,0.06722178084049513
+Leandro Paredes (1994),Roma,ITA-Serie A,MF,31,Organizador / Regista,Organizador / Regista,0.9336043023759654,0.06639569762403463
+Abel Bretones (2000),Osasuna,ESP-La Liga,DF,25,Lateral / Carrilero,Lateral / Carrilero,0.9339383745944262,0.06606162540557381
+Erhan Mašović (1998),Bochum,GER-Bundesliga,DF,27,Defensor Central,Defensor Central,0.9341671753012843,0.06583282469871565
+Achraf Hakimi (1998),Paris S-G,FRA-Ligue 1,DF,27,Organizador / Regista,Organizador / Regista,0.93423918411047,0.06576081588952998
+Issa Diop (1997),Fulham,ENG-Premier League,DF,28,Defensor Central,Defensor Central,0.9344412436675623,0.06555875633243768
+Hugo Sotelo (2003),Celta Vigo,ESP-La Liga,MF,22,Organizador / Regista,Organizador / Regista,0.9345173185307944,0.06548268146920555
+Logan Costa (2001),Villarreal,ESP-La Liga,DF,24,Defensor Central,Defensor Central,0.9352711910204363,0.06472880897956368
+Nayef Aguerd (1996),Real Sociedad,ESP-La Liga,DF,29,Defensor Central,Defensor Central,0.9354376311126719,0.06456236888732814
+Rodrigo De Paul (1994),Atlético Madrid,ESP-La Liga,MF,31,Organizador / Regista,Organizador / Regista,0.9358521777675541,0.06414782223244586
+Neco Williams (2001),Nott'ham Forest,ENG-Premier League,DF,24,Lateral / Carrilero,Lateral / Carrilero,0.9358659928270112,0.06413400717298878
+Pavel Kadeřábek (1992),Hoffenheim,GER-Bundesliga,DF,33,Lateral / Carrilero,Lateral / Carrilero,0.936335717826829,0.063664282173171
+James Tarkowski (1992),Everton,ENG-Premier League,DF,33,Defensor Central,Defensor Central,0.9366415678309862,0.06335843216901382
+Julian Chabot (1998),Stuttgart,GER-Bundesliga,DF,27,Defensor Central,Defensor Central,0.9366457313852715,0.06335426861472848
+Serhou Guirassy (1996),Dortmund,GER-Bundesliga,FW,29,Delantero Finalizador (9),Delantero Finalizador (9),0.9366744633345394,0.06332553666546059
+Mark McKenzie (1999),Toulouse,FRA-Ligue 1,DF,26,Defensor Central,Defensor Central,0.9367754532458318,0.06322454675416822
+Wout Faes (1998),Leicester City,ENG-Premier League,DF,27,Defensor Central,Defensor Central,0.9371403865913993,0.06285961340860069
+Manu Sánchez (2000),Alavés,ESP-La Liga,DF,25,Lateral / Carrilero,Lateral / Carrilero,0.937318855530169,0.06268114446983097
+Vedat Muriqi (1994),Mallorca,ESP-La Liga,FW,31,Delantero Finalizador (9),Delantero Finalizador (9),0.9376572876050152,0.06234271239498479
+Senne Lynen (1999),Werder Bremen,GER-Bundesliga,MF,26,Volante Recuperador,Volante Recuperador,0.937815870193968,0.06218412980603205
+Adrian Bernabe (2001),Parma,ITA-Serie A,MF,24,Organizador / Regista,Organizador / Regista,0.9380255855356022,0.061974414464397776
+Koni De Winter (2002),Genoa,ITA-Serie A,DF,23,Defensor Central,Defensor Central,0.9382613211848875,0.061738678815112524
+Diego (2000),Leganés,ESP-La Liga,FW,25,Delantero Finalizador (9),Delantero Finalizador (9),0.938379839706656,0.06162016029334405
+Emmanuel Biumla (2005),Angers,FRA-Ligue 1,DF,20,Defensor Central,Defensor Central,0.93853900932312,0.061460990676880045
+Gabriele Zappa (1999),Cagliari,ITA-Serie A,DF,26,Lateral / Carrilero,Lateral / Carrilero,0.9387752802719987,0.06122471972800125
+Tommaso Augello (1994),Cagliari,ITA-Serie A,DF,31,Lateral / Carrilero,Lateral / Carrilero,0.9388483273608277,0.061151672639172316
+David Zec (2000),Holstein Kiel,GER-Bundesliga,DF,25,Defensor Central,Defensor Central,0.9389040497037456,0.061095950296254364
+Lucas Digne (1993),Aston Villa,ENG-Premier League,DF,32,Lateral / Carrilero,Lateral / Carrilero,0.9389231047777796,0.06107689522222037
+Amir Rrahmani (1994),Napoli,ITA-Serie A,DF,31,Defensor Central,Defensor Central,0.9397595430129516,0.060240456987048385
+Mattia Bani (1993),Genoa,ITA-Serie A,DF,32,Defensor Central,Defensor Central,0.9405782110801049,0.059421788919895135
+Jesús Areso (1999),Osasuna,ESP-La Liga,DF,26,Lateral / Carrilero,Lateral / Carrilero,0.9411544463869237,0.05884555361307631
+Giovanni Leoni (2006),Parma,ITA-Serie A,DF,19,Defensor Central,Defensor Central,0.9415961345186263,0.05840386548137366
+Timothy Castagne (1995),Fulham,ENG-Premier League,DF,30,Lateral / Carrilero,Lateral / Carrilero,0.9425037584512196,0.057496241548780413
+Sepp van den Berg (2001),Brentford,ENG-Premier League,DF,24,Defensor Central,Defensor Central,0.9435743871827315,0.056425612817268544
+Kevin Danso (1998),Lens,FRA-Ligue 1,DF,27,Defensor Central,Defensor Central,0.9437922236677018,0.05620777633229823
+Soungoutou Magassa (2003),Monaco,FRA-Ligue 1,MF,22,Volante Recuperador,Volante Recuperador,0.9438673028170916,0.056132697182908364
+Theo Bair (1999),Auxerre,FRA-Ligue 1,FW,26,Delantero Finalizador (9),Delantero Finalizador (9),0.9443812155407164,0.05561878445928359
+Aitor Paredes (2000),Athletic Club,ESP-La Liga,DF,25,Defensor Central,Defensor Central,0.9445419613439804,0.055458038656019615
+Jacob Greaves (2000),Ipswich Town,ENG-Premier League,DF,25,Defensor Central,Defensor Central,0.9449188968375954,0.055081103162404554
+Philipp Lienhart (1996),Freiburg,GER-Bundesliga,DF,29,Defensor Central,Defensor Central,0.9449606898230589,0.05503931017694108
+Rodrigo Bentancur (1997),Tottenham,ENG-Premier League,MF,28,Volante Recuperador,Volante Recuperador,0.9450584278709228,0.05494157212907724
+Emanuel Emegha (2003),Strasbourg,FRA-Ligue 1,FW,22,Delantero Finalizador (9),Delantero Finalizador (9),0.9451729576185262,0.054827042381473845
+Álex Moreno (1993),Nott'ham Forest,ENG-Premier League,"DF,MF",32,Lateral / Carrilero,Lateral / Carrilero,0.9452429975606115,0.054757002439388525
+Diego Llorente (1993),Betis,ESP-La Liga,DF,32,Defensor Central,Defensor Central,0.9452704170805422,0.05472958291945784
+Alessio Romagnoli (1995),Lazio,ITA-Serie A,DF,30,Defensor Central,Defensor Central,0.9456038232294882,0.054396176770511784
+Brian Oliván (1994),Espanyol,ESP-La Liga,DF,31,Lateral / Carrilero,Lateral / Carrilero,0.9456509572579102,0.05434904274208985
+Tyler Adams (1999),Bournemouth,ENG-Premier League,MF,26,Volante Recuperador,Volante Recuperador,0.9456926293607271,0.054307370639272934
+Hugo Duro (1999),Valencia,ESP-La Liga,FW,26,Delantero Finalizador (9),Delantero Finalizador (9),0.9459687493558493,0.05403125064415071
+Modibo Sagnan (1999),Montpellier,FRA-Ligue 1,DF,26,Defensor Central,Defensor Central,0.9459728564342299,0.0540271435657701
+Roberto Piccoli (2001),Cagliari,ITA-Serie A,FW,24,Delantero Finalizador (9),Delantero Finalizador (9),0.9464628828128516,0.053537117187148375
+Loïc Nego (1991),Le Havre,FRA-Ligue 1,"DF,FW",34,Lateral / Carrilero,Lateral / Carrilero,0.9469513080050647,0.05304869199493534
+Malick Thiaw (2001),Milan,ITA-Serie A,DF,24,Defensor Central,Defensor Central,0.9469947771576865,0.05300522284231346
+Jakov Medić (1998),Bochum,GER-Bundesliga,DF,27,Defensor Central,Defensor Central,0.9476157069098199,0.05238429309018011
+Yunis Abdelhamid (1987),Saint-Étienne,FRA-Ligue 1,DF,38,Defensor Central,Defensor Central,0.9477311936103455,0.052268806389654476
+Catena (1994),Osasuna,ESP-La Liga,DF,31,Defensor Central,Defensor Central,0.9479365536698029,0.052063446330197105
+Christian Eriksen (1992),Manchester Utd,ENG-Premier League,MF,33,Organizador / Regista,Organizador / Regista,0.9479548134336985,0.05204518656630153
+Andoni Gorosabel (1996),Athletic Club,ESP-La Liga,DF,29,Lateral / Carrilero,Lateral / Carrilero,0.948665348339093,0.051334651660907005
+Frank Magri (1999),Toulouse,FRA-Ligue 1,"FW,MF",26,Delantero Finalizador (9),Delantero Finalizador (9),0.9487393467825939,0.05126065321740614
+Max Kilman (1997),West Ham,ENG-Premier League,DF,28,Defensor Central,Defensor Central,0.9490547424005419,0.050945257599458116
+Giuseppe Pezzella (1997),Empoli,ITA-Serie A,"DF,FW",28,Lateral / Carrilero,Lateral / Carrilero,0.9494066577789297,0.05059334222107026
+Thierno Barry (2002),Villarreal,ESP-La Liga,FW,23,Delantero Finalizador (9),Delantero Finalizador (9),0.9496911911558481,0.0503088088441519
+Willian Pacho (2001),Paris S-G,FRA-Ligue 1,DF,24,Defensor Central,Defensor Central,0.9498773823189768,0.05012261768102322
+Sergi (1992),Leganés,ESP-La Liga,DF,33,Defensor Central,Defensor Central,0.9506712644482384,0.04932873555176165
+Willy Kambwala (2004),Villarreal,ESP-La Liga,DF,21,Defensor Central,Defensor Central,0.9506945993022289,0.04930540069777112
+Loïc Bade (2000),Sevilla,ESP-La Liga,DF,25,Defensor Central,Defensor Central,0.9507153043751372,0.04928469562486282
+Marvin Friedrich (1995),Gladbach,GER-Bundesliga,DF,30,Defensor Central,Defensor Central,0.9508097294089107,0.04919027059108927
+Gabriel Osho (1998),Auxerre,FRA-Ligue 1,DF,27,Defensor Central,Defensor Central,0.950977065408527,0.049022934591473
+Chris Wood (1991),Nott'ham Forest,ENG-Premier League,FW,34,Delantero Finalizador (9),Delantero Finalizador (9),0.9513957551174106,0.04860424488258941
+Miloš Veljković (1995),Werder Bremen,GER-Bundesliga,DF,30,Defensor Central,Defensor Central,0.9515881990255955,0.04841180097440445
+Domagoj Bradarić (1999),Hellas Verona,ITA-Serie A,DF,26,Lateral / Carrilero,Lateral / Carrilero,0.9525400958963751,0.047459904103624884
+Javi Sánchez (1997),Valladolid,ESP-La Liga,DF,28,Defensor Central,Defensor Central,0.9526655622526246,0.047334437747375446
+Pep Chavarría (1998),Rayo Vallecano,ESP-La Liga,"DF,FW",27,Lateral / Carrilero,Lateral / Carrilero,0.9527786676272445,0.0472213323727555
+Johnny Cardoso (2001),Betis,ESP-La Liga,MF,24,Volante Recuperador,Volante Recuperador,0.9529818326327582,0.04701816736724185
+Leandro Cabrera (1991),Espanyol,ESP-La Liga,DF,34,Defensor Central,Defensor Central,0.9539544544876287,0.04604554551237128
+Radu Drăgușin (2002),Tottenham,ENG-Premier League,DF,23,Defensor Central,Defensor Central,0.9540878275280429,0.04591217247195711
+Ethan Pinnock (1993),Brentford,ENG-Premier League,DF,32,Defensor Central,Defensor Central,0.9541164777140388,0.045883522285961154
+Vladimír Coufal (1992),West Ham,ENG-Premier League,DF,33,Lateral / Carrilero,Lateral / Carrilero,0.954400612408883,0.045599387591117035
+Ola Aina (1996),Nott'ham Forest,ENG-Premier League,DF,29,Lateral / Carrilero,Lateral / Carrilero,0.9546671597565521,0.04533284024344786
+Valentin Rosier (1996),Leganés,ESP-La Liga,DF,29,Lateral / Carrilero,Lateral / Carrilero,0.9547355146329256,0.04526448536707439
+Jorge Herrando (2001),Osasuna,ESP-La Liga,DF,24,Defensor Central,Defensor Central,0.9548067282026315,0.04519327179736854
+Brendan Chardonnet (1994),Brest,FRA-Ligue 1,DF,31,Defensor Central,Defensor Central,0.9551644608763173,0.044835539123682655
+Andreas Hanche-Olsen (1997),Mainz 05,GER-Bundesliga,DF,28,Defensor Central,Defensor Central,0.9552548250745944,0.04474517492540564
+Pedri (2002),Barcelona,ESP-La Liga,MF,23,Organizador / Regista,Organizador / Regista,0.9554737316953484,0.04452626830465156
+Bertuğ Yıldırım (2002),Getafe,ESP-La Liga,FW,23,Delantero Finalizador (9),Delantero Finalizador (9),0.9555001247302783,0.044499875269721656
+Dennis Appiah (1992),Saint-Étienne,FRA-Ligue 1,DF,33,Lateral / Carrilero,Lateral / Carrilero,0.956027731189118,0.04397226881088201
+Florent Hanin (1990),Angers,FRA-Ligue 1,DF,35,Lateral / Carrilero,Lateral / Carrilero,0.9562081164651608,0.043791883534839204
+Alberto Dossena (1998),Como,ITA-Serie A,DF,27,Defensor Central,Defensor Central,0.956519756238732,0.04348024376126802
+Nathan Zeze (2005),Nantes,FRA-Ligue 1,DF,20,Defensor Central,Defensor Central,0.9574956331029355,0.042504366897064494
+Nicolás Valentini (2001),Hellas Verona,ITA-Serie A,DF,24,Defensor Central,Defensor Central,0.9583263131544951,0.041673686845504876
+Ermedin Demirović (1998),Stuttgart,GER-Bundesliga,FW,27,Delantero Finalizador (9),Delantero Finalizador (9),0.9584517381161356,0.0415482618838644
+Lucas Beraldo (2003),Paris S-G,FRA-Ligue 1,DF,22,Defensor Central,Defensor Central,0.9585879705935265,0.04141202940647348
+César Tárrega (2002),Valencia,ESP-La Liga,DF,23,Defensor Central,Defensor Central,0.9593796882661464,0.04062031173385361
+Jaka Bijol (1999),Udinese,ITA-Serie A,DF,26,Defensor Central,Defensor Central,0.9598293473656844,0.04017065263431563
+Matthijs de Ligt (1999),Manchester Utd,ENG-Premier League,DF,26,Defensor Central,Defensor Central,0.9599823252043337,0.040017674795666314
+Moritz Jenz (1999),Mainz 05,GER-Bundesliga,DF,26,Defensor Central,Defensor Central,0.9603331754920292,0.039666824507970766
+Kelvin Amian (1998),Nantes,FRA-Ligue 1,DF,27,Lateral / Carrilero,Lateral / Carrilero,0.9609923052666546,0.03900769473334542
+Artem Dovbyk (1997),Roma,ITA-Serie A,FW,28,Delantero Finalizador (9),Delantero Finalizador (9),0.9614437480756652,0.03855625192433476
+Matija Nastasić (1993),Leganés,ESP-La Liga,DF,32,Defensor Central,Defensor Central,0.9615758523976381,0.0384241476023619
+Diego Rico (1993),Getafe,ESP-La Liga,DF,32,Lateral / Carrilero,Lateral / Carrilero,0.9618294910535945,0.0381705089464055
+Frederic Guilbert (1994),Lecce,ITA-Serie A,DF,31,Lateral / Carrilero,Lateral / Carrilero,0.9629434388890241,0.03705656111097588
+Mamadou Sarr (2005),Strasbourg,FRA-Ligue 1,DF,20,Defensor Central,Defensor Central,0.963474435371682,0.03652556462831802
+Julien Le Cardinal (1997),Brest,FRA-Ligue 1,DF,28,Defensor Central,Defensor Central,0.9635463233949468,0.036453676605053165
+Aaron Wan-Bissaka (1997),West Ham,ENG-Premier League,DF,28,Lateral / Carrilero,Lateral / Carrilero,0.9635715897591121,0.03642841024088794
+Romelu Lukaku (1993),Napoli,ITA-Serie A,FW,32,Delantero Finalizador (9),Delantero Finalizador (9),0.9635776254674101,0.036422374532589896
+Bafodé Diakité (2001),Lille,FRA-Ligue 1,DF,24,Defensor Central,Defensor Central,0.9639794175048223,0.0360205824951777
+Téji Savanier (1991),Montpellier,FRA-Ligue 1,MF,34,Organizador / Regista,Organizador / Regista,0.9641279897178636,0.03587201028213638
+Marc-Oliver Kempf (1995),Como,ITA-Serie A,DF,30,Defensor Central,Defensor Central,0.9644242254174774,0.03557577458252259
+Thilo Kehrer (1996),Monaco,FRA-Ligue 1,DF,29,Defensor Central,Defensor Central,0.9644654922757362,0.03553450772426381
+Juan Berrocal (1999),Getafe,ESP-La Liga,DF,26,Defensor Central,Defensor Central,0.9648088320063248,0.035191167993675165
+Moussa Niakhate (1996),Lyon,FRA-Ligue 1,DF,29,Defensor Central,Defensor Central,0.964865306858631,0.03513469314136897
+Jesus Vazquez (2003),Valencia,ESP-La Liga,DF,22,Lateral / Carrilero,Lateral / Carrilero,0.9649970838273684,0.035002916172631626
+Amadou Haidara (1998),RB Leipzig,GER-Bundesliga,MF,27,Volante Recuperador,Volante Recuperador,0.9652560465445721,0.03474395345542791
+Matty Cash (1997),Aston Villa,ENG-Premier League,DF,28,Lateral / Carrilero,Lateral / Carrilero,0.9652715627808303,0.03472843721916974
+Marcus Pedersen (2000),Torino,ITA-Serie A,DF,25,Lateral / Carrilero,Lateral / Carrilero,0.9653552888404928,0.03464471115950718
+Conor Coady (1993),Leicester City,ENG-Premier League,DF,32,Defensor Central,Defensor Central,0.9658716364441189,0.034128363555881114
+Luke Woolfenden (1998),Ipswich Town,ENG-Premier League,DF,27,Defensor Central,Defensor Central,0.9659390345882768,0.03406096541172321
+Milos Kerkez (2003),Bournemouth,ENG-Premier League,DF,22,Lateral / Carrilero,Lateral / Carrilero,0.9659705200385746,0.03402947996142536
+Antonee Robinson (1997),Fulham,ENG-Premier League,DF,28,Lateral / Carrilero,Lateral / Carrilero,0.9661829257613036,0.0338170742386964
+Matteo Gabbia (1999),Milan,ITA-Serie A,DF,26,Defensor Central,Defensor Central,0.9664018271177992,0.033598172882200794
+Kristjan Asllani (2002),Inter,ITA-Serie A,MF,23,Organizador / Regista,Organizador / Regista,0.9664361516938431,0.033563848306156885
+Kialonda (1997),Lecce,ITA-Serie A,DF,28,Defensor Central,Defensor Central,0.966522357692059,0.033477642307941036
+M'Bala Nzola (1996),Lens,FRA-Ligue 1,FW,29,Delantero Finalizador (9),Delantero Finalizador (9),0.9666558105855629,0.033344189414437064
+Leopold Querfeld (2003),Union Berlin,GER-Bundesliga,DF,22,Defensor Central,Defensor Central,0.9670493660348685,0.03295063396513154
+Yacine Adli (2000),Fiorentina,ITA-Serie A,MF,25,Organizador / Regista,Organizador / Regista,0.9671470154647723,0.03285298453522767
+David Torres (2003),Valladolid,ESP-La Liga,DF,22,Defensor Central,Defensor Central,0.9671987462776066,0.0328012537223934
+Natan (2001),Betis,ESP-La Liga,DF,24,Defensor Central,Defensor Central,0.9673671310706982,0.03263286892930184
+Carlos Dominguez (2001),Celta Vigo,ESP-La Liga,DF,24,Defensor Central,Defensor Central,0.9677559421112713,0.03224405788872875
+Marvin (2000),Las Palmas,ESP-La Liga,"DF,FW",25,Lateral / Carrilero,Lateral / Carrilero,0.9681913094935642,0.031808690506435755
+Harry Maguire (1993),Manchester Utd,ENG-Premier League,DF,32,Defensor Central,Defensor Central,0.9683351300628503,0.031664869937149676
+Enzo Tchato (2002),Montpellier,FRA-Ligue 1,DF,23,Lateral / Carrilero,Lateral / Carrilero,0.9688667043994325,0.031133295600567545
+Pablo Maffeo (1997),Mallorca,ESP-La Liga,DF,28,Lateral / Carrilero,Lateral / Carrilero,0.9690975447425658,0.03090245525743418
+Nuno Mendes (2002),Paris S-G,FRA-Ligue 1,DF,23,Organizador / Regista,Organizador / Regista,0.969600245637629,0.030399754362370968
+Cameron Burgess (1995),Ipswich Town,ENG-Premier League,DF,30,Defensor Central,Defensor Central,0.969853705859432,0.03014629414056802
+Dominic Calvert-Lewin (1997),Everton,ENG-Premier League,FW,28,Delantero Finalizador (9),Delantero Finalizador (9),0.9709067351445256,0.029093264855474366
+Luis Pérez (1995),Valladolid,ESP-La Liga,DF,30,Lateral / Carrilero,Lateral / Carrilero,0.9711119989462604,0.028888001053739565
+Eric Dier (1994),Bayern Munich,GER-Bundesliga,DF,31,Defensor Central,Defensor Central,0.9712897770878389,0.028710222912161076
+Aridane Hernández (1989),Rayo Vallecano,ESP-La Liga,DF,36,Defensor Central,Defensor Central,0.9715219571512484,0.02847804284875155
+Joachim Andersen (1996),Fulham,ENG-Premier League,DF,29,Defensor Central,Defensor Central,0.9715822898242628,0.028417710175737243
+Etienne Youte Kinkoue (2002),Le Havre,FRA-Ligue 1,DF,23,Defensor Central,Defensor Central,0.9716124430509698,0.028387556949030168
+Gaby Jean (2000),Lecce,ITA-Serie A,DF,25,Defensor Central,Defensor Central,0.9721322521399909,0.027867747860009118
+Willi Orban (1992),RB Leipzig,GER-Bundesliga,DF,33,Defensor Central,Defensor Central,0.9721584402579819,0.027841559742018074
+Cyle Larin (1995),Mallorca,ESP-La Liga,FW,30,Delantero Finalizador (9),Delantero Finalizador (9),0.972235358924314,0.027764641075685992
+Jannik Vestergaard (1992),Leicester City,ENG-Premier League,DF,33,Defensor Central,Defensor Central,0.9722481119653495,0.02775188803465045
+Cristhian Stuani (1986),Girona,ESP-La Liga,FW,39,Delantero Finalizador (9),Delantero Finalizador (9),0.9725407514447798,0.027459248555220195
+Gonçalo Ramos (2001),Paris S-G,FRA-Ligue 1,FW,24,Delantero Finalizador (9),Delantero Finalizador (9),0.9735066044913547,0.026493395508645268
+Nikola Milenković (1997),Nott'ham Forest,ENG-Premier League,DF,28,Defensor Central,Defensor Central,0.9738327285148086,0.02616727148519138
+Jarrad Branthwaite (2002),Everton,ENG-Premier League,DF,23,Defensor Central,Defensor Central,0.9742671835944321,0.025732816405567904
+Gautier Lloris (1995),Le Havre,FRA-Ligue 1,DF,30,Defensor Central,Defensor Central,0.9752656275132413,0.024734372486758693
+Renato Veiga (2003),Juventus,ITA-Serie A,DF,22,Defensor Central,Defensor Central,0.9754943362065421,0.024505663793457866
+Botond Balogh (2002),Parma,ITA-Serie A,DF,23,Defensor Central,Defensor Central,0.9755964517459713,0.024403548254028684
+Virgil van Dijk (1991),Liverpool,ENG-Premier League,DF,34,Defensor Central,Defensor Central,0.9761769780824672,0.023823021917532827
+Mohammed Salisu (1999),Monaco,FRA-Ligue 1,DF,26,Defensor Central,Defensor Central,0.9763723474962928,0.02362765250370724
+Nahuel Tenaglia (1996),Alavés,ESP-La Liga,DF,29,Lateral / Carrilero,Lateral / Carrilero,0.977056435870382,0.022943564129617955
+Robin Koch (1996),Eint Frankfurt,GER-Bundesliga,DF,29,Defensor Central,Defensor Central,0.9770991358748686,0.02290086412513137
+Abdoulaye Niakhate Ndiaye (2002),Brest,FRA-Ligue 1,DF,23,Defensor Central,Defensor Central,0.977458361621181,0.02254163837881895
+Carl Starfelt (1995),Celta Vigo,ESP-La Liga,DF,30,Defensor Central,Defensor Central,0.9777172709010323,0.02228272909896767
+Ante Budimir (1991),Osasuna,ESP-La Liga,FW,34,Delantero Finalizador (9),Delantero Finalizador (9),0.9778823348761508,0.02211766512384916
+Denis Vavro (1996),Wolfsburg,GER-Bundesliga,DF,29,Defensor Central,Defensor Central,0.978606685937317,0.021393314062682967
+Dylan Batubinsika (1996),Saint-Étienne,FRA-Ligue 1,DF,29,Defensor Central,Defensor Central,0.9786354918186465,0.021364508181353492
+Konstantinos Mavropanos (1997),West Ham,ENG-Premier League,DF,28,Defensor Central,Defensor Central,0.9789252123425786,0.021074787657421434
+Jan Bednarek (1996),Southampton,ENG-Premier League,DF,29,Defensor Central,Defensor Central,0.9799838555191153,0.020016144480884734
+Saidou Sow (2002),Strasbourg,FRA-Ligue 1,DF,23,Defensor Central,Defensor Central,0.9805662778116097,0.019433722188390345
+Abakar Sylla (2002),Strasbourg,FRA-Ligue 1,DF,23,Defensor Central,Defensor Central,0.9806271014920868,0.01937289850791324
+Vitaliy Mykolenko (1999),Everton,ENG-Premier League,DF,26,Lateral / Carrilero,Lateral / Carrilero,0.9811772577366331,0.018822742263366887
+Victor Bernth Kristiansen (2002),Leicester City,ENG-Premier League,DF,23,Lateral / Carrilero,Lateral / Carrilero,0.9812498691495211,0.01875013085047894
+Antonino Gallo (2000),Lecce,ITA-Serie A,DF,25,Lateral / Carrilero,Lateral / Carrilero,0.9812512671902383,0.018748732809761748
+Stefan Bell (1991),Mainz 05,GER-Bundesliga,DF,34,Defensor Central,Defensor Central,0.9817124724811879,0.01828752751881213
+Jubal (1993),Auxerre,FRA-Ligue 1,DF,32,Defensor Central,Defensor Central,0.9820879246368976,0.017912075363102353
+Stefan de Vrij (1992),Inter,ITA-Serie A,DF,33,Defensor Central,Defensor Central,0.9827963394439859,0.017203660556014078
+Ivan Ordets (1992),Bochum,GER-Bundesliga,DF,33,Defensor Central,Defensor Central,0.9829905897820688,0.01700941021793123
+Dara O'Shea (1999),Ipswich Town,ENG-Premier League,DF,26,Defensor Central,Defensor Central,0.9831991657864778,0.016800834213522187
+Tosin Adarabioyo (1997),Chelsea,ENG-Premier League,DF,28,Defensor Central,Defensor Central,0.9851665683844586,0.014833431615541404
+Ardian Ismajli (1996),Empoli,ITA-Serie A,DF,29,Defensor Central,Defensor Central,0.9858030119319184,0.014196988068081562
+Juan Herzog (2003),Las Palmas,ESP-La Liga,DF,22,Defensor Central,Defensor Central,0.9864337519074043,0.013566248092595656
+José María Giménez (1995),Atlético Madrid,ESP-La Liga,DF,30,Defensor Central,Defensor Central,0.9864923682102105,0.013507631789789531
+Antonio Raillo (1991),Mallorca,ESP-La Liga,DF,34,Defensor Central,Defensor Central,0.9865167608829962,0.013483239117003776
+Craig Dawson (1990),Wolves,ENG-Premier League,DF,35,Defensor Central,Defensor Central,0.9868142290984707,0.013185770901529281
+Duje Ćaleta-Car (1996),Lyon,FRA-Ligue 1,DF,29,Defensor Central,Defensor Central,0.9881048859144512,0.011895114085548775
+Scott McKenna (1996),Las Palmas,ESP-La Liga,DF,29,Defensor Central,Defensor Central,0.9883736552324557,0.011626344767544317
+Hakan Çalhanoğlu (1994),Inter,ITA-Serie A,MF,31,Organizador / Regista,Organizador / Regista,0.9889273235805606,0.011072676419439431
+Ben Davies (1993),Tottenham,ENG-Premier League,DF,32,Defensor Central,Defensor Central,0.9892843938701801,0.010715606129819921
+Raúl Albiol (1985),Villarreal,ESP-La Liga,DF,40,Defensor Central,Defensor Central,0.989838386350778,0.010161613649221968
+Charlie Cresswell (2002),Toulouse,FRA-Ligue 1,DF,23,Defensor Central,Defensor Central,0.9906295656385962,0.009370434361403834
+Diego Coppola (2003),Hellas Verona,ITA-Serie A,DF,22,Defensor Central,Defensor Central,0.9911065901191326,0.008893409880867398
+Dan Burn (1992),Newcastle Utd,ENG-Premier League,DF,33,Defensor Central,Defensor Central,0.9926851664092611,0.007314833590738923
+Federico Baschirotto (1996),Lecce,ITA-Serie A,DF,29,Defensor Central,Defensor Central,0.992750191763931,0.007249808236069022
+Jon Martin (2006),Real Sociedad,ESP-La Liga,DF,19,Defensor Central,Defensor Central,0.992920114301012,0.007079885698987987
+Michael Keane (1993),Everton,ENG-Premier League,DF,32,Defensor Central,Defensor Central,0.9930840221493675,0.006915977850632471
+Luka Modrić (1985),Real Madrid,ESP-La Liga,MF,40,Organizador / Regista,Organizador / Regista,0.994325728709325,0.005674271290674993
+Aleix García (1997),Leverkusen,GER-Bundesliga,MF,28,Organizador / Regista,Organizador / Regista,0.9950507748453244,0.004949225154675552
+Trent Alexander-Arnold (1998),Liverpool,ENG-Premier League,DF,27,Organizador / Regista,Organizador / Regista,0.995304186402764,0.0046958135972360315
+Joshua Kimmich (1995),Bayern Munich,GER-Bundesliga,MF,30,Organizador / Regista,Organizador / Regista,0.9980892202137056,0.001910779786294392

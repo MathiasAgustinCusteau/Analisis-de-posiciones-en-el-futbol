@@ -5,7 +5,6 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 from scipy.stats import entropy
-from scipy.optimize import linear_sum_assignment
 from sklearn.cluster import KMeans
 from sklearn.mixture import GaussianMixture
 from sklearn.metrics import silhouette_score, davies_bouldin_score, adjusted_rand_score
@@ -48,64 +47,29 @@ df_diag = pd.DataFrame(diag)
 print(df_diag.round(4).to_string(index=False))
 df_diag.to_csv(RAIZ_PROYECTO / 'Clustering' / 'diagnostico_k.csv', index=False)
 #%%
-K_ELEGIDO = 8
-gmm_final = GaussianMixture(n_components=K_ELEGIDO, covariance_type='full', n_init=15, random_state=42)
-etiquetas = gmm_final.fit_predict(X_campo)
-probas = gmm_final.predict_proba(X_campo)
-
-# 3. Alineación con la asignación de referencia
-# GMM no garantiza que el mismo grupo reciba siempre el mismo número (puede cambiar con
-# otra versión de sklearn, otra semilla o datos levemente distintos). Para que los nombres
-# de los roles no queden cruzados, la primera corrida se guarda como referencia y las
-# siguientes se renumeran para coincidir con ella (asignación húngara sobre la tabla cruzada).
-nombres_clusters = {
-    0: 'C0: Generador Élite',
-    1: 'C1: Organizador / Regista',
-    2: 'C2: Volante Recuperador',
-    3: 'C3: Defensor Central',
-    4: 'C4: Lateral / Carrilero',
-    5: 'C5: Mediapunta / Extremo Std',
-    6: 'C6: Delantero Finalizador (9)',
-    7: 'C7: Pivot Físico / Choque'
-}
-ruta_ref = RAIZ_PROYECTO / 'Clustering' / 'asignacion_clusters.csv'
+# 3. Modelo final: roles de consenso (k = 7)
+# Un único GMM con k=8 daba roles distintos según la semilla (ver estabilidad_gmm.py).
+# El modelo final es el consenso de 200 corridas que arma consenso.py; acá solo se lee.
+ruta_asig = RAIZ_PROYECTO / 'Clustering' / 'asignacion_clusters.csv'
+if not ruta_asig.exists():
+    raise FileNotFoundError("Falta asignacion_clusters.csv: corré Clustering/consenso.py primero.")
+asig = pd.read_csv(ruta_asig)
 cols_clave = ['league', 'season', 'team', 'id_jugador']
+if not (asig[cols_clave].astype(str).values == df_res[cols_clave].astype(str).values).all():
+    raise ValueError("asignacion_clusters.csv no coincide con datos_pca.parquet: "
+                     "volvé a correr Clustering/consenso.py.")
 
-if ruta_ref.exists():
-    ref = pd.read_csv(ruta_ref)
-    clave_ref = ref[cols_clave].astype(str).agg('|'.join, axis=1)
-    clave_new = df_res[cols_clave].astype(str).agg('|'.join, axis=1)
-    if set(clave_ref) != set(clave_new):
-        raise ValueError("Los jugadores no coinciden con la asignación de referencia: "
-                         "cambiaron los datos. Borrá asignacion_clusters.csv y revisá los nombres de los clústeres a mano.")
-    lbl_ref = ref.set_index(clave_ref)['Cluster'].loc[clave_new].values
-    tabla = pd.crosstab(etiquetas, lbl_ref).reindex(index=range(K_ELEGIDO), columns=range(K_ELEGIDO), fill_value=0)
-    filas, cols = linear_sum_assignment(-tabla.values)
-    mapeo = dict(zip(filas, cols))
-    etiquetas = np.array([mapeo[e] for e in etiquetas])
-    probas = probas[:, [k for k, _ in sorted(mapeo.items(), key=lambda kv: kv[1])]]
-    acuerdo = (etiquetas == lbl_ref).mean()
-    print(f"\nAcuerdo con la asignación de referencia: {acuerdo:.1%}")
-    if acuerdo < 0.95:
-        print("¡Ojo! Menos del 95% de acuerdo: los clústeres cambiaron. Revisá que los nombres sigan siendo correctos.")
-else:
-    print(f"\nNo hay asignación de referencia: se guarda esta corrida en {ruta_ref.name}. "
-          "Verificá que los nombres de los clústeres correspondan a los perfiles impresos abajo.")
-
-df_res['Cluster'] = etiquetas
-df_res['Rol'] = df_res['Cluster'].map(nombres_clusters)
-df_res['Prob_Max'] = probas.max(axis=1)
-df_res['Log_Densidad'] = gmm_final.score_samples(X_campo)
-# Probabilidad de pertenecer a cada rol (la usa el buscador de reemplazos)
+K_ELEGIDO = asig['Cluster'].nunique()
+nombres_clusters = asig.drop_duplicates('Cluster').set_index('Cluster')['Rol'].sort_index().to_dict()
 cols_prob = [f'Prob_C{k}' for k in range(K_ELEGIDO)]
-df_res[cols_prob] = probas
-
-if not ruta_ref.exists():
-    df_res[cols_meta + ['Cluster', 'Rol', 'Prob_Max', 'Log_Densidad'] + cols_prob].to_csv(ruta_ref, index=False)
+for col in ['Cluster', 'Rol', 'Prob_Max', 'Log_Densidad', 'Confianza'] + cols_prob:
+    df_res[col] = asig[col].values
+print(f"\nModelo final: consenso con k = {K_ELEGIDO} roles")
+print(pd.Series(nombres_clusters).to_string())
 
 # 4. Distribución de posiciones y Entropía de Versatilidad
 tabla_pct = pd.crosstab(df_res['pos_'], df_res['Cluster'], normalize='index') * 100
-print(f"\n=== DISTRIBUCIÓN % POR POSICIÓN (GMM k={K_ELEGIDO}) ===")
+print(f"\n=== DISTRIBUCIÓN % POR POSICIÓN (consenso k={K_ELEGIDO}) ===")
 print(tabla_pct.round(1).to_string())
 
 versatilidad = tabla_pct.apply(lambda r: entropy(r / r.sum(), base=len(r)), axis=1).sort_values(ascending=False)
@@ -159,7 +123,7 @@ ax1.set_xlabel('Número de Clústeres (k)')
 ax1.set_ylabel('GMM Full BIC (Menor es mejor)', color=color_bic, fontweight='bold')
 ax1.plot(df_diag['k'], df_diag['GMM_BIC'], marker='o', color=color_bic, linewidth=2, label='GMM BIC')
 ax1.tick_params(axis='y', labelcolor=color_bic)
-ax1.axvline(x=8, color='gray', linestyle='--', alpha=0.7, label='k = 8 elegido')
+ax1.axvline(x=K_ELEGIDO, color='gray', linestyle='--', alpha=0.7, label=f'k = {K_ELEGIDO} elegido')
 
 ax2 = ax1.twinx()
 color_est = '#2ca02c'
@@ -190,8 +154,8 @@ sns.heatmap(
     cbar_kws={'label': '% de jugadores de la posición'},
     linewidths=0.5
 )
-plt.title('Distribución Porcentual de Cada Posición Nominal en los 8 Clústeres de Rendimiento')
-plt.xlabel('Arquetipo Táctico Descubierto (GMM k=8)')
+plt.title(f'Distribución Porcentual de Cada Posición Nominal en los {K_ELEGIDO} Roles de Rendimiento')
+plt.xlabel(f'Arquetipo Táctico (consenso, k={K_ELEGIDO})')
 plt.ylabel('Posición Nominal (Ordenada de mayor a menor versatilidad)')
 plt.xticks(rotation=30, ha='right')
 plt.tight_layout()

@@ -5,7 +5,7 @@
 #   de otra posición podría adaptar?"
 #
 #  Idea:
-#   1. El clúster (rol GMM) define QUÉ tipo de jugador busco.
+#   1. El rol (consenso, k=7) define QUÉ tipo de jugador busco.
 #   2. La distancia euclídea en las 55 métricas estandarizadas (z-score)
 #      ordena a los candidatos por parecido con el jugador a reemplazar.
 #      (Se eligió este espacio porque es el que mejor reconoce a un mismo
@@ -13,7 +13,7 @@
 #   3. "Adaptable" = candidato cuya posición nominal NO incluye la posición
 #      principal del jugador a reemplazar (ej. un MF que juega como lateral).
 #
-#  Requiere haber corrido antes Clustering/clustering (genera asignacion_clusters.csv).
+#  Requiere haber corrido antes Clustering/consenso.py (genera asignacion_clusters.csv).
 # =====================================================================
 from pathlib import Path
 import numpy as np

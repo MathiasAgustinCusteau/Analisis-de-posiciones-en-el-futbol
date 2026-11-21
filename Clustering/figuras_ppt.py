@@ -1,7 +1,7 @@
 #%%
 # =====================================================================
 #  FIGURAS PARA LA PRESENTACIÓN
-#  Requiere haber corrido Clustering/clustering (asignacion_clusters.csv).
+#  Requiere haber corrido Clustering/consenso.py (asignacion_clusters.csv).
 #  Las figuras se guardan en Clustering/figuras/.
 #
 #  Criterios (clase 4 de visualización):
@@ -14,7 +14,9 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
+import seaborn as sns
 from matplotlib.colors import LinearSegmentedColormap
+from cluster_profiles import build_cluster_profiles, build_cluster_summary
 
 RAIZ_PROYECTO = Path(__file__).resolve().parent.parent
 carpeta_fig = RAIZ_PROYECTO / 'Clustering' / 'figuras'
@@ -25,6 +27,14 @@ df_z = pd.read_csv(RAIZ_PROYECTO / 'datos_kaggle' / 'procesados' / 'matriz_maste
 asig = pd.read_csv(RAIZ_PROYECTO / 'Clustering' / 'asignacion_clusters.csv')
 VARIABLES = [c for c in df_z.columns if c not in META]
 Z = df_z[VARIABLES].to_numpy()
+perfiles_clusters = build_cluster_profiles(df_z, asig, VARIABLES)
+K = asig['Cluster'].nunique()
+if perfiles_clusters['Cluster'].tolist() != list(range(K)):
+    raise ValueError(
+        f"Se esperaban los clústeres 0–{K - 1}; se encontraron {perfiles_clusters['Cluster'].tolist()}"
+    )
+NUM_TEXTO = {6: 'seis', 7: 'siete', 8: 'ocho', 9: 'nueve'}.get(K, str(K))
+
 
 # --- Estilo común ---
 TINTA = '#0b0b0b'
@@ -44,12 +54,23 @@ plt.rcParams.update({
     'savefig.bbox': 'tight',
 })
 
-NOMBRE_CORTO = {
-    0: 'Generador\nÉlite', 1: 'Organizador\n/ Regista', 2: 'Volante\nRecuperador', 3: 'Defensor\nCentral',
-    4: 'Lateral /\nCarrilero', 5: 'Mediapunta\n/ Extremo', 6: 'Delantero\nFinalizador', 7: 'Pivot Físico\n/ Choque',
-}
-# Orden "de atrás hacia adelante" para que la tabla tenga una diagonal legible
-ORDEN_CLUSTERS = [3, 4, 2, 1, 7, 5, 0, 6]
+# Nombres de los roles (salen de consenso.py)
+NOMBRE_ROL = {c: r.split(': ', 1)[1] for c, r in
+              asig.drop_duplicates('Cluster').set_index('Cluster')['Rol'].sort_index().items()}
+ID_ROL = {nombre: c for c, nombre in NOMBRE_ROL.items()}
+
+
+def corto(nombre):
+    """Nombre en dos renglones para los ejes."""
+    if ' / ' in nombre:
+        a, b = nombre.split(' / ', 1)
+        return f'{a}\n/ {b}'
+    return nombre.replace(' ', '\n', 1)
+
+
+NOMBRE_CORTO = {c: corto(nombre) for c, nombre in NOMBRE_ROL.items()}
+# consenso.py ya numera los roles "de atrás hacia adelante": la tabla queda con una diagonal legible
+ORDEN_CLUSTERS = list(range(K))
 ORDEN_POS = ['DF', 'DF,MF', 'DF,FW', 'MF,DF', 'MF', 'MF,FW', 'FW,MF', 'FW,DF', 'FW']
 ETIQ_POS = {'DF': 'DF', 'DF,MF': 'DF / MF', 'DF,FW': 'DF / FW', 'MF,DF': 'MF / DF', 'MF': 'MF',
             'MF,FW': 'MF / FW', 'FW,MF': 'FW / MF', 'FW,DF': 'FW / DF', 'FW': 'FW'}
@@ -96,16 +117,17 @@ plt.show()
 
 #%%
 # ---------------------------------------------------------------------
-# FIGURA B: el "Pivot Físico" (C7) queda entre el 9 (C6) y el recuperador (C2)
+# FIGURA B: la "Segunda Punta" queda entre el 9 y el extremo
 # ---------------------------------------------------------------------
-vars_b = ['xg_p90', 'tiros_totales_p90', 'toques_area_rival_p90', 'duelos_aereos_ganados_p90',
-          'duelos_aereos_perdidos_p90', 'malos_controles_p90', 'faltas_cometidas_p90',
-          'quites_totales_p90', 'intercepciones_p90', 'recuperaciones_p90',
-          'pases_completados_p90', 'pases_progresivos_p90']
+vars_b = ['fueras_de_juego_p90', 'xg_p90', 'toques_area_rival_p90', 'tiros_totales_p90',
+          'duelos_aereos_ganados_p90', 'malos_controles_p90',
+          'regates_intentados_p90', 'conducciones_progresivas_p90', 'pases_clave_p90',
+          'acciones_creacion_tiro_p90', 'toques_totales_p90', 'pases_completados_p90', 'recuperaciones_p90']
 perfil = pd.DataFrame(Z, columns=VARIABLES).groupby(asig['Cluster'].values).mean()
-grupos = [(6, 'Delantero Finalizador (9)', AZUL, 'o'),
-          (7, 'Pivot Físico / Choque', NARANJA, 'D'),
-          (2, 'Volante Recuperador', AQUA, 's')]
+grupos = [(ID_ROL[nombre], nombre, color, marcador) for nombre, color, marcador in [
+    ('Delantero Finalizador (9)', AZUL, 'o'),
+    ('Segunda Punta / Delantero Móvil', NARANJA, 'D'),
+    ('Extremo / Creador', AQUA, 's')]]
 
 fig, ax = plt.subplots(figsize=(11, 7.5))
 y = np.arange(len(vars_b))[::-1]
@@ -124,16 +146,17 @@ ax.grid(axis='x', color=GRILLA, linewidth=0.8)
 ax.set_axisbelow(True)
 ax.tick_params(length=0)
 ax.legend(loc='lower right', frameon=False, fontsize=12)
-ax.set_title('El "Pivot Físico" juega a mitad de camino entre un 9 y un volante')
-fig.savefig(carpeta_fig / 'B_pivot_vs_9_vs_volante.png')
+ax.set_title('La "Segunda Punta" juega a mitad de camino entre un 9 y un extremo')
+fig.savefig(carpeta_fig / 'B_segunda_punta_vs_9_vs_extremo.png')
 plt.show()
 
 #%%
 # ---------------------------------------------------------------------
 # FIGURA C: Reemplazos de Trent (2024/25) y dónde quedó Frimpong
 # ---------------------------------------------------------------------
-def ranking_reemplazos(id_jugador, temporada, temporada_busqueda, rol, prob_min=0.5):
+def ranking_reemplazos(id_jugador, temporada, temporada_busqueda, rol=None, prob_min=0.5):
     i = asig.index[(asig['id_jugador'] == id_jugador) & (asig['season'] == temporada)][0]
+    rol = int(asig.loc[i, 'Cluster']) if rol is None else rol   # por defecto, el rol del jugador
     pos_principal = asig.loc[i, 'pos_'].split(',')[0]
     cand = asig[(asig['season'] == temporada_busqueda) & (asig['id_jugador'] != id_jugador)
                 & (asig['team'] != asig.loc[i, 'team'])].copy()
@@ -144,7 +167,7 @@ def ranking_reemplazos(id_jugador, temporada, temporada_busqueda, rol, prob_min=
     return cand.sort_values('Distancia')
 
 
-def figura_reemplazos(id_jugador, temporada, temporada_busqueda, rol, titulo, archivo, extra=None, n=10):
+def figura_reemplazos(id_jugador, temporada, temporada_busqueda, titulo, archivo, rol=None, extra=None, n=10):
     cand = ranking_reemplazos(id_jugador, temporada, temporada_busqueda, rol)
     top = cand[cand['En_rol']].head(n)
     filas = top.copy()
@@ -183,10 +206,10 @@ def figura_reemplazos(id_jugador, temporada, temporada_busqueda, rol, titulo, ar
     plt.show()
 
 
-figura_reemplazos('Trent Alexander-Arnold (1998)', 2425, 2425, rol=1,
+figura_reemplazos('Trent Alexander-Arnold (1998)', 2425, 2425,
                   titulo='Se va Trent: los 10 jugadores de 2024/25 más parecidos a él',
                   archivo='C_reemplazos_trent.png', extra='Jeremie Frimpong (2000)')
-figura_reemplazos('Rodri (1996)', 2324, 2425, rol=1,
+figura_reemplazos('Rodri (1996)', 2324, 2425,
                   titulo='Se lesiona Rodri: los 10 jugadores de 2024/25 más parecidos a su 2023/24',
                   archivo='D_reemplazos_rodri.png')
 # %%
@@ -211,11 +234,11 @@ for k, (p, v) in enumerate(ent.items()):
     ax.text(v + 0.01, k, f'{v:.2f}', va='center', fontsize=12, color=TINTA)
 ax.set_yticks(yy, [f'{ETIQ_POS[p]}  (n={n_e[p]:,})'.replace(',', '.') for p in ent.index], fontsize=12)
 ax.set_xlim(0, 1)
-ax.set_xlabel('Entropía normalizada\n0 = todos caen en un mismo rol  ·  1 = repartidos en partes iguales en los 8')
+ax.set_xlabel(f'Entropía normalizada\n0 = todos caen en un mismo rol  ·  1 = repartidos en partes iguales en los {K}')
 ax.grid(axis='x', color=GRILLA, linewidth=0.8)
 ax.set_axisbelow(True)
 ax.tick_params(length=0)
-ax.set_title('¿Qué tan repartida está cada posición entre los 8 roles?')
+ax.set_title(f'¿Qué tan repartida está cada posición entre los {K} roles?')
 fig.savefig(carpeta_fig / 'E_versatilidad_entropia.png')
 plt.show()
 
@@ -234,9 +257,9 @@ if ruta_diag.exists():
     fig, axes = plt.subplots(1, 3, figsize=(15, 4.6), sharex=True)
     for ax, (col, titulo, color) in zip(axes, paneles):
         ax.plot(diag['k'], diag[col], marker='o', color=color, linewidth=2, markersize=8)
-        sel = diag[diag['k'] == 8]
+        sel = diag[diag['k'] == K]
         ax.scatter(sel['k'], sel[col], s=160, facecolor='none', edgecolor=TINTA, linewidth=2, zorder=4)
-        ax.axvline(8, color=GRIS, linestyle='--', linewidth=1, zorder=0)
+        ax.axvline(K, color=GRIS, linestyle='--', linewidth=1, zorder=0)
         ax.set_title(titulo, fontsize=13)
         ax.grid(color=GRILLA, linewidth=0.8)
         ax.set_axisbelow(True)
@@ -245,7 +268,7 @@ if ruta_diag.exists():
             ax.set_ylim(0.9, 1.005)   # no exagerar diferencias mínimas
         ax.set_xlabel('k (cantidad de clústeres)')
         ax.tick_params(length=0)
-    fig.suptitle('¿Cuántos roles? Tres criterios para elegir k (k = 8 marcado)', x=0.01, ha='left',
+    fig.suptitle(f'¿Cuántos roles? Tres criterios para elegir k (k = {K} marcado; ver también L_consenso.png)', x=0.01, ha='left',
                  fontsize=17, fontweight='bold')
     fig.tight_layout()
     fig.savefig(carpeta_fig / 'F_seleccion_k.png')
@@ -313,4 +336,105 @@ ax.legend(loc='lower right', frameon=False, fontsize=12)
 ax.set_title('Trent vs. Porro (2024/25): mismo perfil, distinta intensidad')
 fig.savefig(carpeta_fig / 'H_trent_vs_porro.png')
 plt.show()
+
+#%%
+# ---------------------------------------------------------------------
+# PERFILES DE LOS ROLES: CSV, tabla resumen y mapa de calor
+# ---------------------------------------------------------------------
+perfil_resumen = build_cluster_summary(perfiles_clusters, VARIABLES, top_n=3, bottom_n=2)
+ruta_perfiles = RAIZ_PROYECTO / 'Clustering' / 'perfiles_clusters.csv'
+ruta_resumen = RAIZ_PROYECTO / 'Clustering' / 'perfiles_clusters_resumen.csv'
+perfiles_clusters.to_csv(ruta_perfiles, index=False)
+perfil_resumen.to_csv(ruta_resumen, index=False)
+
+# Tabla legible: tamaño de cada grupo y métricas promedio más altas/bajas.
+def saltos_de_linea_metricas(texto):
+    metricas = []
+    for item in texto.split(';'):
+        nombre, valor = item.strip().rsplit(' (', 1)
+        metricas.append(f"{etiqueta(nombre)} ({valor}")
+    return '\n'.join(metricas)
+
+filas_tabla = []
+for _, fila in perfil_resumen.iterrows():
+    rol_corto = str(fila['Rol']).split(': ', 1)[-1]
+    filas_tabla.append([
+        f"C{int(fila['Cluster'])} · {rol_corto}",
+        f"{int(fila['N_registros']):,}".replace(',', '.'),
+        f"{int(fila['N_jugadores_unicos']):,}".replace(',', '.'),
+        saltos_de_linea_metricas(fila['metricas_mas_altas']),
+        saltos_de_linea_metricas(fila['metricas_mas_bajas']),
+    ])
+
+fig, ax = plt.subplots(figsize=(18, 9))
+ax.axis('off')
+tabla = ax.table(
+    cellText=filas_tabla,
+    colLabels=['Clúster / rol', 'Registros\njugador-equipo-temp.', 'Jugadores\núnicos',
+               'Métricas promedio más altas (Z)', 'Métricas promedio más bajas (Z)'],
+    cellLoc='left',
+    colLoc='center',
+    colWidths=[0.19, 0.12, 0.10, 0.32, 0.27],
+    bbox=[0, 0.08, 1, 0.82],
+)
+tabla.auto_set_font_size(False)
+tabla.set_fontsize(9)
+tabla.scale(1, 1.7)
+for (fila, columna), celda in tabla.get_celld().items():
+    celda.set_edgecolor(GRILLA)
+    if fila == 0:
+        celda.set_facecolor('#184f95')
+        celda.set_text_props(color='white', weight='bold', ha='center', va='center')
+    else:
+        celda.set_facecolor('#f4f7fb' if fila % 2 else 'white')
+        celda.set_text_props(color=TINTA, va='center')
+        if columna in (1, 2):
+            celda.set_text_props(ha='center')
+ax.set_title(f'{NUM_TEXTO.capitalize()} perfiles estadísticos de rendimiento', loc='left', pad=18,
+             fontsize=20, fontweight='bold', color=TINTA)
+fig.text(
+    0.01, 0.025,
+    'Z = promedio del clúster respecto de su liga y temporada; valores positivos indican métricas sobre ese promedio. '
+    'Los registros cuentan jugador-equipo-temporada; jugadores únicos deduplican por id_jugador.',
+    fontsize=10, color=TINTA_2,
+)
+fig.savefig(carpeta_fig / 'I_tabla_perfiles_clusters.png')
+plt.show()
+
+# Mapa de calor con todas las métricas para comparar los roles.
+matriz_heatmap = perfiles_clusters.set_index('Cluster')[VARIABLES].T
+nombres_eje_x = []
+for _, fila in perfiles_clusters.iterrows():
+    rol_corto = str(fila['Rol']).split(': ', 1)[-1].replace(' / ', ' /\n')
+    nombres_eje_x.append(f"C{int(fila['Cluster'])}\n{rol_corto}")
+matriz_heatmap.columns = nombres_eje_x
+matriz_heatmap.index = [etiqueta(nombre) for nombre in matriz_heatmap.index]
+
+fig, ax = plt.subplots(figsize=(13, 17))
+sns.heatmap(
+    matriz_heatmap,
+    ax=ax,
+    cmap='vlag',
+    center=0,
+    vmin=-2.5,
+    vmax=2.5,
+    linewidths=0.25,
+    linecolor='white',
+    cbar_kws={'label': 'Promedio Z por clúster (escala ±2,5)'},
+    yticklabels=True,
+    xticklabels=True,
+)
+ax.set_title(f'Comparación de métricas en los {NUM_TEXTO} roles', loc='left',
+             fontsize=19, fontweight='bold', color=TINTA, pad=16)
+ax.set_xlabel('Clúster y rol interpretado')
+ax.set_ylabel('Métrica (por 90 minutos, salvo distancia de tiro)')
+ax.tick_params(axis='x', labelrotation=0, labelsize=9)
+ax.tick_params(axis='y', labelsize=8)
+fig.tight_layout()
+fig.savefig(carpeta_fig / 'J_heatmap_perfiles_clusters.png')
+plt.show()
+
+print(f"\nPerfiles completos guardados en: {ruta_perfiles}")
+print(f"Resumen de métricas guardado en: {ruta_resumen}")
+print(f"Tabla y mapa de calor guardados en: {carpeta_fig}")
 # %%
